@@ -5,17 +5,17 @@ RSpec.describe "Login Users" do
     it 'can create a user' do
       visit root_path
 
-      click_link "Create Account"
+      click_link "Log In with Google...Only"
 
-      expect(current_path).to eq new_user_path
 
-      fill_in :first_name, with: "Jill"
-      fill_in :last_name, with: "Scott"
-      fill_in :email, with: "j.scottie@yahoo.com"
 
-      click_button "Submit"
+      # fill_in :first_name, with: "Jill"
+      # fill_in :last_name, with: "Scott"
+      # fill_in :email, with: "j.scottie@yahoo.com"
+      #
+      # click_button "Submit"
 
-      expect(current_path).to eq "/dashboard"
+      expect(current_path).to eq("/")
     end
 
   end

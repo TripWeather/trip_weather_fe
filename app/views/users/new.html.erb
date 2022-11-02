@@ -1,6 +1,6 @@
-<%= form_with url: '/users', method: :post do |form| %>
+<%= form_with url: '/dashboard', method: :post do |form| %>
 
-  <p> <%= form.label :full_name, "Full Name:" %> 
+  <p> <%= form.label :full_name, "Full Name:" %>
   <%= form.text_field :full_name, required: true %> </p>
 
   <p> <%= form.label :first_name, "First Name:" %>

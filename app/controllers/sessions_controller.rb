@@ -1,6 +1,9 @@
 class SessionsController < ApplicationController
-  def create
+  def new
+    render :new
+  end
 
+  def create
     user = User.find_or_create_by(email: user_params[:email])
     user.update(user_params)
 
