@@ -1,0 +1,20 @@
+<%= form_with url: '/users', method: :post do |form| %>
+
+  <p> <%= form.label :full_name, "Full Name:" %> 
+  <%= form.text_field :full_name, required: true %> </p>
+
+  <p> <%= form.label :first_name, "First Name:" %>
+  <%= form.text_field :first_name, required: true %> </p>
+
+  <p> <%= form.label :last_name, "First Name:" %>
+  <%= form.text_field :last_name, required: true %> </p>
+
+  <p> <%= form.label :email, "Email Address:" %>
+  <%= form.text_field :email, required: true %> </p>
+
+  <p> <%= form.label :image, "Profile Image" %>
+  <%= form.file_field :image, value: nil %> </p>
+
+  <p> <%= form.submit "Submit" %> </p>
+
+<% end %>
