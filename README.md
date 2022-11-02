@@ -1,24 +1,35 @@
-# README
+# Back End Repository for Trip Weather
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Overview
 
-Things you may want to cover:
+## Views
 
-* Ruby version
+## Local Setup
 
-* System dependencies
+This project requires Ruby 2.7.4
 
-* Configuration
+* Fork this repository
+* Clone your fork
+* From the command line, install gems and set up your DB:
+    * `bundle`
+    * `rails db:create`
+* Run the test suite with `bundle exec rspec`.
+* Run your development server with `rails s` to see the app in action.
 
-* Database creation
+## Versions
 
-* Database initialization
+- Ruby 2.7.4
 
-* How to run the test suite
+- Rails 5.2.8.1
 
-* Services (job queues, cache servers, search engines, etc.)
+## Contributors
 
-* Deployment instructions
+[@eriggs0207](https://github.com/eriggs0207)
 
-* ...
+[@cece-132](https://github.com/cece-132)
+
+[@Dominicod](https://github.com/Dominicod)
+
+[@stephenfabian](https://github.com/stephenfabian)
+
+[@SandyyMarie](https://github.com/SandyyMarie)
