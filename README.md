@@ -1,4 +1,4 @@
-# Back End Repository for Trip Weather
+# Front End Repository for Trip Weather
 
 ## Overview
 
