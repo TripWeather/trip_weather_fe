@@ -24,12 +24,28 @@ This project requires Ruby 2.7.4
 
 ## Contributors
 
-[@eriggs0207](https://github.com/eriggs0207)
 
-[@cece-132](https://github.com/cece-132)
 
-[@Dominicod](https://github.com/Dominicod)
+<img src="https://avatars.githubusercontent.com/u/106836658?s=120&v=4" />
+ 
+Erik Riggs | [Github](https://github.com/eriggs0207) | [LinkedIn](https://www.linkedin.com/in/erik-riggs/) |
 
-[@stephenfabian](https://github.com/stephenfabian)
 
-[@SandyyMarie](https://github.com/SandyyMarie)
+<img src="https://avatars.githubusercontent.com/u/100653933?s=120&v=4" />
+
+Candace Eckels | [Github](https://github.com/cece-132) | [LinkedIn](https://www.linkedin.com/in/candace-eckels-b66089201/) |
+
+
+<img src="https://avatars.githubusercontent.com/u/93290186?s=120&v=4" />
+
+Dominic O'Donnell | [Github](https://github.com/Dominicod) | [LinkedIn](https://www.linkedin.com/in/dominic-odonnell/) |
+
+
+<img src="https://avatars.githubusercontent.com/u/80183557?s=120&v=4" />
+
+Stephen Fabian | [Github](https://github.com/stephenfabian) | [LinkedIn](https://www.linkedin.com/in/stephen-fabian-5498658a/) |
+
+
+<img src="https://avatars.githubusercontent.com/u/59062958?s=120&v=4" />
+
+Sandy M Griffin | [Github](https://github.com/SandyyMarie) | [LinkedIn](https://www.linkedin.com/in/sandy-marie/) |
