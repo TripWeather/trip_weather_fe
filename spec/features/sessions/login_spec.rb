@@ -3,9 +3,9 @@ require 'rails_helper'
 RSpec.describe "Login Users" do
   describe 'Navigate to create page' do
     it 'can create a user' do
-      visit root_path
+      visit '/login'
 
-      click_link "Log In with Google...Only"
+      click_link "Log In"
 
 
 
