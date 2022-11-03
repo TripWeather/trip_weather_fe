@@ -13,3 +13,4 @@ RSpec.describe "Users Show" do
       expect(page).to have_content()
     end
   end
+end 
