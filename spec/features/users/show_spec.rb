@@ -13,6 +13,7 @@ RSpec.describe "Dashboard page" do
     it 'I see my username and my image' do
 
       visit '/dashboard'
+      save_and_open_page
 
       expect(page).to have_content(@user.email)
       expect(page).to have_xpath("//img[contains(@src,'#{@user.image}')]")
