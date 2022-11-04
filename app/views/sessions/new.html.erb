@@ -1,3 +1,1 @@
-<%= form_tag('/auth/google_oauth2', method: :post, data: {turbo: false}) do %>
-  <button type='submit'>Login</button>
-<% end %>
+<%= link_to "Log In with Google", '/auth/google_oauth2', method: :post %>
