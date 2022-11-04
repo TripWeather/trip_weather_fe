@@ -1,8 +1,4 @@
 class SessionsController < ApplicationController
-  def new
-    render :new
-  end
-
   def create
 
     user = User.find_by(google_id: auth[:uid])

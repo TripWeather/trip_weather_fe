@@ -13,12 +13,14 @@
     body {
       margin: 10;
       font-family: Arial, Helvetica, sans-serif;
+      background-color: grey;
+
     }
 
     .topnav {
       position: relative;
       overflow: hidden;
-      background-color: #4B0082;
+      background-color: #000000;
     }
 
     .topnav a {
@@ -31,7 +33,7 @@
     }
 
     .topnav a:hover {
-      background-color: #ddd;
+      background-color: #00BFFF;
       color: black;
     }
 
@@ -72,7 +74,7 @@
       <div class="topnav-centered"> <!-- Centered link -->
         <a href="#TripWeather" class="active">TripWeather</a>
       </div>
-      
+
       <% if current_user.nil? %>
         <%= link_to 'Home', root_path %> <!-- Left-aligned links (default) -->
       <% else %>
@@ -81,7 +83,7 @@
 
       <div class="topnav-right"> <!-- Right-aligned links -->
       <% if current_user.nil? %>
-        <%= link_to "Log In", login_path %>
+        <%= link_to "Log In", '/auth/google_oauth2', method: :post %>
       <% else %>
         <%= link_to "Log Out", logout_path, method: "delete" %>
       <% end %>
