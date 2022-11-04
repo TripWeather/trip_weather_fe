@@ -1,22 +1,11 @@
 require 'rails_helper'
 
 RSpec.describe "Login Users" do
-  describe 'Navigate to create page' do
-    it 'can create a user' do
-      visit '/login'
+  xit 'can create a user' do
+    visit '/login'
+    save_and_open_page
+    click_link "Log In with Google"
 
-      click_link "Log In"
-
-
-
-      # fill_in :first_name, with: "Jill"
-      # fill_in :last_name, with: "Scott"
-      # fill_in :email, with: "j.scottie@yahoo.com"
-      #
-      # click_button "Submit"
-
-      expect(current_path).to eq("/")
-    end
-
+    expect(current_path).to eq('/auth/google_oauth2')
   end
 end
