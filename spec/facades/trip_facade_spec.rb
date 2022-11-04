@@ -9,4 +9,14 @@ describe 'Trip Facade' do
     trips = TripFacade.all_trips(1000)
     expect(trips).to be_an(Array)
   end
+
+  it 'returns a single trip' do
+    road_trip = File.read('spec/fixtures/trip_by_id.json')
+    stub_request(:get, 'http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1')
+     .to_return(status: 200, body: road_trip, headers: {})
+
+     trip = TripFacade.trip_by_id(1000, 1)
+
+    expect(trip).to be_a(Trip)
+  end
 end
