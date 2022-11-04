@@ -4,16 +4,8 @@ class SessionsController < ApplicationController
   end
 
   def create
-
     user = User.find_by(google_id: auth[:uid])
     if user.nil?
-      # @user.google_id = auth[:uid]
-      # @user.email = auth[:info][:email]
-      # @user.token = auth[:credentials][:token]
-      # @user.image = auth[:info][:image]
-      # @user.first_name = auth[:info][:first_name]
-      # @user.last_name = auth[:info][:last_name]
-      # @user.save
       user = User.create(user_params)
     end
 
@@ -42,6 +34,4 @@ class SessionsController < ApplicationController
     first_name: auth[:info][:first_name],
     last_name: auth[:info][:last_name]}
   end
-
-
 end
