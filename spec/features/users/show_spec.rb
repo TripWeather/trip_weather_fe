@@ -5,9 +5,9 @@ RSpec.describe "Dashboard page" do
     before :each do
       stub_omniauth
       @user = create(:omniauth_mock_user)
-      visit '/login'
+      visit '/'
 
-      click_link "Log In with Google"
+      click_link "Log In"
     end
 
     it 'I see my username and my image' do
