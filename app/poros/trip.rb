@@ -16,4 +16,8 @@ class Trip
   def standard_time(time)
     DateTime.parse(time).strftime("%A, %d %b %Y%l:%M %p")
   end
+  
+  def self.three_most_recent_trips
+    binding.pry
+  end
 end

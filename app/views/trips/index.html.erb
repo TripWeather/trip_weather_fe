@@ -1,7 +1,4 @@
-
-<h3><%= @user.email %>: Dashboard </h3>
-
-  <img src=<%= @user.image %>> <br>
+<%= @user.first_name.titleize %>'s Trips <br>
 
 <% @trips.each do |trip| %>
   <%= link_to trip.name, "/trips/#{trip.id}" %> <br>
@@ -10,5 +7,3 @@
   <br>
   <br>
 <% end %>
-
-<%= button_to "All Trips", trips_path, method: :get %>
