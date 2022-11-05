@@ -8,4 +8,7 @@ Rails.application.routes.draw do
   delete '/logout', to: 'sessions#destroy'
   get '/dashboard', to: 'users#show'
   # resources :users, only: [:new, :create]
+
+  get '/trips', to: 'trips#index'
+  get '/trips/:id', to: 'trips#show'
 end

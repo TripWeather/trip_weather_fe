@@ -4,9 +4,10 @@ RSpec.describe "Login Users" do
   it 'can create a user' do
     stub_omniauth
     user = create(:omniauth_mock_user)
-    visit '/login'
+    visit '/'
 
-    click_link "Log In with Google"
+    click_on "Log In"
+    expect(current_path).to eq(dashboard_path)
 
     expect(current_path).to eq('/dashboard')
   end

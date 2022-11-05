@@ -1,4 +1,5 @@
 class SessionsController < ApplicationController
+
   def create
     user = User.find_by(google_id: auth[:uid])
     if user.nil?

@@ -1,5 +1,5 @@
 {
-  "data": [
+  "data":
     {
       "id": "1",
       "type": "trip",
@@ -12,5 +12,5 @@
       "links": {
         "self": "https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"
       }
-    },
+    }
 }

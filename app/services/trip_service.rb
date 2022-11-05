@@ -4,6 +4,11 @@ class TripService
     parse(response)
   end
 
+  def self.trip_by_id(uid, trip_id)
+    response = conn.get("#{uid}/trips/#{trip_id}")
+    parse(response)
+  end
+
 private
 
   def self.conn
@@ -13,4 +18,8 @@ private
   def self.parse(response)
     JSON.parse(response.body, symbolize_names: true)
   end
+
+  # def self.conn2
+  #   Faraday.new("http://trip-weather-2022.herokuapp.com/api/v1")
+  # end
 end
