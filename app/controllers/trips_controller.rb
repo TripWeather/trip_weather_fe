@@ -6,7 +6,7 @@ class TripsController < ApplicationController
   end
 
   def index
-    @trips = TripFacade.all_trips(@user.google_id).
+    @trips = TripFacade.all_trips(@user.google_id)
   end
 
   # def create

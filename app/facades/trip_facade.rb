@@ -3,8 +3,8 @@ class TripFacade
   def self.all_trips(google_id)
     trips_data = TripService.trips_by_uid(google_id)
     trips_data[:data].map do |trip_list|
-      Trip.new(trip_list)
-    end
+      trip = Trip.new(trip_list)
+    end.sort_by(&:departure_date)
   end
 
   def self.trip_by_id(uid, trip_id)
