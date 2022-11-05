@@ -2,8 +2,8 @@
 
 <% @trips.each do |trip| %>
   <%= link_to trip.name, "/trips/#{trip.id}" %> <br>
-  <%= trip.departure_date %> <br>
-  <%= trip.arrival_date %> <br>
+  <%= trip.standard_time(trip.departure_date) %> <br>
+  <%= trip.standard_time(trip.arrival_date) %> <br>
   <br>
   <br>
 <% end %>

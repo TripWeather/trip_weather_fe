@@ -15,7 +15,7 @@ class Trip
   end
 
   def standard_time(time)
-    DateTime.parse(time).strftime("%A, %d %b %Y%l:%M %p")
+    DateTime.parse(time).strftime("%A, %d %b %Y %l:%M %p")
   end
 
 end

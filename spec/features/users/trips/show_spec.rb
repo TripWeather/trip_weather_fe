@@ -13,7 +13,7 @@ describe 'TripsController' do
       trip = TripFacade.trip_by_id("1000", "1")
 
       top_trips = File.read('spec/fixtures/trips.json')
-      
+
       stub_request(:get, 'http://localhost:3000/api/v1/1000/trips')
       .to_return(status: 200, body: top_trips, headers: {})
 
@@ -24,7 +24,7 @@ describe 'TripsController' do
       expect(current_path).to eq(dashboard_path)
 
       visit "/trips/#{trip.id}"
-    
+
       expect(page).to have_content("test_trip")
       expect(page).to have_content("Arrival: Thursday, 10 Nov 2022 1:37 PM")
       expect(page).to have_content("Departure: Sunday, 06 Nov 2022 1:32 PM")
