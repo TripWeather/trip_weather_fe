@@ -82,7 +82,7 @@ def stub_omniauth
    OmniAuth.config.test_mode = true
    omniauth_google_hash = {
      provider: 'google_oauth2',
-     uid: '100000000000000000000',
+     uid: '1000',
      info: {
        name: 'John Doe',
        email: 'john@doe.com',

@@ -4,6 +4,7 @@ class SessionsController < ApplicationController
     user = User.find_by(google_id: auth[:uid])
     if user.nil?
       user = User.create(user_params)
+      binding.pry
     end
 
     session[:user_id] = user.id

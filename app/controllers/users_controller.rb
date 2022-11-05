@@ -2,7 +2,6 @@ class UsersController < ApplicationController
   before_action :require_user
 
   def show
-    binding.pry
   end
 
   # def new
