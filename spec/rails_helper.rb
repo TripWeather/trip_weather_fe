@@ -76,6 +76,7 @@ VCR.configure do |config|
   config.hook_into :webmock
   config.filter_sensitive_data('<tmdb_api_key>') { Figaro.env.tmdb_api_key }
   config.configure_rspec_metadata!
+  # config.allow_http_connections_when_no_cassette = true
 end
 
 def stub_omniauth
@@ -102,7 +103,7 @@ def stub_omniauth
        id_token: 'ID_TOKEN',
 
        raw_info: {
-         sub: '100000000000000000000',
+         sub: '1000',
          name: 'John Doe',
          given_name: 'John',
          family_name: 'Doe',

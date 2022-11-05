@@ -7,7 +7,7 @@ describe 'Trip Facade' do
      .to_return(status: 200, body: road_trips, headers: {})
 
 
-    trips = TripFacade.all_trips(1000)
+    trips = TripFacade.all_trips("1000")
     expect(trips).to be_an(Array)
     expect(trips).to all(be_a Trip)
   end

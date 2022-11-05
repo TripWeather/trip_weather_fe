@@ -9,5 +9,6 @@ Rails.application.routes.draw do
   get '/dashboard', to: 'users#show'
   # resources :users, only: [:new, :create]
 
+  get '/trips', to: 'trips#index'
   get '/trips/:id', to: 'trips#show'
 end

@@ -7,7 +7,7 @@ RSpec.describe TripService do
     road_trips = File.read('spec/fixtures/trips.json')
     stub_request(:get, 'http://localhost:3000/api/v1/1000/trips')
      .to_return(status: 200, body: road_trips, headers: {})
-
+     # allow(TripService).to receive(:trips_by_uid).and_return(road_trips)
      info = TripService.trips_by_uid("1000")
       expect(info).to be_a(Hash)
       expect(info[:data][0]).to have_key(:id)
