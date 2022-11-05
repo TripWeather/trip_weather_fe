@@ -4,7 +4,7 @@ RSpec.describe "Dashboard page" do
   describe 'As a User' do
     before :each do
       stub_omniauth
-      @user = create(:omniauth_mock_user)
+      @user = create(:omniauth_mock_user, google_id: "1000")
       visit '/'
 
       click_link "Log In"

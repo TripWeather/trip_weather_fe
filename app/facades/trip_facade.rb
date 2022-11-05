@@ -9,7 +9,7 @@ class TripFacade
 
   def self.trip_by_id(uid, trip_id)
     trip_data = TripService.trip_by_id(uid, trip_id)
-    Trip.new(trip_data)
+    Trip.new(trip_data[:data])
   end
 
 end

@@ -13,7 +13,7 @@ FactoryBot.define do
     last_name { 'Johnson' }
     email { 'john@john.com' }
     image { 'https://lh4.googleusercontent.com/photo.jpg' }
-    google_id { '100000000000000000000' }
+    google_id { '1000' }
     token { 'MOCK_OMNIAUTH_GOOGLE_TOKEN' }
   end
 end

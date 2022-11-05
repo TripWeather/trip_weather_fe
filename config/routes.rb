@@ -9,7 +9,5 @@ Rails.application.routes.draw do
   get '/dashboard', to: 'users#show'
   # resources :users, only: [:new, :create]
 
-  namespace :users do
-    resources :trips, only: [:show]
-  end
+  get '/trips/:id', to: 'trips#show'
 end

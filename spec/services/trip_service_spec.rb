@@ -19,7 +19,7 @@ RSpec.describe TripService do
   describe 'it returns a single trip' do
     it '.trip(uid, trip_id)' do
       road_trip = File.read('spec/fixtures/trip_by_id.json')
-      stub_request(:get, 'http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1')
+      stub_request(:get, 'http://localhost:3000/api/v1/1000/trips/1')
       .to_return(status: 200, body: road_trip, headers: {})
 
       trip_data = TripService.trip_by_id("1000", "1")

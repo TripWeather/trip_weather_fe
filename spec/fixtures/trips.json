@@ -21,6 +21,7 @@
         "name": "test_trip_2",
         "departure_date": "2022-11-06T13:32:59.000Z",
         "arrival_date": "2022-11-10T13:37:38.000Z"
+
       },
       "links": {
         "self": "https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"
