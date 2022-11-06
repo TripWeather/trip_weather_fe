@@ -1,0 +1,39 @@
+<%= form_with url: '/trips', method: :post, local: true do |form| %>
+
+  <p> <%= form.label :name, "Name your Adventure:" %>
+  <%= form.text_field :name, required: true %> </p>
+
+  <p> <%= form.label :departure_date, "When are you leaving?" %>
+  <%= form.datetime_local_field :departure_date, min: Date.today, required: true %> </p>
+
+<h3> Departure Address </h3>
+
+  <p> <%= form.label :start_address, "Street Address" %>
+  <%= form.text_field :start_address, required: true %> </p>
+
+  <p> <%= form.label :city, "City" %>
+  <%= form.text_field :city, required: true %> </p>
+
+  <p> <%= form.label :state, "State" %>
+  <%= form.select :state, options_for_select(us_states, "CO"), required: true %> </p>
+  
+  <p> <%= form.label :zipcode, "Zip Code" %>
+  <%= form.number_field :zipcode, min: 0, max: 99999, required: true  %> </p>
+
+<h3> Arrival Address </h3>
+
+  <p> <%= form.label :end_address, "Street Address" %>
+  <%= form.text_field :end_address, required: true %> </p>
+
+  <p> <%= form.label :city, "City" %>
+  <%= form.text_field :city, required: true %> </p>
+
+  <p> <%= form.label :state, "State" %>
+  <%= form.select :state, options_for_select(us_states, "CO"), required: true %> </p>
+  
+  <p> <%= form.label :zipcode, "Zip Code" %>
+  <%= form.number_field :zipcode, min: 0, max: 99999, required: true  %> </p>
+
+  <p> <%= form.submit "Submit" %> </p>
+
+<% end %>

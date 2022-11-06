@@ -9,6 +9,10 @@ class TripsController < ApplicationController
     @trips = TripFacade.all_trips(@user.google_id)
   end
 
+  def new
+    
+  end
+
   # def create
   #   new_trip = TripFacade.create_trip(params[:trip])
   #   redirect_to '/dashboard'
