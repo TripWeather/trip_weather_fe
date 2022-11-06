@@ -11,29 +11,29 @@
   <p> <%= form.label :start_address, "Street Address" %>
   <%= form.text_field :start_address, required: true %> </p>
 
-  <p> <%= form.label :city, "City" %>
-  <%= form.text_field :city, required: true %> </p>
+  <p> <%= form.label :start_city, "City" %>
+  <%= form.text_field :start_city, required: true %> </p>
 
-  <p> <%= form.label :state, "State" %>
-  <%= form.select :state, options_for_select(us_states, "CO"), required: true %> </p>
+  <p> <%= form.label :start_state, "State" %>
+  <%= form.select :start_state, options_for_select(us_states, "CO"), required: true %> </p>
   
-  <p> <%= form.label :zipcode, "Zip Code" %>
-  <%= form.number_field :zipcode, min: 0, max: 99999, required: true  %> </p>
+  <p> <%= form.label :start_zipcode, "Zip Code" %>
+  <%= form.number_field :start_zipcode, min: 0, max: 99999, required: true  %> </p>
 
 <h3> Arrival Address </h3>
 
   <p> <%= form.label :end_address, "Street Address" %>
   <%= form.text_field :end_address, required: true %> </p>
 
-  <p> <%= form.label :city, "City" %>
-  <%= form.text_field :city, required: true %> </p>
+  <p> <%= form.label :end_city, "City" %>
+  <%= form.text_field :end_city, required: true %> </p>
 
-  <p> <%= form.label :state, "State" %>
-  <%= form.select :state, options_for_select(us_states, "CO"), required: true %> </p>
+  <p> <%= form.label :end_state, "State" %>
+  <%= form.select :end_state, options_for_select(us_states, "CO"), required: true %> </p>
   
-  <p> <%= form.label :zipcode, "Zip Code" %>
-  <%= form.number_field :zipcode, min: 0, max: 99999, required: true  %> </p>
+  <p> <%= form.label :end_zipcode, "Zip Code" %>
+  <%= form.number_field :end_zipcode, min: 0, max: 99999, required: true  %> </p>
 
-  <p> <%= form.submit "Submit" %> </p>
+  <p> <%= form.submit "Create Trip" %> </p>
 
 <% end %>

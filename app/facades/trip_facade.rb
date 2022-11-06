@@ -12,4 +12,8 @@ class TripFacade
     Trip.new(trip_data[:data])
   end
 
+  def self.create_trip(name, uid, departure_date)
+    TripService.create_trip(name, uid, departure_date)
+  end
+
 end

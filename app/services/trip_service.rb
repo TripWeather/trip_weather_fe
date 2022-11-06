@@ -9,6 +9,10 @@ class TripService
     parse(response)
   end
 
+  def self.create_trip(name, uid, departure_date)
+
+  end
+
 private
 
   def self.conn

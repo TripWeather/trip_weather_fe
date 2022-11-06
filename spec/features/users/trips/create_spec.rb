@@ -19,20 +19,19 @@ RSpec.describe 'Create a trip' do
     click_button "Create a New Trip"
 
     expect(current_path).to eq("/trips/new")
-save_and_open_page
+
     fill_in :name, with: "Grand Adventure"
     fill_in :start_address, with: "123 N Santa Wy"
-    fill_in :city, with: "Phoenix"
-    select "AZ", from: :state
-    fill_in :zipcode, with: "80012"
+    fill_in :start_city, with: "Phoenix"
+    select "AZ", from: :start_state
+    fill_in :start_zipcode, with: "80012"
 
-    select "11/10/2022", from: :departure_date
-    select "3:00pm", from: :departure_time
+    fill_in :departure_date, with: '2022-11-30 15:00'
 
-    fill_in :address, with: "123 N Santa Wy"
-    fill_in :city, with: "Glendale"
-    select "AZ", from: :state
-    fill_in :zipcode, with: "84027"
+    fill_in :end_address, with: "123 N Santa Wy"
+    fill_in :end_city, with: "Glendale"
+    select "AZ", from: :end_state
+    fill_in :end_zipcode, with: "84027"
 
     click_button "Create Trip"
 
