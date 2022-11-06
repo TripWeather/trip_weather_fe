@@ -3,9 +3,10 @@ class Trip
               :name,
               :departure_date,
               :arrival_date,
-              :user_id
+              :trips
 
   def initialize(trip_data)
+
     @id = trip_data[:id]
     @name = trip_data[:attributes][:name]
     @departure_date = trip_data[:attributes][:departure_date]
@@ -14,6 +15,7 @@ class Trip
   end
 
   def standard_time(time)
-    DateTime.parse(time).strftime("%A, %d %b %Y%l:%M %p")
+    DateTime.parse(time).strftime("%A, %d %b %Y %l:%M %p")
   end
+
 end

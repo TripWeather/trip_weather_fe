@@ -29,6 +29,6 @@ RSpec.describe Trip do
   end
 
   it 'converts date and times to standard format' do
-    expect(@trip.standard_time("2022-11-10T13:37:38.000Z")).to eq("Thursday, 10 Nov 2022 1:37 PM")
+    expect(@trip.standard_time("2022-11-10T13:37:38.000Z")).to eq("Thursday, 10 Nov 2022  1:37 PM")
   end
 end

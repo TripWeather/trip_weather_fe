@@ -1,4 +1,16 @@
 
 <h3><%= @user.email %>: Dashboard </h3>
 
-  <img src=<%= @user.image %>>
+  <img src=<%= @user.image %>> <br>
+
+<div id="trips">
+  <% @trips[0..2].each do |trip| %>
+    <%= link_to trip.name, "/trips/#{trip.id}" %> <br>
+    <%= trip.standard_time(trip.departure_date) %> <br>
+    <%= trip.standard_time(trip.arrival_date) %> <br>
+    <br>
+    <br>
+  <% end %>
+</div>
+
+<%= button_to "All Trips", trips_path, method: :get %>
