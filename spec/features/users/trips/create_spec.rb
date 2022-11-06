@@ -33,11 +33,18 @@ RSpec.describe 'Create a trip' do
     select "AZ", from: :end_state
     fill_in :end_zipcode, with: "84027"
 
+    new_trip = File.read('spec/fixtures/create_trip.json')
+    stub_request(:post, 'http://localhost:3000/api/v1/1000/trips?arrival_date=2024-11-10T13:37:38.000Z&departure_date=2022-11-30%20
+      15:00&name=Grand%20Adventure')
+      .to_return(status: 200, body: new_trip, headers: {})
+
     click_button "Create Trip"
 
     expect(current_path).to eq("/trips")
 
     expect(page).to have_content("Grand Adventure")
-    expect(TripFacade.all_trips("1000").count).to eq 6
+    expect(page).to have_content("You've Created a New Adventure!")
+    # expect(TripFacade.all_trips("1000").count).to eq 6
+
   end
 end

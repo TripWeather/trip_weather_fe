@@ -1,10 +1,14 @@
 <%= form_with url: '/trips', method: :post, local: true do |form| %>
 
   <p> <%= form.label :name, "Name your Adventure:" %>
-  <%= form.text_field :name, required: true %> </p>
+  <%= form.text_field :name, name: 'trip[name]',required: true %> </p>
 
   <p> <%= form.label :departure_date, "When are you leaving?" %>
-  <%= form.datetime_local_field :departure_date, min: Date.today, required: true %> </p>
+  <%= form.datetime_local_field :departure_date, name: 'trip[departure_date]', min: Date.today, required: true %> </p>
+
+  <%= form.hidden_field :arrival_date, name: 'trip[arrival_date]', value: Time.current + 30.years %>
+
+  <%= form.hidden_field :uid, name: 'trip[uid]', value: @user.google_id%>
 
 <h3> Departure Address </h3>
 
@@ -16,7 +20,7 @@
 
   <p> <%= form.label :start_state, "State" %>
   <%= form.select :start_state, options_for_select(us_states, "CO"), required: true %> </p>
-  
+
   <p> <%= form.label :start_zipcode, "Zip Code" %>
   <%= form.number_field :start_zipcode, min: 0, max: 99999, required: true  %> </p>
 
@@ -30,7 +34,7 @@
 
   <p> <%= form.label :end_state, "State" %>
   <%= form.select :end_state, options_for_select(us_states, "CO"), required: true %> </p>
-  
+
   <p> <%= form.label :end_zipcode, "Zip Code" %>
   <%= form.number_field :end_zipcode, min: 0, max: 99999, required: true  %> </p>
 
