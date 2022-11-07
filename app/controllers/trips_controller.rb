@@ -30,12 +30,12 @@ class TripsController < ApplicationController
   end
 
   def update
-    trip = TripFacade.trip_by_id(@user.google_id, params[:id])
+    # trip = TripFacade.trip_by_id(@user.google_id, params[:id])
 
     TripFacade.update_trip(params[:id], params[:name], @user.google_id,
     params[:departure_date], params[:arrival_date])
-    flash[:success] = "You've updated #{trip.name}!"
-    redirect_to "/trips/#{trip.id}"
+    flash[:success] = "You've updated #{params[:name]}!"
+    redirect_to "/trips/#{params[:id]}"
   end
 
   private
