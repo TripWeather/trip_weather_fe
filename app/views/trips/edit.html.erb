@@ -6,7 +6,7 @@
   <p> <%= form.label :departure_date, "When are you leaving?" %>
   <%= form.datetime_local_field :departure_date, min: Date.today, value: @trip.departure_date, required: true %> </p>
 
-  <%= form.hidden_field :arrival_date, value: "2080-11-10T13:37:38.000Z" %>
+  <%= form.hidden_field :arrival_date, value: "2080-11-10T13:37:38.000Z".to_datetime %>
 
 <h3> Departure Address </h3>
 
