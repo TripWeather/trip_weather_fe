@@ -10,5 +10,7 @@ Rails.application.routes.draw do
   # resources :users, only: [:new, :create]
 
   get '/trips', to: 'trips#index'
+  post '/trips', to: 'trips#create'
+  get '/trips/new', to: 'trips#new'
   get '/trips/:id', to: 'trips#show'
 end
