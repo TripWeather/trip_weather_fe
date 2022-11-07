@@ -2,6 +2,7 @@ class TripsController < ApplicationController
   before_action :require_user
 
   def show
+    # binding.pry
     @trip = TripFacade.trip_by_id(@user.google_id, params[:id])
   end
 
@@ -23,6 +24,19 @@ class TripsController < ApplicationController
     TripFacade.delete_trip(@user.google_id, params[:id])
     flash[:success] = "Trip has been Cancelled"
     redirect_to '/trips'
+  end
+
+  def edit
+    @trip = TripFacade.trip_by_id(@user.google_id, params[:id])
+  end
+
+  def update
+    # @trip = TripFacade.trip_by_id(@user.google_id, params[:id])
+
+    TripFacade.update_trip(params[:id], params[:name], @user.google_id,
+    params[:departure_date], params[:arrival_date])
+    flash[:success] = "You've Updated Your Adventure"
+    redirect_to "/trips/#{params[:id]}"
   end
 
   private

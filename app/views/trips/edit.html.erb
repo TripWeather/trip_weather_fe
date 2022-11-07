@@ -1,0 +1,41 @@
+<%= form_with url: "/trips/#{@trip.id}", method: :put, local: true do |form| %>
+
+  <p> <%= form.label :name, "Name your Adventure:" %>
+  <%= form.text_field :name, value: @trip.name, required: true %> </p>
+
+  <p> <%= form.label :departure_date, "When are you leaving?" %>
+  <%= form.datetime_local_field :departure_date, min: Date.today, value: @trip.departure_date, required: true %> </p>
+
+  <%= form.hidden_field :arrival_date, value: "2080-11-10T13:37:38.000Z".to_datetime %>
+
+<h3> Departure Address </h3>
+
+  <p> <%= form.label :start_address, "Street Address" %>
+  <%= form.text_field :start_address, required: true %> </p>
+
+  <p> <%= form.label :start_city, "City" %>
+  <%= form.text_field :start_city, required: true %> </p>
+
+  <p> <%= form.label :start_state, "State" %>
+  <%= form.select :start_state, options_for_select(us_states, "CO"), required: true %> </p>
+
+  <p> <%= form.label :start_zipcode, "Zip Code" %>
+  <%= form.number_field :start_zipcode, min: 0, max: 99999, required: true  %> </p>
+
+<h3> Arrival Address </h3>
+
+  <p> <%= form.label :end_address, "Street Address" %>
+  <%= form.text_field :end_address, required: true %> </p>
+
+  <p> <%= form.label :end_city, "City" %>
+  <%= form.text_field :end_city, required: true %> </p>
+
+  <p> <%= form.label :end_state, "State" %>
+  <%= form.select :end_state, options_for_select(us_states, "CO"), required: true %> </p>
+
+  <p> <%= form.label :end_zipcode, "Zip Code" %>
+  <%= form.number_field :end_zipcode, min: 0, max: 99999, required: true  %> </p>
+
+  <p> <%= form.submit "Update Trip" %> </p>
+
+<% end %>

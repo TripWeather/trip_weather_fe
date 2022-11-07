@@ -1,4 +1,5 @@
 <h1><%= @trip.name %></h1>
 <%= button_to 'Delete Trip', "/trips/#{@trip.id}", method: :delete %><br>
+<%= button_to 'Update Trip', "/trips/#{@trip.id}/edit", method: :get %><br>
 <p>Departure: <%= @trip.standard_time(@trip.departure_date)%></p>
 <p>Arrival: <%= @trip.standard_time(@trip.arrival_date)%></p>
