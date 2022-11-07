@@ -19,7 +19,15 @@ class TripService
 
   def self.delete_trip(uid, trip_id)
     conn.delete("#{uid}/trips/#{trip_id}")
-  end 
+  end
+
+  def self.update_trip(trip_id, name, uid, departure_date, arrival_date)
+    conn.put("#{uid}/trips/#{trip_id}") do |req|
+       req.params[:name] = name
+       req.params[:departure_date] = departure_date
+       req.params[:arrival_date] = arrival_date
+    end
+  end
 
 private
 

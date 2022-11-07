@@ -14,4 +14,6 @@ Rails.application.routes.draw do
   get '/trips/new', to: 'trips#new'
   get '/trips/:id', to: 'trips#show'
   delete '/trips/:id', to: 'trips#destroy'
+  get '/trips/:id/edit', to: 'trips#edit'
+  put '/trips/:id', to: 'trips#update'
 end

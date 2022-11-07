@@ -20,4 +20,8 @@ class TripFacade
     TripService.delete_trip(uid, trip_id)
   end
 
+  def self.update_trip(trip_id, name, uid, departure_date, arrival_date)
+    TripService.update_trip(trip_id, name, uid, departure_date, arrival_date)
+  end
+
 end
