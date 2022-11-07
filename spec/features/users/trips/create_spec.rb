@@ -1,14 +1,14 @@
 require 'rails_helper'
 
 RSpec.describe 'Create a trip' do
-  it 'a user can create' do
+  it 'a user can create', :vcr do
     stub_omniauth
 
-    road_trips = File.read('spec/fixtures/trips.json')
-    stub_request(:get, 'http://localhost:3000/api/v1/1000/trips')
-    .to_return(status: 200, body: road_trips, headers: {})
-
-    trips = TripFacade.all_trips("1000")
+    # road_trips = File.read('spec/fixtures/trips.json')
+    # stub_request(:get, 'http://localhost:3000/api/v1/1000/trips')
+    # .to_return(status: 200, body: road_trips, headers: {})
+    #
+    # trips = TripFacade.all_trips("1000")
 
     user = create(:omniauth_mock_user)
 
@@ -33,10 +33,10 @@ RSpec.describe 'Create a trip' do
     select "AZ", from: :end_state
     fill_in :end_zipcode, with: "84027"
 
-    new_trip = File.read('spec/fixtures/create_trip.json')
-    stub_request(:post, 'http://localhost:3000/api/v1/1000/trips?arrival_date=2024-11-10T13:37:38.000Z&departure_date=2022-11-30%20
-      15:00&name=Grand%20Adventure')
-      .to_return(status: 200, body: new_trip, headers: {})
+    # new_trip = File.read('spec/fixtures/create_trip.json')
+    # stub_request(:post, 'http://localhost:3000/api/v1/1000/trips?arrival_date=2024-11-10T13:37:38.000Z&departure_date=2022-11-30%20
+    #   15:00&name=Grand%20Adventure')
+    #   .to_return(status: 200, body: new_trip, headers: {})
 
     click_button "Create Trip"
 
