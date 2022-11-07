@@ -9,11 +9,12 @@ class TripService
     parse(response)
   end
 
-  def self.create_trip(new_trip_params)
-    conn.post("#{new_trip_params[:uid]}/trips") do |req|
-       req.params[:trip] = new_trip_params
-
-
+  def self.create_trip(name, uid, departure_date, arrival_date)
+    conn.post("#{uid}/trips") do |req|
+       req.params[:name] = name
+       req.params[:departure_date] = departure_date
+       req.params[:arrival_date] = arrival_date
+  
     end
   end
 

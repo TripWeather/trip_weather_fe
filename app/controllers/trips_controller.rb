@@ -13,16 +13,15 @@ class TripsController < ApplicationController
   end
 
   def create
-  
-    new_trip = TripFacade.create_trip(new_trip_params)
+    new_trip = TripFacade.create_trip(params[:name], @user.google_id,
+    params[:departure_date], params[:arrival_date])
     flash[:success] = "You've Created a New Adventure!"
     redirect_to '/trips'
-
   end
 
   private
 
   def new_trip_params
-    params.require(:trip).permit(:name, :uid, :departure_date, :arrival_date)
+    params.permit(:name, @user.google_id, :departure_date, :arrival_date)
   end
 end

@@ -1,14 +1,12 @@
 <%= form_with url: '/trips', method: :post, local: true do |form| %>
 
   <p> <%= form.label :name, "Name your Adventure:" %>
-  <%= form.text_field :name, name: 'trip[name]',required: true %> </p>
+  <%= form.text_field :name, required: true %> </p>
 
   <p> <%= form.label :departure_date, "When are you leaving?" %>
-  <%= form.datetime_local_field :departure_date, name: 'trip[departure_date]', min: Date.today, required: true %> </p>
+  <%= form.datetime_local_field :departure_date, min: Date.today, required: true %> </p>
 
-  <%= form.hidden_field :arrival_date, name: 'trip[arrival_date]', value: Time.current + 30.years %>
-
-  <%= form.hidden_field :uid, name: 'trip[uid]', value: @user.google_id%>
+  <%= form.hidden_field :arrival_date, value: "2024-11-10T13:37:38.000Z" %>
 
 <h3> Departure Address </h3>
 
