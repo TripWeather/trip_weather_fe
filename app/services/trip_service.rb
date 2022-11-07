@@ -14,9 +14,12 @@ class TripService
        req.params[:name] = name
        req.params[:departure_date] = departure_date
        req.params[:arrival_date] = arrival_date
-  
     end
   end
+
+  def self.delete_trip(uid, trip_id)
+    conn.delete("#{uid}/trips/#{trip_id}")
+  end 
 
 private
 

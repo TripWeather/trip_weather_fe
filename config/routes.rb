@@ -13,4 +13,5 @@ Rails.application.routes.draw do
   post '/trips', to: 'trips#create'
   get '/trips/new', to: 'trips#new'
   get '/trips/:id', to: 'trips#show'
+  delete '/trips/:id', to: 'trips#destroy'
 end
