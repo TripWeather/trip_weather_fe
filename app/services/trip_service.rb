@@ -28,10 +28,9 @@ class TripService
   def self.update_trip(trip_id, name, uid, departure_date, arrival_date)
       response = conn.put("#{uid}/trips/#{trip_id}") do |req|
         req.params[:trip] = { name: name, 
-                                        uid: uid, 
-                                        # trip_id: trip_id, 
-                                        departure_date: departure_date, 
-                                        arrival_date: arrival_date }
+                              uid: uid, 
+                              departure_date: departure_date, 
+                              arrival_date: arrival_date }
                   req.headers['Content-Type'] = 'application/json'
                   req.body = {query: 'update_trip'}.to_json
                 end
