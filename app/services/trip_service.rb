@@ -10,23 +10,31 @@ class TripService
   end
 
   def self.create_trip(name, uid, departure_date, arrival_date)
-    conn.post("#{uid}/trips") do |req|
-       req.params[:name] = name
-       req.params[:departure_date] = departure_date
-       req.params[:arrival_date] = arrival_date
-    end
+    response = conn.post("#{uid}/trips") do |req|
+                req.params[:trip] = { name: name, 
+                                      uid: uid, 
+                                      departure_date: departure_date, 
+                                      arrival_date: arrival_date }
+                req.headers['Content-Type'] = 'application/json'
+                req.body = {query: 'new_trip'}.to_json
+              end
   end
+
 
   def self.delete_trip(uid, trip_id)
     conn.delete("#{uid}/trips/#{trip_id}")
   end
 
   def self.update_trip(trip_id, name, uid, departure_date, arrival_date)
-    conn.put("#{uid}/trips/#{trip_id}") do |req|
-       req.params[:name] = name
-       req.params[:departure_date] = departure_date
-       req.params[:arrival_date] = arrival_date
-    end
+      response = conn.put("#{uid}/trips/#{trip_id}") do |req|
+        req.params[:trip] = { name: name, 
+                                        uid: uid, 
+                                        # trip_id: trip_id, 
+                                        departure_date: departure_date, 
+                                        arrival_date: arrival_date }
+                  req.headers['Content-Type'] = 'application/json'
+                  req.body = {query: 'update_trip'}.to_json
+                end
   end
 
 private
