@@ -21,56 +21,48 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"d3d735da28fab745f806b98fea170890"
+      - W/"285d743f94dcd0977663174c9b0342c0"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9a8feca4-195b-4620-857d-3b8c9ac6d1bf
+      - 722754b9-6306-4384-9099-781b5d4da946
       X-Runtime:
-      - '0.041658'
+      - '0.002962'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":[{"id":"8","type":"trip","attributes":{"uid":"1000","name":"Grand
-        Adventure","departure_date":"2000-01-01T15:00:00.000Z","arrival_date":"2000-01-01T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8"}}]}'
+        Adventure","departure_date":"2000-01-01T15:00:00.000Z","arrival_date":"2000-01-01T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8"}},{"id":"9","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2000-01-01T15:00:00.000Z","arrival_date":"2000-01-01T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}}]}'
   recorded_at: Mon, 07 Nov 2022 02:33:58 GMT
 - request:
-    method: post
-    uri: http://localhost:3000/api/v1/1000/trips?arrival_date=2024-11-10T13:37:38.000Z&departure_date=2022-11-30%2015:00&name=Grand%20Adventure
+    method: delete
+    uri: http://localhost:3000/api/v1/1000/trips/1
     body:
-      encoding: UTF-8
+      encoding: US-ASCII
       string: ''
     headers:
       User-Agent:
       - Faraday v2.6.0
-      Content-Length:
-      - '0'
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
       - "*/*"
   response:
     status:
-      code: 201
-      message: Created
+      code: 204
+      message: No Content
     headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"ebc49120d91b47e65f06f6f12a2a4ed4"
       Cache-Control:
-      - max-age=0, private, must-revalidate
+      - no-cache
       X-Request-Id:
-      - 8b8d8a88-abe0-467a-b149-6463582ce4e7
+      - d42c45c3-8be2-4974-84c3-7a5a040c996f
       X-Runtime:
-      - '0.045051'
-      Transfer-Encoding:
-      - chunked
+      - '0.015948'
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"9","type":"trip","attributes":{"uid":"1000","name":"Grand
-        Adventure","departure_date":"2000-01-01T15:00:00.000Z","arrival_date":"2000-01-01T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}}}'
+      string: ''
   recorded_at: Mon, 07 Nov 2022 02:33:58 GMT
 - request:
     method: get
@@ -97,9 +89,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - aa8ccf0f-0d9f-4fea-8a92-9faa699ffc36
+      - bf6a507a-8f42-4704-a060-95daeff7e90b
       X-Runtime:
-      - '0.006966'
+      - '0.002972'
       Transfer-Encoding:
       - chunked
     body:

@@ -19,6 +19,12 @@ class TripsController < ApplicationController
     redirect_to '/trips'
   end
 
+  def destroy
+    TripFacade.delete_trip(@user.google_id, params[:id])
+    flash[:success] = "Trip has been Cancelled"
+    redirect_to '/trips'
+  end
+
   private
 
   def new_trip_params
