@@ -21,18 +21,18 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"6333438e46854409c78458e6d05a074a"
+      - W/"b8cda1d9ffbe45931de86021ef5734c9"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3a66253d-c130-4e86-9aa9-9dda5cf3994a
+      - d51a2d83-14e7-4b6a-bc64-addf729b2d74
       X-Runtime:
-      - '0.078723'
+      - '0.005711'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"14","type":"address","attributes":{"location":"123 N
-        Santa Wy, Glendale, AZ 84027"}}}'
-  recorded_at: Tue, 08 Nov 2022 04:40:09 GMT
+        Santa Wy, Phoenix, AZ 80012"}}}'
+  recorded_at: Tue, 08 Nov 2022 19:08:41 GMT
 recorded_with: VCR 6.1.0

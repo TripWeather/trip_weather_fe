@@ -11,12 +11,12 @@ describe 'TripsController' do
       click_on "Log In"
       expect(current_path).to eq(dashboard_path)
 
-      visit "/trips/4"
+      visit "/trips/7"
 
       expect(page).to have_content("The Great Trip")
       expect(page).to have_content("Arrival: Sunday, 10 Nov 2024 1:37 PM")
       expect(page).to have_content("Departure: Tuesday, 29 Nov 2022 1:00 PM")
-      expect(current_path).to eq("/trips/4")
+      expect(current_path).to eq("/trips/7")
     end
 
     it 'can delete a trip', :vcr do
@@ -28,7 +28,7 @@ describe 'TripsController' do
       click_on "Log In"
       expect(current_path).to eq(dashboard_path)
 
-      visit "/trips/4"
+      visit "/trips/7"
 
       click_on "Delete Trip"
 
@@ -52,7 +52,7 @@ describe 'TripsController' do
 
       expect(current_path).to eq("/trips/new")
 
-      fill_in :name, with: "Lovely A"
+      fill_in :name, with: "Lovely"
       fill_in :start_address, with: "123 N Santa Wy"
       fill_in :start_city, with: "Phoenix"
       select "AZ", from: :start_state
@@ -67,7 +67,7 @@ describe 'TripsController' do
 
       click_button "Create Trip"
 
-      click_link 'Lovely A'
+      click_link 'Lovely'
 
       expect(page).to have_content("123 N Santa Wy, Phoenix, AZ 80012")
       expect(page).to have_content("123 N Santa Wy, Glendale, AZ 84027")
