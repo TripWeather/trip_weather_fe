@@ -10,7 +10,7 @@ describe 'Users trips', :vcr do
     click_on "Log In"
     expect(current_path).to eq(dashboard_path)
 
-    save_and_open_page
+  
     expect(page).to have_content("Test_Trip")
     expect(page).to have_content("Test_Trip_2")
     expect(page).to have_content("Test_Trip_3")
