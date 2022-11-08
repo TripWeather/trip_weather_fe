@@ -38,7 +38,7 @@ class TripService
   def self.create_stops(trip_id, uid, address, type)
     response = conn.post("#{uid}/trips/#{trip_id}/stops") do |req|
                 req.params[:stop] = {  location: address, 
-                                          type_of_stop: type.to_i }
+                                          type_of_stop: type }
                 req.headers['Content-Type'] = 'application/json'
                 req.body = {query: 'create_stop'}.to_json
               end
