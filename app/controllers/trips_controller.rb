@@ -6,7 +6,7 @@ class TripsController < ApplicationController
     @stops = StopsFacade.all_stops(@user.google_id, params[:id])
     start_address = @stops.first.address
     end_address = @stops.last.address
-    @nav = NavFacade.create_nav_object(start_address, end_address)
+    # @nav = NavFacade.create_nav_object(start_address, end_address)
   end
 
   def index

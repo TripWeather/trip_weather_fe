@@ -1,8 +1,8 @@
 require 'rails_helper'
 
-RSpec.describe TripService do
+RSpec.describe TripService, :vcr do
   describe 'returns a list of trips by uid' do
-    it '#trips_by_uid', :vcr do
+    it '#trips_by_uid' do
 
      info = TripService.trips_by_uid("1000")
 
@@ -14,7 +14,7 @@ RSpec.describe TripService do
   end
 
   describe 'it returns a single trip' do
-    it '.trip(uid, trip_id)', :vcr do
+    it '.trip(uid, trip_id)' do
 
       trip_data = TripService.trip_by_id("1000", "4")
 
@@ -44,7 +44,7 @@ RSpec.describe TripService do
   end
 
   describe 'it returns addresses for stops' do
-    it 'address', :vcr do
+    it 'gets all addresses for stops' do 
 
       address = TripService.address("1000", "6", "14", "15")
 
