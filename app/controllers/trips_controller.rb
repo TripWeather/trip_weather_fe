@@ -3,9 +3,10 @@ class TripsController < ApplicationController
 
   def show
     @trip = TripFacade.trip_by_id(@user.google_id, params[:id])
-
+    @lat_long = [39.7391, -104.9849]
     @stops = StopsFacade.all_stops(@user.google_id, params[:id])
-    
+    @address_1 = "200 E Colfax Ave, Denver, CO 80203"
+    @address_2 = "1600 Pennsylvania Avenue NW, Washington, DC 20500"
   end
 
   def index

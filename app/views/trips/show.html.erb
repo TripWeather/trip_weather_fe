@@ -1,4 +1,21 @@
-<h1><%= @trip.name %></h1>
+<script type="text/javascript">
+    window.onload = function() {
+        // We understand this is a security risk
+        L.mapquest.key = '<%= ENV['NAV_API'] %>';
+
+        L.mapquest.map('map', {
+            center: <%= @lat_long %>,
+            layers: L.mapquest.tileLayer('map'),
+            zoom: 12
+        });
+        L.mapquest.directions().route({
+            start: '<%= @address_1 %>',
+            end: '<%= @address_2 %>'
+        });
+    };
+</script>
+
+<h1 id='user'><%= @trip.name %></h1>
 <%= button_to 'Delete Trip', "/trips/#{@trip.id}", method: :delete %><br>
 <%= button_to 'Update Trip', "/trips/#{@trip.id}/edit", method: :get %><br>
 <p>Departure: <%= @trip.standard_time(@trip.departure_date)%></p>
@@ -7,3 +24,4 @@
 <p><% @stops.each do |stop| %></p>
   <%= stop.type_of_stop.titleize%> <%=stop.address%><br>
   <% end %>
+  <div id="map" style="width: 100%; height: 530px;"></div>
