@@ -45,6 +45,6 @@ RSpec.describe 'Create a trip' do
     expect(page).to have_content("Grand Adventure")
     expect(page).to have_content("You've Created a New Adventure!")
     # expect(TripFacade.all_trips("1000").count).to eq 6
-
   end
+
 end

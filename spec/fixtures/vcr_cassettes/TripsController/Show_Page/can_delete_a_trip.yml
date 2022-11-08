@@ -21,24 +21,26 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"09f2f70a5e0095cbc61e7bf4344367fd"
+      - W/"051585ea8558ab38b7f199654525e029"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 16e1850d-a683-4660-90f1-e781106d8adf
+      - 2cd90cb2-5028-483a-ae68-6a24b9c65230
       X-Runtime:
-      - '0.009197'
+      - '0.005945'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"6","type":"trip","attributes":{"uid":"1000","name":"The
-        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2080-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/6"}},{"id":"7","type":"trip","attributes":{"uid":"1000","name":"Grand
+      string: '{"data":[{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"5","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/5/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/5"}},{"id":"6","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/6"}},{"id":"7","type":"trip","attributes":{"uid":"1000","name":"Grand
         Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/7/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/7"}},{"id":"8","type":"trip","attributes":{"uid":"1000","name":"Grand
         Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8"}},{"id":"9","type":"trip","attributes":{"uid":"1000","name":"Grand
         Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}},{"id":"10","type":"trip","attributes":{"uid":"1000","name":"The
         Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2080-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/10/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/10"}}]}'
-  recorded_at: Mon, 07 Nov 2022 20:16:31 GMT
+  recorded_at: Tue, 08 Nov 2022 01:13:06 GMT
 - request:
     method: delete
     uri: http://localhost:3000/api/v1/1000/trips/1
@@ -54,24 +56,19 @@ http_interactions:
       - "*/*"
   response:
     status:
-      code: 404
-      message: Not Found
+      code: 204
+      message: No Content
     headers:
-      Content-Type:
-      - application/json; charset=utf-8
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 23955634-4147-4102-9d34-245bb1de4e58
+      - 63192d27-5a49-4e0f-bc0f-647fa5517c46
       X-Runtime:
-      - '0.003101'
-      Transfer-Encoding:
-      - chunked
+      - '0.036163'
     body:
       encoding: UTF-8
-      string: '{"message":"your query could not be completed","errors":[{"status":"404","title":"Not
-        Found","detail":"Couldn''t find Trip with ''id''=1"}]}'
-  recorded_at: Mon, 07 Nov 2022 20:16:31 GMT
+      string: ''
+  recorded_at: Tue, 08 Nov 2022 01:13:06 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips
@@ -93,22 +90,24 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"09f2f70a5e0095cbc61e7bf4344367fd"
+      - W/"051585ea8558ab38b7f199654525e029"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c2b443c9-8d71-4a63-92e3-e40e7213b48b
+      - ca90c40f-b503-4764-aa91-b8bf1c430277
       X-Runtime:
-      - '0.016536'
+      - '0.006294'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"6","type":"trip","attributes":{"uid":"1000","name":"The
-        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2080-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/6"}},{"id":"7","type":"trip","attributes":{"uid":"1000","name":"Grand
+      string: '{"data":[{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"5","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/5/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/5"}},{"id":"6","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/6"}},{"id":"7","type":"trip","attributes":{"uid":"1000","name":"Grand
         Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/7/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/7"}},{"id":"8","type":"trip","attributes":{"uid":"1000","name":"Grand
         Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8"}},{"id":"9","type":"trip","attributes":{"uid":"1000","name":"Grand
         Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}},{"id":"10","type":"trip","attributes":{"uid":"1000","name":"The
         Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2080-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/10/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/10"}}]}'
-  recorded_at: Mon, 07 Nov 2022 20:16:31 GMT
+  recorded_at: Tue, 08 Nov 2022 01:13:06 GMT
 recorded_with: VCR 6.1.0

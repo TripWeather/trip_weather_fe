@@ -10,7 +10,7 @@ RSpec.describe 'Update a trip' do
     click_on "Log In"
     click_button "Create a New Trip"
 
-    fill_in :name, with: "Trippy Trip"
+    fill_in :name, with: "The best Trip 2"
     fill_in :start_address, with: "123 N Santa Wy"
     fill_in :start_city, with: "Phoenix"
     select "AZ", from: :start_state
@@ -27,7 +27,7 @@ RSpec.describe 'Update a trip' do
 
     expect(current_path).to eq(trips_path)
 
-    click_link "Trippy Trip"
+    click_link "The best Trip 2"
 
     click_button "Update Trip"
 
@@ -45,7 +45,7 @@ RSpec.describe 'Update a trip' do
     click_button "Update Trip"
 
     expect(page).to have_content("The Great Trip")
-    expect(page).to_not have_content("Trippy Trip")
+    expect(page).to_not have_content("The best Trip 2")
     expect(page).to have_content("You've Updated Your Adventure")
   end
 end

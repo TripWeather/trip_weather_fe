@@ -21,22 +21,26 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"88eb95216e2764354d95ae44102f2f56"
+      - W/"051585ea8558ab38b7f199654525e029"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 82734678-cb70-48a9-9357-8877f9d95cf7
+      - b1189ddb-8e8e-45c5-9285-0b9ca44185b6
       X-Runtime:
-      - '0.064684'
+      - '0.103983'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"6","type":"trip","attributes":{"uid":"1000","name":"The
-        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2080-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/6"}},{"id":"7","type":"trip","attributes":{"uid":"1000","name":"Grand
+      string: '{"data":[{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"5","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/5/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/5"}},{"id":"6","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/6"}},{"id":"7","type":"trip","attributes":{"uid":"1000","name":"Grand
         Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/7/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/7"}},{"id":"8","type":"trip","attributes":{"uid":"1000","name":"Grand
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8"}}]}'
-  recorded_at: Mon, 07 Nov 2022 20:16:30 GMT
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8"}},{"id":"9","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}},{"id":"10","type":"trip","attributes":{"uid":"1000","name":"The
+        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2080-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/10/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/10"}}]}'
+  recorded_at: Tue, 08 Nov 2022 01:22:33 GMT
 - request:
     method: post
     uri: http://localhost:3000/api/v1/1000/trips?trip%5Barrival_date%5D=2024-11-10T13:37:38.000Z&trip%5Bdeparture_date%5D=2022-11-30%2015:00&trip%5Bname%5D=Grand%20Adventure&trip%5Buid%5D=1000
@@ -60,20 +64,358 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"f10bab7b76e1123bd91c2e1c42c42de0"
+      - W/"2d5a17731f0853f870ad6591978b2c61"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e5ae5611-a48b-46e8-8860-ce2de9f9789c
+      - a799f2dc-7ffc-49c3-8da0-2e82a8ccaf53
       X-Runtime:
-      - '0.006624'
+      - '0.006192'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"9","type":"trip","attributes":{"uid":"1000","name":"Grand
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}}}'
-  recorded_at: Mon, 07 Nov 2022 20:16:31 GMT
+      string: '{"data":{"id":"11","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/11/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/11"}}}'
+  recorded_at: Tue, 08 Nov 2022 01:22:33 GMT
+- request:
+    method: post
+    uri: http://localhost:3000/api/v1/1000/trips/11/stops?stop%5Blocation%5D=123%20N%20Santa%20Wy,%20Phoenix,%20AZ%2080012&stop%5Btype_of_stop%5D=0
+    body:
+      encoding: UTF-8
+      string: '{"query":"create_stop"}'
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Request-Id:
+      - 77be2ac0-dcc2-4b42-8e34-b90d9b7ba5f9
+      X-Runtime:
+      - '0.037654'
+      Content-Length:
+      - '13428'
+    body:
+      encoding: UTF-8
+      string: '{"status":500,"error":"Internal Server Error","exception":"#\u003cArgumentError:
+        ''0'' is not a valid type_of_stop\u003e","traces":{"Application Trace":[{"id":16,"trace":"app/controllers/api/v1/stops_controller.rb:16:in
+        `create''"}],"Framework Trace":[{"id":0,"trace":"activerecord (5.2.8.1) lib/active_record/enum.rb:140:in
+        `assert_valid_value''"},{"id":1,"trace":"activemodel (5.2.8.1) lib/active_model/attribute.rb:71:in
+        `with_value_from_user''"},{"id":2,"trace":"activemodel (5.2.8.1) lib/active_model/attribute_set.rb:57:in
+        `write_from_user''"},{"id":3,"trace":"activerecord (5.2.8.1) lib/active_record/attribute_methods/write.rb:51:in
+        `_write_attribute''"},{"id":4,"trace":"activerecord (5.2.8.1) lib/active_record/attribute_methods/write.rb:24:in
+        `__temp__47970756f5f666f53747f607=''"},{"id":5,"trace":"activemodel (5.2.8.1)
+        lib/active_model/attribute_assignment.rb:51:in `public_send''"},{"id":6,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:51:in `_assign_attribute''"},{"id":7,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:44:in `block in _assign_attributes''"},{"id":8,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:43:in `each''"},{"id":9,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:43:in `_assign_attributes''"},{"id":10,"trace":"activerecord
+        (5.2.8.1) lib/active_record/attribute_assignment.rb:23:in `_assign_attributes''"},{"id":11,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:35:in `assign_attributes''"},{"id":12,"trace":"activerecord
+        (5.2.8.1) lib/active_record/core.rb:325:in `initialize''"},{"id":13,"trace":"activerecord
+        (5.2.8.1) lib/active_record/inheritance.rb:66:in `new''"},{"id":14,"trace":"activerecord
+        (5.2.8.1) lib/active_record/inheritance.rb:66:in `new''"},{"id":15,"trace":"activerecord
+        (5.2.8.1) lib/active_record/persistence.rb:52:in `create!''"},{"id":17,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action''"},{"id":18,"trace":"actionpack
+        (5.2.8.1) lib/abstract_controller/base.rb:194:in `process_action''"},{"id":19,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/rendering.rb:30:in `process_action''"},{"id":20,"trace":"actionpack
+        (5.2.8.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action''"},{"id":21,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:98:in `run_callbacks''"},{"id":22,"trace":"actionpack
+        (5.2.8.1) lib/abstract_controller/callbacks.rb:41:in `process_action''"},{"id":23,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/rescue.rb:22:in `process_action''"},{"id":24,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action''"},{"id":25,"trace":"activesupport
+        (5.2.8.1) lib/active_support/notifications.rb:168:in `block in instrument''"},{"id":26,"trace":"activesupport
+        (5.2.8.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument''"},{"id":27,"trace":"activesupport
+        (5.2.8.1) lib/active_support/notifications.rb:168:in `instrument''"},{"id":28,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action''"},{"id":29,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action''"},{"id":30,"trace":"activerecord
+        (5.2.8.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action''"},{"id":31,"trace":"actionpack
+        (5.2.8.1) lib/abstract_controller/base.rb:134:in `process''"},{"id":32,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal.rb:191:in `dispatch''"},{"id":33,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal.rb:252:in `dispatch''"},{"id":34,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch''"},{"id":35,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/routing/route_set.rb:34:in `serve''"},{"id":36,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/journey/router.rb:52:in `block in serve''"},{"id":37,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in `each''"},{"id":38,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in `serve''"},{"id":39,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/routing/route_set.rb:840:in `call''"},{"id":40,"trace":"rack
+        (2.2.4) lib/rack/etag.rb:27:in `call''"},{"id":41,"trace":"rack (2.2.4) lib/rack/conditional_get.rb:40:in
+        `call''"},{"id":42,"trace":"rack (2.2.4) lib/rack/head.rb:12:in `call''"},{"id":43,"trace":"activerecord
+        (5.2.8.1) lib/active_record/migration.rb:559:in `call''"},{"id":44,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call''"},{"id":45,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:98:in `run_callbacks''"},{"id":46,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call''"},{"id":47,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call''"},{"id":48,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call''"},{"id":49,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call''"},{"id":50,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app''"},{"id":51,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call''"},{"id":52,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged''"},{"id":53,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged''"},{"id":54,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged''"},{"id":55,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `call''"},{"id":56,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call''"},{"id":57,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call''"},{"id":58,"trace":"rack
+        (2.2.4) lib/rack/runtime.rb:22:in `call''"},{"id":59,"trace":"activesupport
+        (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in
+        `call''"},{"id":60,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in
+        `call''"},{"id":61,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in
+        `call''"},{"id":62,"trace":"rack (2.2.4) lib/rack/sendfile.rb:110:in `call''"},{"id":63,"trace":"railties
+        (5.2.8.1) lib/rails/engine.rb:524:in `call''"},{"id":64,"trace":"puma (3.12.6)
+        lib/puma/configuration.rb:227:in `call''"},{"id":65,"trace":"puma (3.12.6)
+        lib/puma/server.rb:706:in `handle_request''"},{"id":66,"trace":"puma (3.12.6)
+        lib/puma/server.rb:476:in `process_client''"},{"id":67,"trace":"puma (3.12.6)
+        lib/puma/server.rb:334:in `block in run''"},{"id":68,"trace":"puma (3.12.6)
+        lib/puma/thread_pool.rb:135:in `block in spawn_thread''"}],"Full Trace":[{"id":0,"trace":"activerecord
+        (5.2.8.1) lib/active_record/enum.rb:140:in `assert_valid_value''"},{"id":1,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute.rb:71:in `with_value_from_user''"},{"id":2,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_set.rb:57:in `write_from_user''"},{"id":3,"trace":"activerecord
+        (5.2.8.1) lib/active_record/attribute_methods/write.rb:51:in `_write_attribute''"},{"id":4,"trace":"activerecord
+        (5.2.8.1) lib/active_record/attribute_methods/write.rb:24:in `__temp__47970756f5f666f53747f607=''"},{"id":5,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:51:in `public_send''"},{"id":6,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:51:in `_assign_attribute''"},{"id":7,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:44:in `block in _assign_attributes''"},{"id":8,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:43:in `each''"},{"id":9,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:43:in `_assign_attributes''"},{"id":10,"trace":"activerecord
+        (5.2.8.1) lib/active_record/attribute_assignment.rb:23:in `_assign_attributes''"},{"id":11,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:35:in `assign_attributes''"},{"id":12,"trace":"activerecord
+        (5.2.8.1) lib/active_record/core.rb:325:in `initialize''"},{"id":13,"trace":"activerecord
+        (5.2.8.1) lib/active_record/inheritance.rb:66:in `new''"},{"id":14,"trace":"activerecord
+        (5.2.8.1) lib/active_record/inheritance.rb:66:in `new''"},{"id":15,"trace":"activerecord
+        (5.2.8.1) lib/active_record/persistence.rb:52:in `create!''"},{"id":16,"trace":"app/controllers/api/v1/stops_controller.rb:16:in
+        `create''"},{"id":17,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/basic_implicit_render.rb:6:in
+        `send_action''"},{"id":18,"trace":"actionpack (5.2.8.1) lib/abstract_controller/base.rb:194:in
+        `process_action''"},{"id":19,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/rendering.rb:30:in
+        `process_action''"},{"id":20,"trace":"actionpack (5.2.8.1) lib/abstract_controller/callbacks.rb:42:in
+        `block in process_action''"},{"id":21,"trace":"activesupport (5.2.8.1) lib/active_support/callbacks.rb:98:in
+        `run_callbacks''"},{"id":22,"trace":"actionpack (5.2.8.1) lib/abstract_controller/callbacks.rb:41:in
+        `process_action''"},{"id":23,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/rescue.rb:22:in
+        `process_action''"},{"id":24,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/instrumentation.rb:34:in
+        `block in process_action''"},{"id":25,"trace":"activesupport (5.2.8.1) lib/active_support/notifications.rb:168:in
+        `block in instrument''"},{"id":26,"trace":"activesupport (5.2.8.1) lib/active_support/notifications/instrumenter.rb:23:in
+        `instrument''"},{"id":27,"trace":"activesupport (5.2.8.1) lib/active_support/notifications.rb:168:in
+        `instrument''"},{"id":28,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/instrumentation.rb:32:in
+        `process_action''"},{"id":29,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/params_wrapper.rb:256:in
+        `process_action''"},{"id":30,"trace":"activerecord (5.2.8.1) lib/active_record/railties/controller_runtime.rb:24:in
+        `process_action''"},{"id":31,"trace":"actionpack (5.2.8.1) lib/abstract_controller/base.rb:134:in
+        `process''"},{"id":32,"trace":"actionpack (5.2.8.1) lib/action_controller/metal.rb:191:in
+        `dispatch''"},{"id":33,"trace":"actionpack (5.2.8.1) lib/action_controller/metal.rb:252:in
+        `dispatch''"},{"id":34,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:52:in
+        `dispatch''"},{"id":35,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:34:in
+        `serve''"},{"id":36,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:52:in
+        `block in serve''"},{"id":37,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in
+        `each''"},{"id":38,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in
+        `serve''"},{"id":39,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:840:in
+        `call''"},{"id":40,"trace":"rack (2.2.4) lib/rack/etag.rb:27:in `call''"},{"id":41,"trace":"rack
+        (2.2.4) lib/rack/conditional_get.rb:40:in `call''"},{"id":42,"trace":"rack
+        (2.2.4) lib/rack/head.rb:12:in `call''"},{"id":43,"trace":"activerecord (5.2.8.1)
+        lib/active_record/migration.rb:559:in `call''"},{"id":44,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call''"},{"id":45,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:98:in `run_callbacks''"},{"id":46,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call''"},{"id":47,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call''"},{"id":48,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call''"},{"id":49,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call''"},{"id":50,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app''"},{"id":51,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call''"},{"id":52,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged''"},{"id":53,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged''"},{"id":54,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged''"},{"id":55,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `call''"},{"id":56,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call''"},{"id":57,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call''"},{"id":58,"trace":"rack
+        (2.2.4) lib/rack/runtime.rb:22:in `call''"},{"id":59,"trace":"activesupport
+        (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in
+        `call''"},{"id":60,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in
+        `call''"},{"id":61,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in
+        `call''"},{"id":62,"trace":"rack (2.2.4) lib/rack/sendfile.rb:110:in `call''"},{"id":63,"trace":"railties
+        (5.2.8.1) lib/rails/engine.rb:524:in `call''"},{"id":64,"trace":"puma (3.12.6)
+        lib/puma/configuration.rb:227:in `call''"},{"id":65,"trace":"puma (3.12.6)
+        lib/puma/server.rb:706:in `handle_request''"},{"id":66,"trace":"puma (3.12.6)
+        lib/puma/server.rb:476:in `process_client''"},{"id":67,"trace":"puma (3.12.6)
+        lib/puma/server.rb:334:in `block in run''"},{"id":68,"trace":"puma (3.12.6)
+        lib/puma/thread_pool.rb:135:in `block in spawn_thread''"}]}}'
+  recorded_at: Tue, 08 Nov 2022 01:22:33 GMT
+- request:
+    method: post
+    uri: http://localhost:3000/api/v1/1000/trips/11/stops?stop%5Blocation%5D=123%20N%20Santa%20Wy,%20Glendale,%20AZ%2084027&stop%5Btype_of_stop%5D=2
+    body:
+      encoding: UTF-8
+      string: '{"query":"create_stop"}'
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 500
+      message: Internal Server Error
+    headers:
+      Content-Type:
+      - application/json; charset=UTF-8
+      X-Request-Id:
+      - 253f5102-d52c-445f-bd33-00718df08e87
+      X-Runtime:
+      - '0.022106'
+      Content-Length:
+      - '13428'
+    body:
+      encoding: UTF-8
+      string: '{"status":500,"error":"Internal Server Error","exception":"#\u003cArgumentError:
+        ''2'' is not a valid type_of_stop\u003e","traces":{"Application Trace":[{"id":16,"trace":"app/controllers/api/v1/stops_controller.rb:16:in
+        `create''"}],"Framework Trace":[{"id":0,"trace":"activerecord (5.2.8.1) lib/active_record/enum.rb:140:in
+        `assert_valid_value''"},{"id":1,"trace":"activemodel (5.2.8.1) lib/active_model/attribute.rb:71:in
+        `with_value_from_user''"},{"id":2,"trace":"activemodel (5.2.8.1) lib/active_model/attribute_set.rb:57:in
+        `write_from_user''"},{"id":3,"trace":"activerecord (5.2.8.1) lib/active_record/attribute_methods/write.rb:51:in
+        `_write_attribute''"},{"id":4,"trace":"activerecord (5.2.8.1) lib/active_record/attribute_methods/write.rb:24:in
+        `__temp__47970756f5f666f53747f607=''"},{"id":5,"trace":"activemodel (5.2.8.1)
+        lib/active_model/attribute_assignment.rb:51:in `public_send''"},{"id":6,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:51:in `_assign_attribute''"},{"id":7,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:44:in `block in _assign_attributes''"},{"id":8,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:43:in `each''"},{"id":9,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:43:in `_assign_attributes''"},{"id":10,"trace":"activerecord
+        (5.2.8.1) lib/active_record/attribute_assignment.rb:23:in `_assign_attributes''"},{"id":11,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:35:in `assign_attributes''"},{"id":12,"trace":"activerecord
+        (5.2.8.1) lib/active_record/core.rb:325:in `initialize''"},{"id":13,"trace":"activerecord
+        (5.2.8.1) lib/active_record/inheritance.rb:66:in `new''"},{"id":14,"trace":"activerecord
+        (5.2.8.1) lib/active_record/inheritance.rb:66:in `new''"},{"id":15,"trace":"activerecord
+        (5.2.8.1) lib/active_record/persistence.rb:52:in `create!''"},{"id":17,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action''"},{"id":18,"trace":"actionpack
+        (5.2.8.1) lib/abstract_controller/base.rb:194:in `process_action''"},{"id":19,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/rendering.rb:30:in `process_action''"},{"id":20,"trace":"actionpack
+        (5.2.8.1) lib/abstract_controller/callbacks.rb:42:in `block in process_action''"},{"id":21,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:98:in `run_callbacks''"},{"id":22,"trace":"actionpack
+        (5.2.8.1) lib/abstract_controller/callbacks.rb:41:in `process_action''"},{"id":23,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/rescue.rb:22:in `process_action''"},{"id":24,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action''"},{"id":25,"trace":"activesupport
+        (5.2.8.1) lib/active_support/notifications.rb:168:in `block in instrument''"},{"id":26,"trace":"activesupport
+        (5.2.8.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument''"},{"id":27,"trace":"activesupport
+        (5.2.8.1) lib/active_support/notifications.rb:168:in `instrument''"},{"id":28,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action''"},{"id":29,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action''"},{"id":30,"trace":"activerecord
+        (5.2.8.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action''"},{"id":31,"trace":"actionpack
+        (5.2.8.1) lib/abstract_controller/base.rb:134:in `process''"},{"id":32,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal.rb:191:in `dispatch''"},{"id":33,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal.rb:252:in `dispatch''"},{"id":34,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch''"},{"id":35,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/routing/route_set.rb:34:in `serve''"},{"id":36,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/journey/router.rb:52:in `block in serve''"},{"id":37,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in `each''"},{"id":38,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in `serve''"},{"id":39,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/routing/route_set.rb:840:in `call''"},{"id":40,"trace":"rack
+        (2.2.4) lib/rack/etag.rb:27:in `call''"},{"id":41,"trace":"rack (2.2.4) lib/rack/conditional_get.rb:40:in
+        `call''"},{"id":42,"trace":"rack (2.2.4) lib/rack/head.rb:12:in `call''"},{"id":43,"trace":"activerecord
+        (5.2.8.1) lib/active_record/migration.rb:559:in `call''"},{"id":44,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call''"},{"id":45,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:98:in `run_callbacks''"},{"id":46,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call''"},{"id":47,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call''"},{"id":48,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call''"},{"id":49,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call''"},{"id":50,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app''"},{"id":51,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call''"},{"id":52,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged''"},{"id":53,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged''"},{"id":54,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged''"},{"id":55,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `call''"},{"id":56,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call''"},{"id":57,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call''"},{"id":58,"trace":"rack
+        (2.2.4) lib/rack/runtime.rb:22:in `call''"},{"id":59,"trace":"activesupport
+        (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in
+        `call''"},{"id":60,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in
+        `call''"},{"id":61,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in
+        `call''"},{"id":62,"trace":"rack (2.2.4) lib/rack/sendfile.rb:110:in `call''"},{"id":63,"trace":"railties
+        (5.2.8.1) lib/rails/engine.rb:524:in `call''"},{"id":64,"trace":"puma (3.12.6)
+        lib/puma/configuration.rb:227:in `call''"},{"id":65,"trace":"puma (3.12.6)
+        lib/puma/server.rb:706:in `handle_request''"},{"id":66,"trace":"puma (3.12.6)
+        lib/puma/server.rb:476:in `process_client''"},{"id":67,"trace":"puma (3.12.6)
+        lib/puma/server.rb:334:in `block in run''"},{"id":68,"trace":"puma (3.12.6)
+        lib/puma/thread_pool.rb:135:in `block in spawn_thread''"}],"Full Trace":[{"id":0,"trace":"activerecord
+        (5.2.8.1) lib/active_record/enum.rb:140:in `assert_valid_value''"},{"id":1,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute.rb:71:in `with_value_from_user''"},{"id":2,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_set.rb:57:in `write_from_user''"},{"id":3,"trace":"activerecord
+        (5.2.8.1) lib/active_record/attribute_methods/write.rb:51:in `_write_attribute''"},{"id":4,"trace":"activerecord
+        (5.2.8.1) lib/active_record/attribute_methods/write.rb:24:in `__temp__47970756f5f666f53747f607=''"},{"id":5,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:51:in `public_send''"},{"id":6,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:51:in `_assign_attribute''"},{"id":7,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:44:in `block in _assign_attributes''"},{"id":8,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:43:in `each''"},{"id":9,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:43:in `_assign_attributes''"},{"id":10,"trace":"activerecord
+        (5.2.8.1) lib/active_record/attribute_assignment.rb:23:in `_assign_attributes''"},{"id":11,"trace":"activemodel
+        (5.2.8.1) lib/active_model/attribute_assignment.rb:35:in `assign_attributes''"},{"id":12,"trace":"activerecord
+        (5.2.8.1) lib/active_record/core.rb:325:in `initialize''"},{"id":13,"trace":"activerecord
+        (5.2.8.1) lib/active_record/inheritance.rb:66:in `new''"},{"id":14,"trace":"activerecord
+        (5.2.8.1) lib/active_record/inheritance.rb:66:in `new''"},{"id":15,"trace":"activerecord
+        (5.2.8.1) lib/active_record/persistence.rb:52:in `create!''"},{"id":16,"trace":"app/controllers/api/v1/stops_controller.rb:16:in
+        `create''"},{"id":17,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/basic_implicit_render.rb:6:in
+        `send_action''"},{"id":18,"trace":"actionpack (5.2.8.1) lib/abstract_controller/base.rb:194:in
+        `process_action''"},{"id":19,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/rendering.rb:30:in
+        `process_action''"},{"id":20,"trace":"actionpack (5.2.8.1) lib/abstract_controller/callbacks.rb:42:in
+        `block in process_action''"},{"id":21,"trace":"activesupport (5.2.8.1) lib/active_support/callbacks.rb:98:in
+        `run_callbacks''"},{"id":22,"trace":"actionpack (5.2.8.1) lib/abstract_controller/callbacks.rb:41:in
+        `process_action''"},{"id":23,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/rescue.rb:22:in
+        `process_action''"},{"id":24,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/instrumentation.rb:34:in
+        `block in process_action''"},{"id":25,"trace":"activesupport (5.2.8.1) lib/active_support/notifications.rb:168:in
+        `block in instrument''"},{"id":26,"trace":"activesupport (5.2.8.1) lib/active_support/notifications/instrumenter.rb:23:in
+        `instrument''"},{"id":27,"trace":"activesupport (5.2.8.1) lib/active_support/notifications.rb:168:in
+        `instrument''"},{"id":28,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/instrumentation.rb:32:in
+        `process_action''"},{"id":29,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/params_wrapper.rb:256:in
+        `process_action''"},{"id":30,"trace":"activerecord (5.2.8.1) lib/active_record/railties/controller_runtime.rb:24:in
+        `process_action''"},{"id":31,"trace":"actionpack (5.2.8.1) lib/abstract_controller/base.rb:134:in
+        `process''"},{"id":32,"trace":"actionpack (5.2.8.1) lib/action_controller/metal.rb:191:in
+        `dispatch''"},{"id":33,"trace":"actionpack (5.2.8.1) lib/action_controller/metal.rb:252:in
+        `dispatch''"},{"id":34,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:52:in
+        `dispatch''"},{"id":35,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:34:in
+        `serve''"},{"id":36,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:52:in
+        `block in serve''"},{"id":37,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in
+        `each''"},{"id":38,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in
+        `serve''"},{"id":39,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:840:in
+        `call''"},{"id":40,"trace":"rack (2.2.4) lib/rack/etag.rb:27:in `call''"},{"id":41,"trace":"rack
+        (2.2.4) lib/rack/conditional_get.rb:40:in `call''"},{"id":42,"trace":"rack
+        (2.2.4) lib/rack/head.rb:12:in `call''"},{"id":43,"trace":"activerecord (5.2.8.1)
+        lib/active_record/migration.rb:559:in `call''"},{"id":44,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call''"},{"id":45,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:98:in `run_callbacks''"},{"id":46,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call''"},{"id":47,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call''"},{"id":48,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call''"},{"id":49,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call''"},{"id":50,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app''"},{"id":51,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call''"},{"id":52,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged''"},{"id":53,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged''"},{"id":54,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged''"},{"id":55,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `call''"},{"id":56,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call''"},{"id":57,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call''"},{"id":58,"trace":"rack
+        (2.2.4) lib/rack/runtime.rb:22:in `call''"},{"id":59,"trace":"activesupport
+        (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in
+        `call''"},{"id":60,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in
+        `call''"},{"id":61,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in
+        `call''"},{"id":62,"trace":"rack (2.2.4) lib/rack/sendfile.rb:110:in `call''"},{"id":63,"trace":"railties
+        (5.2.8.1) lib/rails/engine.rb:524:in `call''"},{"id":64,"trace":"puma (3.12.6)
+        lib/puma/configuration.rb:227:in `call''"},{"id":65,"trace":"puma (3.12.6)
+        lib/puma/server.rb:706:in `handle_request''"},{"id":66,"trace":"puma (3.12.6)
+        lib/puma/server.rb:476:in `process_client''"},{"id":67,"trace":"puma (3.12.6)
+        lib/puma/server.rb:334:in `block in run''"},{"id":68,"trace":"puma (3.12.6)
+        lib/puma/thread_pool.rb:135:in `block in spawn_thread''"}]}}'
+  recorded_at: Tue, 08 Nov 2022 01:22:33 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips
@@ -95,21 +437,25 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"7fd1e777a1de4ef6402149b3a4d98587"
+      - W/"3f3e6480380204b815276f92c6a4de6c"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 386a6591-704d-4fbe-9312-6ff9eac4b71b
+      - 66aff177-29cc-4877-9bf8-d5b5a329ad76
       X-Runtime:
-      - '0.005856'
+      - '0.006174'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"6","type":"trip","attributes":{"uid":"1000","name":"The
-        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2080-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/6"}},{"id":"7","type":"trip","attributes":{"uid":"1000","name":"Grand
+      string: '{"data":[{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"5","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/5/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/5"}},{"id":"6","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/6"}},{"id":"7","type":"trip","attributes":{"uid":"1000","name":"Grand
         Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/7/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/7"}},{"id":"8","type":"trip","attributes":{"uid":"1000","name":"Grand
         Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8"}},{"id":"9","type":"trip","attributes":{"uid":"1000","name":"Grand
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}}]}'
-  recorded_at: Mon, 07 Nov 2022 20:16:31 GMT
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}},{"id":"10","type":"trip","attributes":{"uid":"1000","name":"The
+        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2080-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/10/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/10"}},{"id":"11","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/11/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/11"}}]}'
+  recorded_at: Tue, 08 Nov 2022 01:22:33 GMT
 recorded_with: VCR 6.1.0
