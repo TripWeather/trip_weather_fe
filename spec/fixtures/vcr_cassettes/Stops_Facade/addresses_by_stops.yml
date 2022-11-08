@@ -1,0 +1,107 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips/6/stops
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"0c03241d46a20f33283a7b9b49da1362"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 57f1ea00-e0e4-4fdf-aa9f-1fbbd820f128
+      X-Runtime:
+      - '0.330565'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"8","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"7","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/8/addresses/7"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/110338485940940085633/trips/6/stops/8"}},{"id":"9","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"8","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/9/addresses/8"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/110338485940940085633/trips/6/stops/9"}}]}'
+  recorded_at: Tue, 08 Nov 2022 06:08:33 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips/6/stops/8/addresses/7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"d7271ba54261186a5259ab59b05f15d8"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ce96a735-d61c-4d1d-8990-d5d9a6759008
+      X-Runtime:
+      - '0.017959'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"7","type":"address","attributes":{"location":"2303 Braun
+        Ct, Golden CO, 80401"}}}'
+  recorded_at: Tue, 08 Nov 2022 06:08:33 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips/6/stops/9/addresses/8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"812268406e75af1c29f959f85c05cd96"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - faaac9c9-a014-43c3-aef3-dab7696bfab3
+      X-Runtime:
+      - '0.408079'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"8","type":"address","attributes":{"location":"1823 Cedar
+        Hill, Royal Oak MI, 48067"}}}'
+  recorded_at: Tue, 08 Nov 2022 06:23:42 GMT
+recorded_with: VCR 6.1.0
