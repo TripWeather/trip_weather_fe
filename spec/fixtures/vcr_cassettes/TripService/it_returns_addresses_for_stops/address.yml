@@ -1,0 +1,38 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips/6/stops/15/addresses/14
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"6333438e46854409c78458e6d05a074a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3a66253d-c130-4e86-9aa9-9dda5cf3994a
+      X-Runtime:
+      - '0.078723'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"14","type":"address","attributes":{"location":"123 N
+        Santa Wy, Glendale, AZ 84027"}}}'
+  recorded_at: Tue, 08 Nov 2022 04:40:09 GMT
+recorded_with: VCR 6.1.0

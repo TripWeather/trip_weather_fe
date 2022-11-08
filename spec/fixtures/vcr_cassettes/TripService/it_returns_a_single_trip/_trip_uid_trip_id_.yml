@@ -1,0 +1,38 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips/4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"51d28b4fe66f52f61bc8d9e9aad5100a"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d7f7ce10-ded0-4aaa-a3be-38b4a49ca726
+      X-Runtime:
+      - '0.011731'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"4","type":"trip","attributes":{"uid":"1000","name":"The
+        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}}}'
+  recorded_at: Tue, 08 Nov 2022 04:34:56 GMT
+recorded_with: VCR 6.1.0
