@@ -21,18 +21,18 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"6333438e46854409c78458e6d05a074a"
+      - W/"f0add329b064bd4ecd90cd6745aadb0d"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3a66253d-c130-4e86-9aa9-9dda5cf3994a
+      - 22f9525c-c828-4882-9899-f0ff410de98f
       X-Runtime:
-      - '0.078723'
+      - '0.005051'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"14","type":"address","attributes":{"location":"123 N
-        Santa Wy, Glendale, AZ 84027"}}}'
-  recorded_at: Tue, 08 Nov 2022 04:40:09 GMT
+      string: '{"data":{"id":"14","type":"address","attributes":{"location":"418 Bogan
+        Roads, South Renea, NJ 89316-9333"}}}'
+  recorded_at: Tue, 08 Nov 2022 22:10:03 GMT
 recorded_with: VCR 6.1.0
