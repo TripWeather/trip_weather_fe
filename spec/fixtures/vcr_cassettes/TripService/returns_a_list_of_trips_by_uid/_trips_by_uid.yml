@@ -21,13 +21,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"25e5d4d7fd7cf66945c5a90968b97c3c"
+      - W/"5a42ff7e2043e18345ae8218d1c855c2"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5dafe5ff-3b4b-4fa8-8583-80c2a874efe9
+      - 45c25289-6370-490d-8dd5-2b7b16e20159
       X-Runtime:
-      - '0.252478'
+      - '0.026626'
       Transfer-Encoding:
       - chunked
     body:
@@ -42,76 +42,6 @@ http_interactions:
         Adven","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"9","type":"stop"},{"id":"10","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/10/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/10"}},{"id":"11","type":"trip","attributes":{"uid":"1000","name":"Lovely
         Adve","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"11","type":"stop"},{"id":"12","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/11/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/11"}},{"id":"12","type":"trip","attributes":{"uid":"1000","name":"Lovely
         Adv","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"13","type":"stop"},{"id":"14","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/12/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/12"}},{"id":"13","type":"trip","attributes":{"uid":"1000","name":"Lovely
-        Ad","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"15","type":"stop"},{"id":"16","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/13/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/13"}},{"id":"15","type":"trip","attributes":{"uid":"1000","name":"Lovely
-        A","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"19","type":"stop"},{"id":"20","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/15/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/15"}}]}'
-  recorded_at: Tue, 08 Nov 2022 05:10:51 GMT
-- request:
-    method: get
-    uri: http://localhost:3000/api/v1/1000/trips/4
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"51d28b4fe66f52f61bc8d9e9aad5100a"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 69b33fdd-a1e1-4012-a390-7ab21c34d370
-      X-Runtime:
-      - '0.063910'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":"4","type":"trip","attributes":{"uid":"1000","name":"The
-        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}}}'
-  recorded_at: Tue, 08 Nov 2022 05:10:51 GMT
-- request:
-    method: get
-    uri: http://localhost:3000/api/v1/1000/trips/4/stops
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"8fe32e407a1038ee38753b70e5374b3a"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 30a1e9d6-fca0-4170-b277-cd6521d2ead7
-      X-Runtime:
-      - '0.004653'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"data":[]}'
-  recorded_at: Tue, 08 Nov 2022 05:10:51 GMT
+        Ad","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"15","type":"stop"},{"id":"16","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/13/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/13"}}]}'
+  recorded_at: Tue, 08 Nov 2022 04:36:41 GMT
 recorded_with: VCR 6.1.0

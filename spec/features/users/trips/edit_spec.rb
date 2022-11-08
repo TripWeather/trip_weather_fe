@@ -10,10 +10,10 @@ RSpec.describe 'Update a trip' do
     click_on "Log In"
     expect(current_path).to eq(dashboard_path)
 
-    visit "/trips/4"
+    visit "/trips/5"
     click_button "Update Trip"
 
-    expect(current_path).to eq("/trips/4/edit")
+    expect(current_path).to eq("/trips/5/edit")
 
     fill_in :name, with: "The Great Trip"
     fill_in :start_address, with: "123 N Santa Wy"
@@ -28,7 +28,7 @@ RSpec.describe 'Update a trip' do
 
     click_button "Update Trip"
 
-    expect(current_path).to eq("/trips/4")
+    expect(current_path).to eq("/trips/5")
 
     expect(page).to have_content("The Great Trip")
     expect(page).to_not have_content("Grand Adventure")
