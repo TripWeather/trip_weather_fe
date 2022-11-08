@@ -22,6 +22,8 @@
   <p> <%= form.label :start_zipcode, "Zip Code" %>
   <%= form.number_field :start_zipcode, min: 0, max: 99999, required: true  %> </p>
 
+  <%= form.hidden_field :start_point, value: 0 %>
+
 <h3> Arrival Address </h3>
 
   <p> <%= form.label :end_address, "Street Address" %>
@@ -35,6 +37,9 @@
 
   <p> <%= form.label :end_zipcode, "Zip Code" %>
   <%= form.number_field :end_zipcode, min: 0, max: 99999, required: true  %> </p>
+  
+  <%= form.hidden_field :end_point, value: 2 %>
+
 
   <p> <%= form.submit "Create Trip" %> </p>
 

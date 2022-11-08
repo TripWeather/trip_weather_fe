@@ -27,13 +27,22 @@ class TripService
 
   def self.update_trip(trip_id, name, uid, departure_date, arrival_date)
       response = conn.put("#{uid}/trips/#{trip_id}") do |req|
-        req.params[:trip] = { name: name, 
+                  req.params[:trip] = { name: name, 
                               uid: uid, 
                               departure_date: departure_date, 
                               arrival_date: arrival_date }
                   req.headers['Content-Type'] = 'application/json'
                   req.body = {query: 'update_trip'}.to_json
                 end
+  end
+
+  def self.create_stops(trip_id, uid, address, type)
+    response = conn.post("#{uid}/trips/#{trip_id}/stops") do |req|
+                req.params[:stop] = {  location: address, 
+                                          type_of_stop: type.to_i }
+                req.headers['Content-Type'] = 'application/json'
+                req.body = {query: 'create_stop'}.to_json
+              end
   end
 
 private
