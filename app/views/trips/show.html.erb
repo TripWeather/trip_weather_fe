@@ -3,3 +3,7 @@
 <%= button_to 'Update Trip', "/trips/#{@trip.id}/edit", method: :get %><br>
 <p>Departure: <%= @trip.standard_time(@trip.departure_date)%></p>
 <p>Arrival: <%= @trip.standard_time(@trip.arrival_date)%></p>
+<h3> Stops: </h3>
+<p><% @stops.each do |stop| %></p>
+  <%= stop.type_of_stop%> <%=stop.address%><br>
+  <% end %>

@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "id": "1",
+            "type": "stop",
+            "attributes": {
+                "type_of_stop": "start"
+            },
+            "relationships": {
+                "address": {
+                    "data": {
+                        "id": "1",
+                        "type": "address"
+                    },
+                    "links": {
+                        "related": "https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/1/addresses/1"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/1"
+            }
+        },
+        {
+            "id": "2",
+            "type": "stop",
+            "attributes": {
+                "type_of_stop": "end"
+            },
+            "relationships": {
+                "address": {
+                    "data": {
+                        "id": "2",
+                        "type": "address"
+                    },
+                    "links": {
+                        "related": "https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/2/addresses/2"
+                    }
+                }
+            },
+            "links": {
+                "self": "https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/2"
+            }
+        }
+    ]
+}

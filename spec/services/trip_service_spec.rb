@@ -37,4 +37,17 @@ RSpec.describe TripService do
       expect(trip_data[:data][:links]).to have_key(:self)
     end
   end
+
+  describe 'it returns all stops by trip' do
+    xit 'all_stops' do
+      road_trip = File.read('spec/fixtures/trip_by_id.json')
+      stub_request(:get, 'http://localhost:3000/api/v1/1000/trips/1/stops')
+      .to_return(status: 200, body: road_trip, headers: {})
+
+      trip_data = TripService.trip_by_id("1000", "1")
+
+      expect(stop_data).to be_a(Hash)
+      expect(trip_data).to have_key(:data)
+    end
+  end
 end
