@@ -20,7 +20,6 @@ class TripService
               end
   end
 
-
   def self.delete_trip(uid, trip_id)
     conn.delete("#{uid}/trips/#{trip_id}")
   end
