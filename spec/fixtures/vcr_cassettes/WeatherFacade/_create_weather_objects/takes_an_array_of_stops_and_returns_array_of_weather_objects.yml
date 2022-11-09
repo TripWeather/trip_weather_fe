@@ -21,21 +21,21 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"66d5a7e0cc712f8da746fc70a7f72e05"
+      - W/"5b5f7b63e62d0b41adba7b873448a89d"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 78ec4795-3ff4-4105-b026-f51868acd672
+      - 5a8b2fba-f7eb-4c1d-9e2f-0c2acf747a24
       X-Runtime:
-      - '0.793892'
+      - '0.757340'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":40,"short_forecast":"Partly
-        Cloudy","detailed_forecast":"Partly cloudy, with a low around 40. East wind
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":40,"short_forecast":"Mostly
+        Clear","detailed_forecast":"Mostly clear, with a low around 40. East wind
         around 7 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 02:40:45 GMT
+  recorded_at: Wed, 09 Nov 2022 04:04:10 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/weather?address=2303%20Braun%20Ct,%20Golden%20CO%2080401
@@ -57,19 +57,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"4e5bf9cc1954004fb0b77c1118715dda"
+      - W/"ba42f71ea66a929b9252027560ac4a9b"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 712705fc-24a6-486f-b466-f4bc2ddd9e84
+      - 067f3a22-b72f-435c-a7c1-17356edff63f
       X-Runtime:
-      - '0.617342'
+      - '0.531228'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":40,"short_forecast":"Partly
         Cloudy","detailed_forecast":"Partly cloudy. Low around 40, with temperatures
-        rising to around 42 overnight. West southwest wind 5 to 8 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 02:40:46 GMT
+        rising to around 42 overnight. Southwest wind 5 to 8 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 04:04:11 GMT
 recorded_with: VCR 6.1.0

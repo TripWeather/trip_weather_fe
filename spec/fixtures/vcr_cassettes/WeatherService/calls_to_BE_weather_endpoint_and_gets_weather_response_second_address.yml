@@ -21,19 +21,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"4e5bf9cc1954004fb0b77c1118715dda"
+      - W/"ba42f71ea66a929b9252027560ac4a9b"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b4ecea8b-12fc-443c-8011-fb4343d18634
+      - beffcafe-667e-4c93-ac9a-42518fa5d6fd
       X-Runtime:
-      - '0.451179'
+      - '0.408165'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":40,"short_forecast":"Partly
         Cloudy","detailed_forecast":"Partly cloudy. Low around 40, with temperatures
-        rising to around 42 overnight. West southwest wind 5 to 8 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 02:41:06 GMT
+        rising to around 42 overnight. Southwest wind 5 to 8 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 04:04:37 GMT
 recorded_with: VCR 6.1.0

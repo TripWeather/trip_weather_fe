@@ -25,14 +25,14 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1a8dfe82-715e-4028-8c71-c92f2fa4524a
+      - 23aca53b-131c-4261-a9c4-b2a1b092a81b
       X-Runtime:
-      - '0.006299'
+      - '0.007021'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"14","type":"address","attributes":{"location":"1530
         Blake Street Denver, CO 80202"}}}'
-  recorded_at: Wed, 09 Nov 2022 02:41:05 GMT
+  recorded_at: Wed, 09 Nov 2022 04:04:36 GMT
 recorded_with: VCR 6.1.0

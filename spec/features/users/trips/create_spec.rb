@@ -35,7 +35,7 @@ RSpec.describe 'Create and Delete a trip', :vcr do
 
       click_button "Create Trip"
 
-      expect(current_path).to eq("/trips")
+      expect(current_path).to eq("/trips/8")
 
       expect(page).to have_content("Mega Adventure")
       expect(page).to have_content("You've Created a New Adventure!")
