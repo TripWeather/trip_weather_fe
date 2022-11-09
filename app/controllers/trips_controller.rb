@@ -32,7 +32,7 @@ class TripsController < ApplicationController
     TripFacade.create_stops(trip_id, @user.google_id, start_address, params[:start_point] )
     TripFacade.create_stops(trip_id, @user.google_id, end_address, params[:end_point])
     flash[:success] = "You've Created a New Adventure!"
-    redirect_to '/trips'
+    redirect_to "/trips/#{trip_id}"
   end
 
   def destroy
