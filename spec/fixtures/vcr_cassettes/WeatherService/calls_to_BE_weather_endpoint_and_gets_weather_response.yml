@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/6/stops/15/addresses/14
+    uri: http://localhost:3000/api/v1/weather?address=1823%20Cedar%20Hill%20Dr,%20Royal%20Oak%20MI%2048067
     body:
       encoding: US-ASCII
       string: ''
@@ -21,18 +21,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"784676d33ead4fa2a1fff5d972da4c56"
+      - W/"66d5a7e0cc712f8da746fc70a7f72e05"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5223368f-e68e-4277-827b-0117d66620cc
+      - fe2ebb48-24a0-4d98-ad3a-a9734495fe04
       X-Runtime:
-      - '0.002663'
+      - '0.635835'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"14","type":"address","attributes":{"location":"1823
-        Cedar HIll, Royal Oak, MI 48067"}}}'
-  recorded_at: Wed, 09 Nov 2022 00:55:33 GMT
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":40,"short_forecast":"Partly
+        Cloudy","detailed_forecast":"Partly cloudy, with a low around 40. East wind
+        around 7 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 00:55:34 GMT
 recorded_with: VCR 6.1.0

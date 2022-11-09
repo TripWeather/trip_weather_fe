@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/6/stops/15/addresses/14
+    uri: http://localhost:3000/api/v1/weather?address=2303%20Braun%20Ct,%20Golden%20CO%2080401
     body:
       encoding: US-ASCII
       string: ''
@@ -21,18 +21,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"784676d33ead4fa2a1fff5d972da4c56"
+      - W/"ec080793398c34abdc7db2aabd1ce890"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5223368f-e68e-4277-827b-0117d66620cc
+      - 7f53ed05-79d1-46e4-953c-6a1282e7e004
       X-Runtime:
-      - '0.002663'
+      - '0.469215'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"14","type":"address","attributes":{"location":"1823
-        Cedar HIll, Royal Oak, MI 48067"}}}'
-  recorded_at: Wed, 09 Nov 2022 00:55:33 GMT
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":72,"short_forecast":"Sunny","detailed_forecast":"Sunny.
+        High near 72, with temperatures falling to around 61 in the afternoon. North
+        northeast wind around 6 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 00:55:34 GMT
 recorded_with: VCR 6.1.0

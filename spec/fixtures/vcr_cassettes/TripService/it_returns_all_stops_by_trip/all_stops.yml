@@ -21,17 +21,17 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"0c03241d46a20f33283a7b9b49da1362"
+      - W/"ee5fb63e74bdd8270254f8aaf85c1228"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1495b5c3-0d9a-47f5-b594-8283bffc7cab
+      - 0e4b21b6-241d-4f00-bbd5-63ca5ae5a3c6
       X-Runtime:
-      - '0.007108'
+      - '0.019974'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"8","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"7","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/8/addresses/7"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/110338485940940085633/trips/6/stops/8"}},{"id":"9","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"8","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/9/addresses/8"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/110338485940940085633/trips/6/stops/9"}}]}'
-  recorded_at: Tue, 08 Nov 2022 19:08:41 GMT
+      string: '{"data":[{"id":"11","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"11","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/11/addresses/11"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/11"}},{"id":"12","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"12","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/12/addresses/12"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/12"}}]}'
+  recorded_at: Wed, 09 Nov 2022 00:55:33 GMT
 recorded_with: VCR 6.1.0

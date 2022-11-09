@@ -21,23 +21,21 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"266d774b1557795bf70c53b956f1a2d7"
+      - W/"a09526f2c23745ce2c76cc0ff9b84217"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3fce8d21-848a-456b-a757-7317d0400b2a
+      - a861f5f3-32f2-46c5-90a4-042d2815505a
       X-Runtime:
-      - '0.138107'
+      - '0.121424'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"7","type":"trip","attributes":{"uid":"1000","name":"Grand
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"10","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/7/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/7"}},{"id":"8","type":"trip","attributes":{"uid":"1000","name":"Lovely
-        A","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"11","type":"stop"},{"id":"12","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8"}},{"id":"9","type":"trip","attributes":{"uid":"1000","name":"Grand
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"13","type":"stop"},{"id":"14","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}},{"id":"10","type":"trip","attributes":{"uid":"1000","name":"Lovely
-        A","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"15","type":"stop"},{"id":"16","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/10/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/10"}}]}'
-  recorded_at: Tue, 08 Nov 2022 19:08:35 GMT
+      string: '{"data":[{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-08T21:25:51.840Z","arrival_date":"2022-11-10T21:25:21.840Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}},{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-08T21:25:51.884Z","arrival_date":"2022-11-13T21:25:21.884Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-08T21:25:51.893Z","arrival_date":"2022-11-18T21:25:21.893Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"8","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"15","type":"stop"},{"id":"16","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8"}},{"id":"9","type":"trip","attributes":{"uid":"1000","name":"Stephen''s
+        Trip","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"17","type":"stop"},{"id":"18","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}}]}'
+  recorded_at: Wed, 09 Nov 2022 00:55:26 GMT
 - request:
     method: post
     uri: http://localhost:3000/api/v1/1000/trips?trip%5Barrival_date%5D=2024-11-10T13:37:38.000Z&trip%5Bdeparture_date%5D=2022-11-30%2015:00&trip%5Bname%5D=Grand%20Adventure&trip%5Buid%5D=1000
@@ -61,23 +59,23 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"2d5a17731f0853f870ad6591978b2c61"
+      - W/"33e4f627e81c0996ac98f8d1ba70acd9"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 36577ca7-1229-48ad-9cea-c9a64aaa2a0e
+      - e0b43c8f-43d0-4a8f-b32e-9f4608c60cb6
       X-Runtime:
-      - '0.105227'
+      - '0.044773'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"11","type":"trip","attributes":{"uid":"1000","name":"Grand
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/11/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/11"}}}'
-  recorded_at: Tue, 08 Nov 2022 19:08:35 GMT
+      string: '{"data":{"id":"10","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/10/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/10"}}}'
+  recorded_at: Wed, 09 Nov 2022 00:55:26 GMT
 - request:
     method: post
-    uri: http://localhost:3000/api/v1/1000/trips/11/stops?stop%5Blocation%5D=123%20N%20Santa%20Wy,%20Phoenix,%20AZ%2080012&stop%5Btype_of_stop%5D=0
+    uri: http://localhost:3000/api/v1/1000/trips/10/stops?stop%5Blocation%5D=123%20N%20Santa%20Wy,%20Phoenix,%20AZ%2080012&stop%5Btype_of_stop%5D=0
     body:
       encoding: UTF-8
       string: '{"query":"create_stop"}'
@@ -98,22 +96,22 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"c18de46b61d0ac9e4d653d85029cc5d3"
+      - W/"d65f421f89527f439476db5521bd494a"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f4c9f5be-e62a-4679-9cfd-80e6971ad988
+      - b335fc0d-5af5-4d7e-97bb-cee0e9cd1a77
       X-Runtime:
-      - '0.059833'
+      - '0.095745'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"17","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"16","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/11/stops/17/addresses/16"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/11/stops/17"}}}'
-  recorded_at: Tue, 08 Nov 2022 19:08:36 GMT
+      string: '{"data":{"id":"19","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"19","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/10/stops/19/addresses/19"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/10/stops/19"}}}'
+  recorded_at: Wed, 09 Nov 2022 00:55:26 GMT
 - request:
     method: post
-    uri: http://localhost:3000/api/v1/1000/trips/11/stops?stop%5Blocation%5D=123%20N%20Santa%20Wy,%20Glendale,%20AZ%2084027&stop%5Btype_of_stop%5D=2
+    uri: http://localhost:3000/api/v1/1000/trips/10/stops?stop%5Blocation%5D=123%20N%20Santa%20Wy,%20Glendale,%20AZ%2084027&stop%5Btype_of_stop%5D=2
     body:
       encoding: UTF-8
       string: '{"query":"create_stop"}'
@@ -134,19 +132,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"09a2c516af67446f18d5d20a5ab43410"
+      - W/"c8fabd52cca836f1b36da9d673ca7b47"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3f1479d7-53f2-4567-bb42-a3e03e4245b0
+      - 7a7a69a7-bcf7-40fa-b092-3fc04570ba9e
       X-Runtime:
-      - '0.110723'
+      - '0.047846'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"18","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"17","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/11/stops/18/addresses/17"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/11/stops/18"}}}'
-  recorded_at: Tue, 08 Nov 2022 19:08:36 GMT
+      string: '{"data":{"id":"20","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"20","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/10/stops/20/addresses/20"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/10/stops/20"}}}'
+  recorded_at: Wed, 09 Nov 2022 00:55:26 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips
@@ -168,22 +166,20 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"902c09e6c08d33560910ea760f40123c"
+      - W/"944b71bb7ba8b81b423d7a3f4be579f7"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - efd7dbc7-82a2-4bc3-b3dd-8a224d44d516
+      - 9eb4fdcc-5bcc-4760-9057-5ae37f8dba0d
       X-Runtime:
-      - '0.010452'
+      - '0.012954'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"7","type":"trip","attributes":{"uid":"1000","name":"Grand
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"10","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/7/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/7"}},{"id":"8","type":"trip","attributes":{"uid":"1000","name":"Lovely
-        A","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"11","type":"stop"},{"id":"12","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8"}},{"id":"9","type":"trip","attributes":{"uid":"1000","name":"Grand
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"13","type":"stop"},{"id":"14","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}},{"id":"10","type":"trip","attributes":{"uid":"1000","name":"Lovely
-        A","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"15","type":"stop"},{"id":"16","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/10/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/10"}},{"id":"11","type":"trip","attributes":{"uid":"1000","name":"Grand
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"17","type":"stop"},{"id":"18","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/11/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/11"}}]}'
-  recorded_at: Tue, 08 Nov 2022 19:08:36 GMT
+      string: '{"data":[{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-08T21:25:51.840Z","arrival_date":"2022-11-10T21:25:21.840Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}},{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-08T21:25:51.884Z","arrival_date":"2022-11-13T21:25:21.884Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-08T21:25:51.893Z","arrival_date":"2022-11-18T21:25:21.893Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"8","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"15","type":"stop"},{"id":"16","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8"}},{"id":"9","type":"trip","attributes":{"uid":"1000","name":"Stephen''s
+        Trip","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"17","type":"stop"},{"id":"18","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}},{"id":"10","type":"trip","attributes":{"uid":"1000","name":"Grand
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"19","type":"stop"},{"id":"20","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/10/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/10"}}]}'
+  recorded_at: Wed, 09 Nov 2022 00:55:27 GMT
 recorded_with: VCR 6.1.0

@@ -7,6 +7,7 @@ class TripsController < ApplicationController
     start_address = @stops.first.address
     end_address = @stops.last.address
     @nav = NavFacade.create_nav_object(start_address, end_address)
+    @weather = WeatherFacade.create_weather_objects(@stops)
   end
 
   def index

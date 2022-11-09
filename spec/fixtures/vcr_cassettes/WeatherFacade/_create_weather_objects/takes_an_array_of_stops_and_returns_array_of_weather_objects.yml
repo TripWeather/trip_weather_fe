@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/weather?address=1823%20Cedar%20Hill%20Dr,%20Royal%20Oak%20MI%2048067
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"66d5a7e0cc712f8da746fc70a7f72e05"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 518bd1dd-feba-42ec-8500-b494011dff8f
+      X-Runtime:
+      - '0.589669'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":40,"short_forecast":"Partly
+        Cloudy","detailed_forecast":"Partly cloudy, with a low around 40. East wind
+        around 7 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 00:55:25 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/weather?address=2303%20Braun%20Ct,%20Golden%20CO%2080401
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"ec080793398c34abdc7db2aabd1ce890"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b5ec6231-c17e-479e-b6d5-e34929d57348
+      X-Runtime:
+      - '0.745639'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":72,"short_forecast":"Sunny","detailed_forecast":"Sunny.
+        High near 72, with temperatures falling to around 61 in the afternoon. North
+        northeast wind around 6 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 00:55:26 GMT
+recorded_with: VCR 6.1.0
