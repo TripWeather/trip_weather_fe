@@ -21,20 +21,21 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"9170b523fe8201770bbc7624b363d202"
+      - W/"f8711a359de3554555bc9e6837c2fdce"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f43e57db-2645-40da-8eea-787b1494a9bd
+      - 58b8ac40-4f42-4cf3-8c9d-6dc2aada9fd8
       X-Runtime:
-      - '0.004947'
+      - '0.072044'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T01:47:21.757Z","arrival_date":"2022-11-14T01:46:51.757Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T01:47:21.763Z","arrival_date":"2022-11-19T01:46:51.763Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T01:47:21.767Z","arrival_date":"2022-11-19T01:46:51.767Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
+      string: '{"data":[{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T02:40:49.978Z","arrival_date":"2022-11-14T02:40:19.978Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T02:40:49.987Z","arrival_date":"2022-11-19T02:40:19.987Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T02:40:49.996Z","arrival_date":"2022-11-19T02:40:19.996Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"8","type":"trip","attributes":{"uid":"1000","name":"Mega
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"15","type":"stop"},{"id":"16","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8"}},{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
         Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}]}'
-  recorded_at: Wed, 09 Nov 2022 01:47:37 GMT
+  recorded_at: Wed, 09 Nov 2022 02:41:00 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/3
@@ -56,19 +57,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e179a0d248ef561f5f725aa0dceb6a61"
+      - W/"7420a40f2550e34e09077f2bb89e278b"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0b6fea14-6626-418b-9b53-a1876cb3ca6b
+      - 6f77fc88-1f9d-4224-8b9a-817e2113ea25
       X-Runtime:
-      - '0.004500'
+      - '0.012690'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T01:47:21.763Z","arrival_date":"2022-11-19T01:46:51.763Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}}}'
-  recorded_at: Wed, 09 Nov 2022 01:47:37 GMT
+      string: '{"data":{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T02:40:49.987Z","arrival_date":"2022-11-19T02:40:19.987Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}}}'
+  recorded_at: Wed, 09 Nov 2022 02:41:00 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/3/stops
@@ -94,15 +95,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4d53a17e-39b9-4353-a886-d05be2aac50b
+      - b5db1941-68b2-4702-8996-c5cbc14407ce
       X-Runtime:
-      - '0.003795'
+      - '0.016606'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":[{"id":"5","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"5","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/5/addresses/5"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3/stops/5"}},{"id":"6","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"6","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/6/addresses/6"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3/stops/6"}}]}'
-  recorded_at: Wed, 09 Nov 2022 01:47:37 GMT
+  recorded_at: Wed, 09 Nov 2022 02:41:00 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/3/stops/5/addresses/5
@@ -124,20 +125,20 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"6bf5a80eb3fd65a35da208963111f6ed"
+      - W/"e0fbe8a99ef50ce7853ac4d174cb8832"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - a0f5c279-a3da-4013-ae9f-f8eaeeec9027
+      - b81cd235-9fa8-4d0f-91b5-b26f15841093
       X-Runtime:
-      - '0.001887'
+      - '0.005201'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"5","type":"address","attributes":{"location":"Suite
-        158 8439 Pagac Square, Aletaside, PA 35194-2888"}}}'
-  recorded_at: Wed, 09 Nov 2022 01:47:37 GMT
+      string: '{"data":{"id":"5","type":"address","attributes":{"location":"110 W
+        George Street Milford, PA 18337"}}}'
+  recorded_at: Wed, 09 Nov 2022 02:41:00 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/3/stops/6/addresses/6
@@ -159,60 +160,23 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"3003362c7d8f904c0fed2c7d43c95ecb"
+      - W/"78dabdea07c26ec59b7ad815a8bc54c0"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - de1d3864-09b2-4cba-9979-d17343473164
+      - 3aebf9ce-2830-435e-b638-4379e2cad7d0
       X-Runtime:
-      - '0.004912'
+      - '0.005099'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"6","type":"address","attributes":{"location":"418 Bogan
-        Roads, South Renea, NJ 89316-9333"}}}'
-  recorded_at: Wed, 09 Nov 2022 01:47:37 GMT
-- request:
-    method: put
-    uri: http://localhost:3000/api/v1/1000/trips/3/stops/5/addresses/5?address%5Blocation%5D=456%20Claus%20Place,%20Birmingham,%20CO%2080012
-    body:
-      encoding: UTF-8
-      string: '{"query":"update_address"}'
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Content-Type:
-      - application/json
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"cb7e53b50caf8bdd336ccf6217cb9b11"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 8776c72d-4a9a-4211-b085-9e73c1e83085
-      X-Runtime:
-      - '0.009269'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":"5","type":"address","attributes":{"location":"456 Claus
-        Place, Birmingham, CO 80012"}}}'
-  recorded_at: Wed, 09 Nov 2022 01:47:37 GMT
+      string: '{"data":{"id":"6","type":"address","attributes":{"location":"350 State
+        St, Salt Lake City, UT 84103"}}}'
+  recorded_at: Wed, 09 Nov 2022 02:41:00 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/3
+    uri: http://localhost:3000/api/v1/nav?from=110%20W%20George%20Street%20Milford,%20PA%2018337&to=350%20State%20St,%20Salt%20Lake%20City,%20UT%2084103
     body:
       encoding: US-ASCII
       string: ''
@@ -231,22 +195,42 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e179a0d248ef561f5f725aa0dceb6a61"
+      - W/"daca6513b8dcfd0f4a5320c35727ce8e"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - bce98d9f-f248-4634-aaf7-cc182ccaa34d
+      - af4843e5-91be-4e3f-a479-c127c3cd8f16
       X-Runtime:
-      - '0.005382'
+      - '1.363258'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T01:47:21.763Z","arrival_date":"2022-11-19T01:46:51.763Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}}}'
-  recorded_at: Wed, 09 Nov 2022 01:47:37 GMT
+      string: '{"data":{"id":"1","type":"nav","attributes":{"turn_by_turn_directions":[["Head
+        toward Gooseberry Aly on W George St. Go for 322 ft.",0.0609],["Turn right
+        onto Broad St (US-6/US-209). Go for 0.3 mi.",0.302],["Turn right onto W Harford
+        St (US-6). Go for 2.3 mi.",2.3134],["Take ramp onto I-84 W. Go for 45.9 mi.",45.9442],["Take
+        the exit toward Wilkes-Barre onto I-81 S. Go for 36.6 mi.",36.5839],["Take
+        exit 151B toward Bloomsburg onto I-80 W. Go for 259 mi.",259.4672],["Continue
+        on I-80. Go for 17.5 mi.",17.4916],["Take the exit onto I-80 W (Ohio Tpke).
+        Go for 219 mi.",219.3894],["Continue on I-80/I-90 (Indiana Toll Rd). Go for
+        136 mi.",135.5962],["Take exit 21 toward IN-51 S onto I-80 W/I-94 W (Borman
+        Expy). Go for 16.1 mi.",16.1432],["Continue on I-80/I-94 (Kingery Expy W).
+        Go for 1.3 mi.",1.3366],["Continue on I-80 (Tri-State Tlwy). Go for 6.2 mi.",6.1833],["Take
+        exit 5 toward Iowa onto I-80 W. Go for 146 mi.",145.5941],["Take the exit
+        toward Davenport onto I-80 W (Chicago-Kansas City Expy). Go for 10.4 mi.",10.4328],["Continue
+        on I-80. Go for 182 mi.",182.483],["Take the exit toward Omaha onto I-80 W.
+        Go for 123 mi.",122.6692],["Continue on I-80. Go for 401 mi.",401.0199],["Keep
+        right onto I-80. Go for 53.9 mi.",53.9189],["Continue on I-80. Go for 402
+        mi.",402.0849],["Continue on I-80. Go for 72.4 mi.",72.3556],["Take exit 125
+        toward UT-71/700 East. Go for 0.4 mi.",0.3511],["Continue on S 700 E (UT-71).
+        Go for 2.8 mi.",2.8285],["Turn left onto E 400 S (UT-186). Go for 0.9 mi.",0.919],["Turn
+        right onto S State St (UT-186). Go for 0.6 mi.",0.5965],["Continue on N State
+        St (UT-186). Go for 0.4 mi.",0.4399],["Arrive at N State St (UT-186).",0]],"total_trip_time":111990,"total_distance":2136.5053,"has_toll_road":true}}}'
+  recorded_at: Wed, 09 Nov 2022 02:41:01 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/3/stops
+    uri: http://localhost:3000/api/v1/weather?address=110%20W%20George%20Street%20Milford,%20PA%2018337
     body:
       encoding: US-ASCII
       string: ''
@@ -259,93 +243,126 @@ http_interactions:
       - "*/*"
   response:
     status:
-      code: 200
-      message: OK
+      code: 500
+      message: Internal Server Error
     headers:
       Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"c5d26b94ca8adcd256aa912b2ac8feac"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
+      - application/json; charset=UTF-8
       X-Request-Id:
-      - b11c76d2-fb21-479d-a774-9e66cc13cf61
+      - eef3eae2-18dd-4e30-8a2a-3c6ba4bbf11e
       X-Runtime:
-      - '0.006117'
-      Transfer-Encoding:
-      - chunked
+      - '0.920281'
+      Content-Length:
+      - '10257'
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"5","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"5","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/5/addresses/5"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3/stops/5"}},{"id":"6","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"6","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/6/addresses/6"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3/stops/6"}}]}'
-  recorded_at: Wed, 09 Nov 2022 01:47:37 GMT
-- request:
-    method: get
-    uri: http://localhost:3000/api/v1/1000/trips/3/stops/5/addresses/5
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"cb7e53b50caf8bdd336ccf6217cb9b11"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - '02900644-3784-40c0-a2f5-24eb4a51b540'
-      X-Runtime:
-      - '0.003061'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":"5","type":"address","attributes":{"location":"456 Claus
-        Place, Birmingham, CO 80012"}}}'
-  recorded_at: Wed, 09 Nov 2022 01:47:37 GMT
-- request:
-    method: get
-    uri: http://localhost:3000/api/v1/1000/trips/3/stops/6/addresses/6
-    body:
-      encoding: US-ASCII
-      string: ''
-    headers:
-      User-Agent:
-      - Faraday v2.6.0
-      Accept-Encoding:
-      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
-      Accept:
-      - "*/*"
-  response:
-    status:
-      code: 200
-      message: OK
-    headers:
-      Content-Type:
-      - application/json; charset=utf-8
-      Etag:
-      - W/"3003362c7d8f904c0fed2c7d43c95ecb"
-      Cache-Control:
-      - max-age=0, private, must-revalidate
-      X-Request-Id:
-      - 2441da62-b146-4d94-9fbe-ac39dd56d1f8
-      X-Runtime:
-      - '0.002910'
-      Transfer-Encoding:
-      - chunked
-    body:
-      encoding: UTF-8
-      string: '{"data":{"id":"6","type":"address","attributes":{"location":"418 Bogan
-        Roads, South Renea, NJ 89316-9333"}}}'
-  recorded_at: Wed, 09 Nov 2022 01:47:37 GMT
+      string: '{"status":500,"error":"Internal Server Error","exception":"#\u003cNoMethodError:
+        undefined method `[]'' for nil:NilClass\u003e","traces":{"Application Trace":[{"id":0,"trace":"app/facades/weather_facade.rb:7:in
+        `forecast''"},{"id":1,"trace":"app/controllers/api/v1/weather_controller.rb:10:in
+        `index''"}],"Framework Trace":[{"id":2,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/basic_implicit_render.rb:6:in
+        `send_action''"},{"id":3,"trace":"actionpack (5.2.8.1) lib/abstract_controller/base.rb:194:in
+        `process_action''"},{"id":4,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/rendering.rb:30:in
+        `process_action''"},{"id":5,"trace":"actionpack (5.2.8.1) lib/abstract_controller/callbacks.rb:42:in
+        `block in process_action''"},{"id":6,"trace":"activesupport (5.2.8.1) lib/active_support/callbacks.rb:98:in
+        `run_callbacks''"},{"id":7,"trace":"actionpack (5.2.8.1) lib/abstract_controller/callbacks.rb:41:in
+        `process_action''"},{"id":8,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/rescue.rb:22:in
+        `process_action''"},{"id":9,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/instrumentation.rb:34:in
+        `block in process_action''"},{"id":10,"trace":"activesupport (5.2.8.1) lib/active_support/notifications.rb:168:in
+        `block in instrument''"},{"id":11,"trace":"activesupport (5.2.8.1) lib/active_support/notifications/instrumenter.rb:23:in
+        `instrument''"},{"id":12,"trace":"activesupport (5.2.8.1) lib/active_support/notifications.rb:168:in
+        `instrument''"},{"id":13,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/instrumentation.rb:32:in
+        `process_action''"},{"id":14,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/params_wrapper.rb:256:in
+        `process_action''"},{"id":15,"trace":"activerecord (5.2.8.1) lib/active_record/railties/controller_runtime.rb:24:in
+        `process_action''"},{"id":16,"trace":"actionpack (5.2.8.1) lib/abstract_controller/base.rb:134:in
+        `process''"},{"id":17,"trace":"actionpack (5.2.8.1) lib/action_controller/metal.rb:191:in
+        `dispatch''"},{"id":18,"trace":"actionpack (5.2.8.1) lib/action_controller/metal.rb:252:in
+        `dispatch''"},{"id":19,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:52:in
+        `dispatch''"},{"id":20,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:34:in
+        `serve''"},{"id":21,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:52:in
+        `block in serve''"},{"id":22,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in
+        `each''"},{"id":23,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in
+        `serve''"},{"id":24,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:840:in
+        `call''"},{"id":25,"trace":"rack (2.2.4) lib/rack/etag.rb:27:in `call''"},{"id":26,"trace":"rack
+        (2.2.4) lib/rack/conditional_get.rb:27:in `call''"},{"id":27,"trace":"rack
+        (2.2.4) lib/rack/head.rb:12:in `call''"},{"id":28,"trace":"activerecord (5.2.8.1)
+        lib/active_record/migration.rb:559:in `call''"},{"id":29,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call''"},{"id":30,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:98:in `run_callbacks''"},{"id":31,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call''"},{"id":32,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call''"},{"id":33,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call''"},{"id":34,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call''"},{"id":35,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app''"},{"id":36,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call''"},{"id":37,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged''"},{"id":38,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged''"},{"id":39,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged''"},{"id":40,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `call''"},{"id":41,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call''"},{"id":42,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call''"},{"id":43,"trace":"rack
+        (2.2.4) lib/rack/runtime.rb:22:in `call''"},{"id":44,"trace":"activesupport
+        (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in
+        `call''"},{"id":45,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in
+        `call''"},{"id":46,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in
+        `call''"},{"id":47,"trace":"rack (2.2.4) lib/rack/sendfile.rb:110:in `call''"},{"id":48,"trace":"railties
+        (5.2.8.1) lib/rails/engine.rb:524:in `call''"},{"id":49,"trace":"puma (3.12.6)
+        lib/puma/configuration.rb:227:in `call''"},{"id":50,"trace":"puma (3.12.6)
+        lib/puma/server.rb:706:in `handle_request''"},{"id":51,"trace":"puma (3.12.6)
+        lib/puma/server.rb:476:in `process_client''"},{"id":52,"trace":"puma (3.12.6)
+        lib/puma/server.rb:334:in `block in run''"},{"id":53,"trace":"puma (3.12.6)
+        lib/puma/thread_pool.rb:135:in `block in spawn_thread''"}],"Full Trace":[{"id":0,"trace":"app/facades/weather_facade.rb:7:in
+        `forecast''"},{"id":1,"trace":"app/controllers/api/v1/weather_controller.rb:10:in
+        `index''"},{"id":2,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/basic_implicit_render.rb:6:in
+        `send_action''"},{"id":3,"trace":"actionpack (5.2.8.1) lib/abstract_controller/base.rb:194:in
+        `process_action''"},{"id":4,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/rendering.rb:30:in
+        `process_action''"},{"id":5,"trace":"actionpack (5.2.8.1) lib/abstract_controller/callbacks.rb:42:in
+        `block in process_action''"},{"id":6,"trace":"activesupport (5.2.8.1) lib/active_support/callbacks.rb:98:in
+        `run_callbacks''"},{"id":7,"trace":"actionpack (5.2.8.1) lib/abstract_controller/callbacks.rb:41:in
+        `process_action''"},{"id":8,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/rescue.rb:22:in
+        `process_action''"},{"id":9,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/instrumentation.rb:34:in
+        `block in process_action''"},{"id":10,"trace":"activesupport (5.2.8.1) lib/active_support/notifications.rb:168:in
+        `block in instrument''"},{"id":11,"trace":"activesupport (5.2.8.1) lib/active_support/notifications/instrumenter.rb:23:in
+        `instrument''"},{"id":12,"trace":"activesupport (5.2.8.1) lib/active_support/notifications.rb:168:in
+        `instrument''"},{"id":13,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/instrumentation.rb:32:in
+        `process_action''"},{"id":14,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/params_wrapper.rb:256:in
+        `process_action''"},{"id":15,"trace":"activerecord (5.2.8.1) lib/active_record/railties/controller_runtime.rb:24:in
+        `process_action''"},{"id":16,"trace":"actionpack (5.2.8.1) lib/abstract_controller/base.rb:134:in
+        `process''"},{"id":17,"trace":"actionpack (5.2.8.1) lib/action_controller/metal.rb:191:in
+        `dispatch''"},{"id":18,"trace":"actionpack (5.2.8.1) lib/action_controller/metal.rb:252:in
+        `dispatch''"},{"id":19,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:52:in
+        `dispatch''"},{"id":20,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:34:in
+        `serve''"},{"id":21,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:52:in
+        `block in serve''"},{"id":22,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in
+        `each''"},{"id":23,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in
+        `serve''"},{"id":24,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:840:in
+        `call''"},{"id":25,"trace":"rack (2.2.4) lib/rack/etag.rb:27:in `call''"},{"id":26,"trace":"rack
+        (2.2.4) lib/rack/conditional_get.rb:27:in `call''"},{"id":27,"trace":"rack
+        (2.2.4) lib/rack/head.rb:12:in `call''"},{"id":28,"trace":"activerecord (5.2.8.1)
+        lib/active_record/migration.rb:559:in `call''"},{"id":29,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call''"},{"id":30,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:98:in `run_callbacks''"},{"id":31,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call''"},{"id":32,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call''"},{"id":33,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call''"},{"id":34,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call''"},{"id":35,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app''"},{"id":36,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call''"},{"id":37,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged''"},{"id":38,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged''"},{"id":39,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged''"},{"id":40,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `call''"},{"id":41,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call''"},{"id":42,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call''"},{"id":43,"trace":"rack
+        (2.2.4) lib/rack/runtime.rb:22:in `call''"},{"id":44,"trace":"activesupport
+        (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in
+        `call''"},{"id":45,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in
+        `call''"},{"id":46,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in
+        `call''"},{"id":47,"trace":"rack (2.2.4) lib/rack/sendfile.rb:110:in `call''"},{"id":48,"trace":"railties
+        (5.2.8.1) lib/rails/engine.rb:524:in `call''"},{"id":49,"trace":"puma (3.12.6)
+        lib/puma/configuration.rb:227:in `call''"},{"id":50,"trace":"puma (3.12.6)
+        lib/puma/server.rb:706:in `handle_request''"},{"id":51,"trace":"puma (3.12.6)
+        lib/puma/server.rb:476:in `process_client''"},{"id":52,"trace":"puma (3.12.6)
+        lib/puma/server.rb:334:in `block in run''"},{"id":53,"trace":"puma (3.12.6)
+        lib/puma/thread_pool.rb:135:in `block in spawn_thread''"}]}}'
+  recorded_at: Wed, 09 Nov 2022 02:41:02 GMT
 recorded_with: VCR 6.1.0

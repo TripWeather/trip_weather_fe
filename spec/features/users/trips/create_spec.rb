@@ -19,25 +19,25 @@ RSpec.describe 'Create and Delete a trip', :vcr do
 
       expect(current_path).to eq("/trips/new")
 
-      fill_in :name, with: "Super Adventure"
-      fill_in :start_address, with: "123 N Santa Wy"
-      fill_in :start_city, with: "Phoenix"
-      select "AZ", from: :start_state
-      fill_in :start_zipcode, with: "80012"
+      fill_in :name, with: "Mega Adventure"
+      fill_in :start_address, with: "2303 Braun Ct"
+      fill_in :start_city, with: "Golden"
+      select "CO", from: :start_state
+      fill_in :start_zipcode, with: "80401"
 
       fill_in :departure_date, with: '2022-11-30 15:00'
 
-      fill_in :end_address, with: "123 N Santa Wy"
-      fill_in :end_city, with: "Glendale"
-      select "AZ", from: :end_state
-      fill_in :end_zipcode, with: "84027"
+      fill_in :end_address, with: "1823 Cedar Hill"
+      fill_in :end_city, with: "Royal Oak"
+      select "MI", from: :end_state
+      fill_in :end_zipcode, with: "48067"
 
 
       click_button "Create Trip"
 
       expect(current_path).to eq("/trips")
 
-      expect(page).to have_content("Super Adventure")
+      expect(page).to have_content("Mega Adventure")
       expect(page).to have_content("You've Created a New Adventure!")
     end
   end
@@ -50,7 +50,7 @@ RSpec.describe 'Create and Delete a trip', :vcr do
 
       expect(current_path).to eq('/trips')
 
-      expect(page).to_not have_content("Super Adventure")
+      expect(page).to_not have_content("Mega Adventure")
       expect(page).to have_content("Trip has been Cancelled")
     end
   end

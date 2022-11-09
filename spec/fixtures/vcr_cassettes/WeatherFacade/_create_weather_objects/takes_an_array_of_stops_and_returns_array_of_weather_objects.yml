@@ -1,0 +1,75 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/weather?address=1823%20Cedar%20Hill%20Dr,%20Royal%20Oak%20MI%2048067
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"66d5a7e0cc712f8da746fc70a7f72e05"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 78ec4795-3ff4-4105-b026-f51868acd672
+      X-Runtime:
+      - '0.793892'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":40,"short_forecast":"Partly
+        Cloudy","detailed_forecast":"Partly cloudy, with a low around 40. East wind
+        around 7 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 02:40:45 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/weather?address=2303%20Braun%20Ct,%20Golden%20CO%2080401
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"4e5bf9cc1954004fb0b77c1118715dda"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 712705fc-24a6-486f-b466-f4bc2ddd9e84
+      X-Runtime:
+      - '0.617342'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":40,"short_forecast":"Partly
+        Cloudy","detailed_forecast":"Partly cloudy. Low around 40, with temperatures
+        rising to around 42 overnight. West southwest wind 5 to 8 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 02:40:46 GMT
+recorded_with: VCR 6.1.0

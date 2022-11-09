@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/6/stops/15/addresses/14
+    uri: http://localhost:3000/api/v1/weather?address=1823%20Cedar%20Hill%20Dr,%20Royal%20Oak%20MI%2048067
     body:
       encoding: US-ASCII
       string: ''
@@ -21,18 +21,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"7be9603e3837c6a6d69dbac653ed47f8"
+      - W/"66d5a7e0cc712f8da746fc70a7f72e05"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1a8dfe82-715e-4028-8c71-c92f2fa4524a
+      - 384091fa-40d0-4fe3-92e5-f06e9dfb4222
       X-Runtime:
-      - '0.006299'
+      - '0.428790'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"14","type":"address","attributes":{"location":"1530
-        Blake Street Denver, CO 80202"}}}'
-  recorded_at: Wed, 09 Nov 2022 02:41:05 GMT
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":40,"short_forecast":"Partly
+        Cloudy","detailed_forecast":"Partly cloudy, with a low around 40. East wind
+        around 7 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 02:41:06 GMT
 recorded_with: VCR 6.1.0

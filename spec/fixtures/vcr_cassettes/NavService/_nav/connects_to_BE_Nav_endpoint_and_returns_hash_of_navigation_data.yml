@@ -21,13 +21,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e8b80aa1ec53c58bdbe6af5214f9b75a"
+      - W/"2c4578639f64b2bc9b997cd3211a532d"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f2aac3bf-c045-445f-9669-adaf88ea7645
+      - 31d57c67-7ef3-4395-bdba-98cb904bc553
       X-Runtime:
-      - '1.197096'
+      - '1.156082'
       Transfer-Encoding:
       - chunked
     body:
@@ -37,10 +37,10 @@ http_interactions:
         26th Ave. Go for 0.1 mi.",0.1044],["Turn left onto N Alkire St. Go for 0.5
         mi.",0.5021],["Turn right onto W 32nd Ave (CR-181). Go for 0.3 mi.",0.2523],["Turn
         left onto Youngfield St (CR-173). Go for 0.3 mi.",0.348],["Turn right onto
-        W 38th Ave (CR-180). Go for 1.8 mi.",1.7697],["Continue on W 38th Ave. Go
-        for 1.5 mi.",1.5056],["Turn left onto Wadsworth Blvd (CO-121). Go for 1.0
-        mi.",0.9693],["Take ramp onto I-76 E toward Fort Morgan. Go for 185 mi.",184.5261],["Continue
-        on I-76. Go for 2.9 mi.",2.8763],["Continue on I-80. Go for 352 mi.",352.0465],["Continue
+        W 38th Ave (CR-180). Go for 1.8 mi.",1.7697],["Turn left onto Kipling St (CO-391).
+        Go for 1.0 mi.",0.9693],["Take ramp onto I-70 E. Go for 1.6 mi.",1.6441],["Keep
+        left onto I-76 E toward Fort Morgan. Go for 184 mi.",184.331],["Continue on
+        I-76. Go for 2.9 mi.",2.8763],["Continue on I-80. Go for 352 mi.",352.0465],["Continue
         on I-80. Go for 3.4 mi.",3.4163],["Continue on I-80 E (I-80 Express Lane)
         toward Des Moines. Go for 119 mi.",118.575],["Take the exit onto I-35 N/I-80
         E. Go for 15.0 mi.",15.021],["Continue on I-80 E toward Davenport. Go for
@@ -60,6 +60,6 @@ http_interactions:
         Rd. Go for 0.8 mi.",0.8022],["Turn left onto Greenfield Rd. Go for 1.0 mi.",1.0035],["Turn
         right onto W 12 Mile Rd. Go for 1.9 mi.",1.9424],["Turn right onto Fairlawn
         Rd. Go for 308 ft.",0.0584],["Turn right onto Cedar Hill Dr. Go for 259 ft.",0.0491],["Arrive
-        at Cedar Hill Dr.",0]],"total_trip_time":66747,"total_distance":1275.0891,"has_toll_road":true}}}'
-  recorded_at: Wed, 09 Nov 2022 01:47:38 GMT
+        at Cedar Hill Dr.",0]],"total_trip_time":66552,"total_distance":1275.0326,"has_toll_road":true}}}'
+  recorded_at: Wed, 09 Nov 2022 02:41:05 GMT
 recorded_with: VCR 6.1.0
