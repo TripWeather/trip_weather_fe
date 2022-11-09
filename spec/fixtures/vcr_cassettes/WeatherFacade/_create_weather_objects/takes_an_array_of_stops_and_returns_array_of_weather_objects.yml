@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/weather?address=1823%20Cedar%20Hill%20Dr,%20Royal%20Oak%20MI%2048067
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/weather?address=1823%20Cedar%20Hill%20Dr,%20Royal%20Oak%20MI%2048067
     body:
       encoding: US-ASCII
       string: ''
@@ -18,6 +18,12 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:24 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
@@ -25,20 +31,22 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d822cc29-0f01-4aaa-bebd-8cacb9a8f4ad
+      - e8d8231c-3a51-4929-9fa3-f424cb56e0b2
       X-Runtime:
-      - '0.413503'
+      - '0.095000'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":64,"short_forecast":"Sunny","detailed_forecast":"Sunny.
         High near 64, with temperatures falling to around 60 in the afternoon. South
         wind around 8 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 21:24:54 GMT
+  recorded_at: Wed, 09 Nov 2022 22:30:25 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/weather?address=2303%20Braun%20Ct,%20Golden%20CO%2080401
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/weather?address=2303%20Braun%20Ct,%20Golden%20CO%2080401
     body:
       encoding: US-ASCII
       string: ''
@@ -54,24 +62,32 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:25 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"95fc63b37c4c1e0adbe9e00a6c684e9f"
+      - W/"2a5897debbad021de636dd5d8dbb974c"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 508b0dae-36ee-44be-9636-5753cfee3c50
+      - f96970e2-8060-4aa6-a6e7-952cf3a1e047
       X-Runtime:
-      - '0.346049'
+      - '0.068773'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":65,"short_forecast":"Slight
         Chance Light Rain","detailed_forecast":"A slight chance of rain after 5pm.
         Sunny. High near 65, with temperatures falling to around 57 in the afternoon.
-        South southwest wind 10 to 16 mph, with gusts as high as 25 mph. Chance of
-        precipitation is 20%."}}}'
-  recorded_at: Wed, 09 Nov 2022 21:24:54 GMT
+        Southwest wind around 16 mph, with gusts as high as 25 mph. Chance of precipitation
+        is 20%."}}}'
+  recorded_at: Wed, 09 Nov 2022 22:30:26 GMT
 recorded_with: VCR 6.1.0

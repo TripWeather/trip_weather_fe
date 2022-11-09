@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/nav?from=2303%20Braun%20Ct,%20Golden%20CO,%2080401&to=1823%20Cedar%20Hill%20Dr,%20Royal%20Oak,%20MI%2048067
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/nav?from=2303%20Braun%20Ct,%20Golden%20CO,%2080401&to=1823%20Cedar%20Hill%20Dr,%20Royal%20Oak,%20MI%2048067
     body:
       encoding: US-ASCII
       string: ''
@@ -18,18 +18,26 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:24 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"7c31dc51acd8885a230db6873e2444f2"
+      - W/"649b0077c7eb6efb8c8322060441e782"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c3c34567-ff6c-4077-9bdc-d373e825e326
+      - 4467f212-79fc-414d-903a-2f103da9f6c6
       X-Runtime:
-      - '1.021988'
+      - '0.847363'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"nav","attributes":{"turn_by_turn_directions":[["Head
@@ -58,6 +66,6 @@ http_interactions:
         right onto W 11 Mile Rd. Go for 0.8 mi.",0.8022],["Turn left onto Greenfield
         Rd. Go for 1.0 mi.",1.0035],["Turn right onto W 12 Mile Rd. Go for 1.9 mi.",1.9424],["Turn
         right onto Fairlawn Rd. Go for 308 ft.",0.0584],["Turn right onto Cedar Hill
-        Dr. Go for 259 ft.",0.0491],["Arrive at Cedar Hill Dr.",0]],"total_trip_time":65992,"total_distance":1274.8648,"has_toll_road":true}}}'
-  recorded_at: Wed, 09 Nov 2022 21:24:52 GMT
+        Dr. Go for 259 ft.",0.0491],["Arrive at Cedar Hill Dr.",0]],"total_trip_time":66490,"total_distance":1274.8648,"has_toll_road":true}}}'
+  recorded_at: Wed, 09 Nov 2022 22:30:24 GMT
 recorded_with: VCR 6.1.0

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips
     body:
       encoding: US-ASCII
       string: ''
@@ -18,25 +18,36 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:29 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"94a325e942e4809d1f0f3ed4b693c462"
+      - W/"03844f7958720110680ed1299acb5b9b"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 30a471da-0edb-43ce-be4e-634032470a0a
+      - 513b210d-a4af-40bd-83ed-f9a0abda8b2b
       X-Runtime:
-      - '0.005171'
+      - '0.015803'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T21:25:11.039Z","arrival_date":"2022-11-14T21:24:41.039Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T21:25:11.044Z","arrival_date":"2022-11-19T21:24:41.044Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T21:25:11.048Z","arrival_date":"2022-11-19T21:24:41.048Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T21:25:11.016Z","arrival_date":"2022-11-10T22:22:11.016Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}]}'
-  recorded_at: Wed, 09 Nov 2022 21:25:00 GMT
+      string: '{"data":[{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T20:54:56.065Z","arrival_date":"2022-11-11T20:54:26.065Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}},{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T20:54:56.184Z","arrival_date":"2022-11-14T20:54:26.185Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T20:54:56.226Z","arrival_date":"2022-11-19T20:54:26.226Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T20:54:56.298Z","arrival_date":"2022-11-19T20:54:26.298Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"9","type":"trip","attributes":{"uid":"1000","name":"Mega
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2022-12-01T09:24:32.000Z"},"relationships":{"stops":{"data":[{"id":"17","type":"stop"},{"id":"18","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}},{"id":"10","type":"trip","attributes":{"uid":"1000","name":"Mega
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2022-12-01T09:26:22.000Z"},"relationships":{"stops":{"data":[{"id":"19","type":"stop"},{"id":"20","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/10/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/10"}},{"id":"11","type":"trip","attributes":{"uid":"1000","name":"Mega
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2022-12-01T09:28:10.000Z"},"relationships":{"stops":{"data":[{"id":"21","type":"stop"},{"id":"22","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/11/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/11"}}]}'
+  recorded_at: Wed, 09 Nov 2022 22:30:30 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/1
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1
     body:
       encoding: US-ASCII
       string: ''
@@ -52,25 +63,33 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:29 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"25f2869bae1855024ed2f521b7d177dc"
+      - W/"04909a48a2da37ef05fbd02de48a5a75"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b96fb388-6848-4317-a989-1d77d415a156
+      - 8c08aa42-10bf-4f81-b668-d3b0fa695f2d
       X-Runtime:
-      - '1.068477'
+      - '0.539252'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T21:25:11.016Z","arrival_date":"2022-11-10T22:22:15.016Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:01 GMT
+      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T20:54:56.065Z","arrival_date":"2022-11-11T20:54:26.065Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
+  recorded_at: Wed, 09 Nov 2022 22:30:30 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/1/stops
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops
     body:
       encoding: US-ASCII
       string: ''
@@ -86,6 +105,12 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:30 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
@@ -93,18 +118,20 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c1977a46-d396-4960-baee-b1f30564243e
+      - 0fd3c183-21d1-4a52-b568-17d638ee16a2
       X-Runtime:
-      - '0.005891'
+      - '0.006388'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":[{"id":"1","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"1","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/1/addresses/1"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/1"}},{"id":"2","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"2","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/2/addresses/2"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/2"}}]}'
-  recorded_at: Wed, 09 Nov 2022 21:25:01 GMT
+  recorded_at: Wed, 09 Nov 2022 22:30:30 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/1/stops/1/addresses/1
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/1/addresses/1
     body:
       encoding: US-ASCII
       string: ''
@@ -120,6 +147,12 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:30 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
@@ -127,19 +160,21 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 8da1bf12-d4d0-49a0-aa68-677c2901253c
+      - f3c831eb-9b6f-4cf9-a3b4-b18b0d59e37a
       X-Runtime:
-      - '0.002509'
+      - '0.003588'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"address","attributes":{"location":"200 E
         Colfax Ave, Denver, CO 80203"}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:01 GMT
+  recorded_at: Wed, 09 Nov 2022 22:30:31 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/1/stops/2/addresses/2
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/2/addresses/2
     body:
       encoding: US-ASCII
       string: ''
@@ -155,6 +190,12 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:30 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
@@ -162,19 +203,21 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - aa1374d6-737f-4505-8808-12334d210406
+      - efbccdb2-d24c-4efe-9ed5-b4f161879f3b
       X-Runtime:
-      - '0.002022'
+      - '0.003568'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":{"id":"2","type":"address","attributes":{"location":"1600 Pennsylvania
         Avenue NW, Washington, DC 20500"}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:01 GMT
+  recorded_at: Wed, 09 Nov 2022 22:30:31 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/nav?from=200%20E%20Colfax%20Ave,%20Denver,%20CO%2080203&to=1600%20Pennsylvania%20Avenue%20NW,%20Washington,%20DC%2020500
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/nav?from=200%20E%20Colfax%20Ave,%20Denver,%20CO%2080203&to=1600%20Pennsylvania%20Avenue%20NW,%20Washington,%20DC%2020500
     body:
       encoding: US-ASCII
       string: ''
@@ -190,70 +233,77 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:32 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"23714d95ef85890ec1b9b5ad2049d1c9"
+      - W/"d9020ae17c954c2895cf1751534d7d92"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - aaf2f3df-6eef-4344-b729-01f4a2ae5f88
+      - f2cbd058-4e9d-48bd-b4ef-b63dc7089817
       X-Runtime:
-      - '2.394858'
+      - '1.020776'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"nav","attributes":{"turn_by_turn_directions":[["Head
         toward Sherman St on E Colfax Ave (I-70-BL). Go for 446 ft.",0.0845],["Turn
         right onto N Lincoln St. Go for 0.5 mi.",0.5375],["Continue on 20th St. Go
         for 509 ft.",0.0963],["Turn slightly right onto N Broadway. Go for 0.3 mi.",0.261],["Continue
-        on N Broadway. Go for 0.6 mi.",0.6263],["Continue on Brighton Blvd. Go for
-        1.7 mi.",1.669],["Take ramp onto I-70 E. Go for 175 mi.",174.5873],["Continue
+        on N Broadway. Go for 0.1 mi.",0.1299],["Turn left onto Park Ave W. Go for
+        1.0 mi.",0.9811],["Take ramp onto I-70 E toward Limon. Go for 177 mi.",176.7086],["Continue
         on I-70. Go for 421 mi.",420.8982],["Keep left onto I-670 (Jay B Dillingham
         Memorial Hwy). Go for 1.8 mi.",1.7635],["Continue on I-670 (Jay B Dillingham
         Memorial Hwy). Go for 2.3 mi.",2.3009],["Continue on I-70 (George Brett Super
         Hwy). Go for 229 mi.",228.9647],["Take exit 232 toward Chicago onto I-270
         N. Go for 15.7 mi.",15.7101],["Continue on I-270. Go for 15.1 mi.",15.118],["Continue
         on I-70. Go for 82.6 mi.",82.5672],["Keep right onto I-70 E toward Indianapolis.
-        Go for 57.8 mi.",57.818],["Continue on I-70 (W National Rd). Go for 79.2 mi.",79.2379],["Take
-        exit 79A toward West St/Hospital. Go for 0.3 mi.",0.3206],["Turn left onto
-        S Missouri St toward Hospital. Go for 1.0 mi.",1.0079],["Continue on N West
-        St. Go for 0.6 mi.",0.5673],["Continue on N Dr Martin Luther King Jr St toward
-        Dr Ml King Street/I-65 N. Go for 0.5 mi.",0.4666],["Take ramp onto I-65 S.
-        Go for 1.1 mi.",1.1253],["Take exit 112A onto I-70 E. Go for 73.7 mi.",73.6542],["Continue
-        on I-70. Go for 101 mi.",100.7348],["Continue on I-70 E toward Wheeling. Go
-        for 119 mi.",119.3232],["Take exit 219 toward Bellaire/Washington Pa onto
-        I-470 E. Go for 6.8 mi.",6.822],["Continue on I-470. Go for 3.8 mi.",3.7761],["Take
-        the exit toward Washington Pa onto I-70 E. Go for 9.5 mi.",9.4772],["Continue
-        on I-70. Go for 20.9 mi.",20.8967],["Take exit 21 toward Waynesburg/Morgantown
-        onto I-79 S (Raymond P Shafer Hwy). Go for 33.9 mi.",33.8908],["Continue on
-        I-79. Go for 11.3 mi.",11.304],["Take exit 148 toward Cumberland onto I-68
-        E. Go for 32.2 mi.",32.1777],["Continue on I-68 (National Fwy). Go for 80.2
-        mi.",80.1687],["Take exit 82AB toward US-40 E/Hagerstown onto I-70 E (Dwight
-        D Eisenhower Hwy). Go for 52.0 mi.",52.0479],["Take exit 53 toward Washington
-        onto I-270 S (Dwight D Eisenhower Hwy). Go for 23.3 mi.",23.3281],["Keep left
-        onto I-270 S (I-270 Express Lanes) toward Washington. Go for 6.7 mi.",6.7326],["Keep
-        right onto I-270-SPUR toward I-495 S/Washington/Northern Virginia. Go for
-        2.0 mi.",1.953],["Continue on I-495 (Capital Beltway). Go for 3.6 mi.",3.6226],["Continue
-        on I-495 (Capital Beltway). Go for 0.1 mi.",0.1243],["Take exit 43-44 toward
-        Geo Wash Mem Pkwy/Washington onto George Washington Memorial Pkwy. Go for
-        9.6 mi.",9.6238],["Take the exit toward US-50 E/Roosevelt Bridge/Washington
-        DC/Rosslyn onto I-66 E (Custis Memorial Pkwy). Go for 0.4 mi.",0.3548],["Continue
-        on I-66 (Theodore Roosevelt Memorial Brg). Go for 0.5 mi.",0.548],["Take left
-        ramp onto E St Expy toward E Street. Go for 0.6 mi.",0.5928],["Take ramp.
-        Go for 509 ft.",0.0963],["Continue on E St NW. Go for 0.2 mi.",0.1715],["Turn
-        left onto 18th St NW. Go for 220 ft.",0.0416],["Continue on 18th St NW. Go
-        for 499 ft.",0.0944],["Turn right onto F St NW. Go for 0.1 mi.",0.1199],["Turn
-        right onto 17th St NW. Go for 0.1 mi.",0.1348],["Turn left onto E St NW. Go
+        Go for 57.8 mi.",57.818],["Continue on I-70 (W National Rd). Go for 69.0 mi.",69.0138],["Take
+        exit 69 onto I-74 E/I-465 S. Go for 16.9 mi.",16.8889],["Continue on I-465.
+        Go for 4.9 mi.",4.9045],["Take exit 44B toward Dayton onto I-70 E. Go for
+        67.2 mi.",67.1783],["Continue on I-70. Go for 101 mi.",100.7348],["Continue
+        on I-70 E toward Wheeling. Go for 119 mi.",119.3232],["Take exit 219 toward
+        Bellaire/Washington Pa onto I-470 E. Go for 6.8 mi.",6.822],["Continue on
+        I-470. Go for 3.8 mi.",3.7761],["Take the exit toward Washington Pa onto I-70
+        E. Go for 9.5 mi.",9.4772],["Continue on I-70. Go for 20.9 mi.",20.8967],["Take
+        exit 21 toward Waynesburg/Morgantown onto I-79 S (Raymond P Shafer Hwy). Go
+        for 33.9 mi.",33.8908],["Continue on I-79. Go for 11.3 mi.",11.304],["Take
+        exit 148 toward Cumberland onto I-68 E. Go for 32.2 mi.",32.1777],["Continue
+        on I-68 (National Fwy). Go for 80.2 mi.",80.1687],["Take exit 82AB toward
+        US-40 E/Hagerstown onto I-70 E (Dwight D Eisenhower Hwy). Go for 52.0 mi.",52.0479],["Take
+        exit 53 toward Washington onto I-270 S (Dwight D Eisenhower Hwy). Go for 23.3
+        mi.",23.3281],["Keep left onto I-270 S (I-270 Express Lanes) toward Washington.
+        Go for 6.7 mi.",6.7326],["Keep right onto I-270-SPUR toward I-495 S/Washington/Northern
+        Virginia. Go for 2.0 mi.",1.953],["Continue on I-495 (Capital Beltway). Go
+        for 3.6 mi.",3.6226],["Continue on I-495 (Capital Beltway). Go for 0.1 mi.",0.1243],["Take
+        exit 43-44 toward Geo Wash Mem Pkwy/Washington onto George Washington Memorial
+        Pkwy. Go for 10.4 mi.",10.4452],["Take ramp toward Memorial Bridge. Go for
+        0.3 mi.",0.315],["Continue on Memorial Ave. Go for 443 ft.",0.0839],["Continue
+        on Memorial Dr. Go for 443 ft.",0.0839],["Take the 1st exit from Memorial
+        Cir roundabout onto Arlington Memorial Bridge. Go for 0.5 mi.",0.517],["Keep
+        left onto Arlington Memorial Bridge. Go for 262 ft.",0.0497],["Continue on
+        Lincoln Memorial Cir NW. Go for 0.1 mi.",0.1417],["Turn slightly left onto
+        Henry Bacon Dr NW. Go for 0.2 mi.",0.1622],["Turn right onto Constitution
+        Ave NW (US-50). Go for 0.3 mi.",0.3349],["Turn left onto 18th St NW. Go for
+        0.2 mi.",0.1541],["Turn right onto D St NW. Go for 0.1 mi.",0.1218],["Turn
+        left onto 17th St NW. Go for 390 ft.",0.0739],["Turn right onto E St NW. Go
         for 440 ft.",0.0833],["Turn left onto W Executive Ave NW. Go for 361 ft.",0.0684],["Turn
         left onto State Pl NW. Go for 413 ft.",0.0783],["Make a U-Turn at New York
         Ave NW onto State Pl NW. Go for 515 ft.",0.0976],["Turn left. Go for 492 ft.",0.0932],["Arrive
-        at your destination.",0]],"total_trip_time":89826,"total_distance":1677.9607,"has_toll_road":true}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:03 GMT
+        at your destination.",0]],"total_trip_time":89892,"total_distance":1681.2086,"has_toll_road":true}}}'
+  recorded_at: Wed, 09 Nov 2022 22:30:32 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/weather?address=200%20E%20Colfax%20Ave,%20Denver,%20CO%2080203
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/weather?address=200%20E%20Colfax%20Ave,%20Denver,%20CO%2080203
     body:
       encoding: US-ASCII
       string: ''
@@ -269,6 +319,12 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:32 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
@@ -276,20 +332,22 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - a9fb074c-cb2d-4b36-8ed9-fcf7fa5b9999
+      - '05998ac5-9474-4b97-93c7-3eeb43e93bff'
       X-Runtime:
-      - '0.349891'
+      - '0.194309'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":63,"short_forecast":"Sunny","detailed_forecast":"Sunny.
         High near 63, with temperatures falling to around 56 in the afternoon. Southwest
         wind around 17 mph, with gusts as high as 28 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:04 GMT
+  recorded_at: Wed, 09 Nov 2022 22:30:32 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/weather?address=1600%20Pennsylvania%20Avenue%20NW,%20Washington,%20DC%2020500
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/weather?address=1600%20Pennsylvania%20Avenue%20NW,%20Washington,%20DC%2020500
     body:
       encoding: US-ASCII
       string: ''
@@ -305,26 +363,35 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:32 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"08cffe4cbc7796444563f4576a33f399"
+      - W/"69559c91027b766c9460f07d4e78ea10"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 76894071-93a9-4b9b-9dc4-58047a82f131
+      - 77f18cbf-151f-4811-8e44-576ad123a57e
       X-Runtime:
-      - '0.351208'
+      - '0.128828'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":58,"short_forecast":"Sunny","detailed_forecast":"Sunny,
-        with a high near 58. East wind around 7 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:04 GMT
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":62,"short_forecast":"Sunny","detailed_forecast":"Sunny.
+        High near 62, with temperatures falling to around 55 in the afternoon. East
+        wind around 5 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 22:30:32 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/1
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1
     body:
       encoding: US-ASCII
       string: ''
@@ -340,25 +407,33 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:33 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"2de5e748db9a4560313eb0932d10ee04"
+      - W/"04909a48a2da37ef05fbd02de48a5a75"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b699c78b-a131-4f83-a018-57a850fe6002
+      - c18742c6-7a49-43a7-9e5f-bc2a32e0c47e
       X-Runtime:
-      - '1.130051'
+      - '0.530860'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T21:25:11.016Z","arrival_date":"2022-11-10T22:22:17.016Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:05 GMT
+      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T20:54:56.065Z","arrival_date":"2022-11-11T20:54:26.065Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
+  recorded_at: Wed, 09 Nov 2022 22:30:33 GMT
 - request:
     method: put
-    uri: http://localhost:3000/api/v1/1000/trips/1?trip%5Barrival_date%5D=2024-11-10T13:37:38.000Z&trip%5Bdeparture_date%5D=2022-11-09T21:25:11.016Z&trip%5Bname%5D=The%20Great%20Trip&trip%5Buid%5D=1000
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1?trip%5Barrival_date%5D=2024-11-10T13:37:38.000Z&trip%5Bdeparture_date%5D=2022-11-09T20:54:56.065Z&trip%5Bname%5D=The%20Great%20Trip&trip%5Buid%5D=1000
     body:
       encoding: UTF-8
       string: '{"query":"update_trip"}'
@@ -373,29 +448,35 @@ http_interactions:
       - "*/*"
   response:
     status:
-      code: 200
-      message: OK
+      code: 422
+      message: Unprocessable Entity
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:33 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
-      Etag:
-      - W/"a3934aa22fbd0c74d393df8d2e49acf9"
       Cache-Control:
-      - max-age=0, private, must-revalidate
+      - no-cache
       X-Request-Id:
-      - 6d86d4ba-26e5-41c9-a4dd-b6a2bbd4f9fb
+      - fdf1060c-3fb4-4198-88f4-ff67d3311805
       X-Runtime:
-      - '0.011926'
+      - '0.006140'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
-        Great Trip","departure_date":"2022-11-09T21:25:11.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:05 GMT
+      string: '{"message":"your query could not be completed","errors":[{"status":"422","title":"Unprocessable
+        Entity","detail":["Departure date can''t be in the past"]}]}'
+  recorded_at: Wed, 09 Nov 2022 22:30:33 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/1
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1
     body:
       encoding: US-ASCII
       string: ''
@@ -411,26 +492,33 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:33 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"97fb220810abbcd1e7cc1184b4dbe1a4"
+      - W/"04909a48a2da37ef05fbd02de48a5a75"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 107bd3ef-2e7a-4573-917a-2ecdba544fa0
+      - 04c8a288-50de-49f7-9aa1-d98cecdaabc5
       X-Runtime:
-      - '1.549985'
+      - '0.602858'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
-        Great Trip","departure_date":"2022-11-09T21:25:11.000Z","arrival_date":"2022-11-10T22:22:17.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:07 GMT
+      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T20:54:56.065Z","arrival_date":"2022-11-11T20:54:26.065Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
+  recorded_at: Wed, 09 Nov 2022 22:30:34 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/1/stops
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops
     body:
       encoding: US-ASCII
       string: ''
@@ -446,6 +534,12 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:33 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
@@ -453,18 +547,20 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 22802a6f-e18c-444e-a61a-d446bd49fc0b
+      - 55280256-5d27-4c06-9cf1-76426c1fe4a7
       X-Runtime:
-      - '0.007284'
+      - '0.007015'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":[{"id":"1","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"1","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/1/addresses/1"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/1"}},{"id":"2","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"2","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/2/addresses/2"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/2"}}]}'
-  recorded_at: Wed, 09 Nov 2022 21:25:07 GMT
+  recorded_at: Wed, 09 Nov 2022 22:30:34 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/1/stops/1/addresses/1
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/1/addresses/1
     body:
       encoding: US-ASCII
       string: ''
@@ -480,6 +576,12 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:33 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
@@ -487,19 +589,21 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c4cfab82-ef90-40bb-b684-df04aff66f25
+      - d0945594-72e5-492d-ae60-4bd2b399a788
       X-Runtime:
-      - '0.002483'
+      - '0.004223'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"address","attributes":{"location":"200 E
         Colfax Ave, Denver, CO 80203"}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:07 GMT
+  recorded_at: Wed, 09 Nov 2022 22:30:34 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/1/stops/2/addresses/2
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/2/addresses/2
     body:
       encoding: US-ASCII
       string: ''
@@ -515,6 +619,12 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:34 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
@@ -522,19 +632,21 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - a6088ab9-eff6-4ef0-9354-cfe43ec0ca05
+      - c6b7cc63-8888-4c60-9cc2-07fd2bf47690
       X-Runtime:
-      - '0.002004'
+      - '0.003713'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":{"id":"2","type":"address","attributes":{"location":"1600 Pennsylvania
         Avenue NW, Washington, DC 20500"}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:07 GMT
+  recorded_at: Wed, 09 Nov 2022 22:30:34 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/nav?from=200%20E%20Colfax%20Ave,%20Denver,%20CO%2080203&to=1600%20Pennsylvania%20Avenue%20NW,%20Washington,%20DC%2020500
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/nav?from=200%20E%20Colfax%20Ave,%20Denver,%20CO%2080203&to=1600%20Pennsylvania%20Avenue%20NW,%20Washington,%20DC%2020500
     body:
       encoding: US-ASCII
       string: ''
@@ -550,70 +662,77 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:35 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"23714d95ef85890ec1b9b5ad2049d1c9"
+      - W/"9a7f8ad40ae97c326dcda157ac9841d1"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e3783589-5b40-4d15-b0b1-2fbba08e0546
+      - f5c77fea-d9bb-4347-9401-b5652734a343
       X-Runtime:
-      - '2.117404'
+      - '1.212161'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"nav","attributes":{"turn_by_turn_directions":[["Head
         toward Sherman St on E Colfax Ave (I-70-BL). Go for 446 ft.",0.0845],["Turn
         right onto N Lincoln St. Go for 0.5 mi.",0.5375],["Continue on 20th St. Go
         for 509 ft.",0.0963],["Turn slightly right onto N Broadway. Go for 0.3 mi.",0.261],["Continue
-        on N Broadway. Go for 0.6 mi.",0.6263],["Continue on Brighton Blvd. Go for
-        1.7 mi.",1.669],["Take ramp onto I-70 E. Go for 175 mi.",174.5873],["Continue
+        on N Broadway. Go for 0.1 mi.",0.1299],["Turn left onto Park Ave W. Go for
+        1.0 mi.",0.9811],["Take ramp onto I-70 E toward Limon. Go for 177 mi.",176.7086],["Continue
         on I-70. Go for 421 mi.",420.8982],["Keep left onto I-670 (Jay B Dillingham
         Memorial Hwy). Go for 1.8 mi.",1.7635],["Continue on I-670 (Jay B Dillingham
         Memorial Hwy). Go for 2.3 mi.",2.3009],["Continue on I-70 (George Brett Super
         Hwy). Go for 229 mi.",228.9647],["Take exit 232 toward Chicago onto I-270
         N. Go for 15.7 mi.",15.7101],["Continue on I-270. Go for 15.1 mi.",15.118],["Continue
         on I-70. Go for 82.6 mi.",82.5672],["Keep right onto I-70 E toward Indianapolis.
-        Go for 57.8 mi.",57.818],["Continue on I-70 (W National Rd). Go for 79.2 mi.",79.2379],["Take
-        exit 79A toward West St/Hospital. Go for 0.3 mi.",0.3206],["Turn left onto
-        S Missouri St toward Hospital. Go for 1.0 mi.",1.0079],["Continue on N West
-        St. Go for 0.6 mi.",0.5673],["Continue on N Dr Martin Luther King Jr St toward
-        Dr Ml King Street/I-65 N. Go for 0.5 mi.",0.4666],["Take ramp onto I-65 S.
-        Go for 1.1 mi.",1.1253],["Take exit 112A onto I-70 E. Go for 73.7 mi.",73.6542],["Continue
-        on I-70. Go for 101 mi.",100.7348],["Continue on I-70 E toward Wheeling. Go
-        for 119 mi.",119.3232],["Take exit 219 toward Bellaire/Washington Pa onto
-        I-470 E. Go for 6.8 mi.",6.822],["Continue on I-470. Go for 3.8 mi.",3.7761],["Take
-        the exit toward Washington Pa onto I-70 E. Go for 9.5 mi.",9.4772],["Continue
-        on I-70. Go for 20.9 mi.",20.8967],["Take exit 21 toward Waynesburg/Morgantown
-        onto I-79 S (Raymond P Shafer Hwy). Go for 33.9 mi.",33.8908],["Continue on
-        I-79. Go for 11.3 mi.",11.304],["Take exit 148 toward Cumberland onto I-68
-        E. Go for 32.2 mi.",32.1777],["Continue on I-68 (National Fwy). Go for 80.2
-        mi.",80.1687],["Take exit 82AB toward US-40 E/Hagerstown onto I-70 E (Dwight
-        D Eisenhower Hwy). Go for 52.0 mi.",52.0479],["Take exit 53 toward Washington
-        onto I-270 S (Dwight D Eisenhower Hwy). Go for 23.3 mi.",23.3281],["Keep left
-        onto I-270 S (I-270 Express Lanes) toward Washington. Go for 6.7 mi.",6.7326],["Keep
-        right onto I-270-SPUR toward I-495 S/Washington/Northern Virginia. Go for
-        2.0 mi.",1.953],["Continue on I-495 (Capital Beltway). Go for 3.6 mi.",3.6226],["Continue
-        on I-495 (Capital Beltway). Go for 0.1 mi.",0.1243],["Take exit 43-44 toward
-        Geo Wash Mem Pkwy/Washington onto George Washington Memorial Pkwy. Go for
-        9.6 mi.",9.6238],["Take the exit toward US-50 E/Roosevelt Bridge/Washington
-        DC/Rosslyn onto I-66 E (Custis Memorial Pkwy). Go for 0.4 mi.",0.3548],["Continue
-        on I-66 (Theodore Roosevelt Memorial Brg). Go for 0.5 mi.",0.548],["Take left
-        ramp onto E St Expy toward E Street. Go for 0.6 mi.",0.5928],["Take ramp.
-        Go for 509 ft.",0.0963],["Continue on E St NW. Go for 0.2 mi.",0.1715],["Turn
-        left onto 18th St NW. Go for 220 ft.",0.0416],["Continue on 18th St NW. Go
-        for 499 ft.",0.0944],["Turn right onto F St NW. Go for 0.1 mi.",0.1199],["Turn
-        right onto 17th St NW. Go for 0.1 mi.",0.1348],["Turn left onto E St NW. Go
+        Go for 57.8 mi.",57.818],["Continue on I-70 (W National Rd). Go for 69.0 mi.",69.0138],["Take
+        exit 69 onto I-74 E/I-465 S. Go for 16.9 mi.",16.8889],["Continue on I-465.
+        Go for 4.9 mi.",4.9045],["Take exit 44B toward Dayton onto I-70 E. Go for
+        67.2 mi.",67.1783],["Continue on I-70. Go for 101 mi.",100.7348],["Continue
+        on I-70 E toward Wheeling. Go for 119 mi.",119.3232],["Take exit 219 toward
+        Bellaire/Washington Pa onto I-470 E. Go for 6.8 mi.",6.822],["Continue on
+        I-470. Go for 3.8 mi.",3.7761],["Take the exit toward Washington Pa onto I-70
+        E. Go for 9.5 mi.",9.4772],["Continue on I-70. Go for 20.9 mi.",20.8967],["Take
+        exit 21 toward Waynesburg/Morgantown onto I-79 S (Raymond P Shafer Hwy). Go
+        for 33.9 mi.",33.8908],["Continue on I-79. Go for 11.3 mi.",11.304],["Take
+        exit 148 toward Cumberland onto I-68 E. Go for 32.2 mi.",32.1777],["Continue
+        on I-68 (National Fwy). Go for 80.2 mi.",80.1687],["Take exit 82AB toward
+        US-40 E/Hagerstown onto I-70 E (Dwight D Eisenhower Hwy). Go for 52.0 mi.",52.0479],["Take
+        exit 53 toward Washington onto I-270 S (Dwight D Eisenhower Hwy). Go for 23.3
+        mi.",23.3281],["Keep left onto I-270 S (I-270 Express Lanes) toward Washington.
+        Go for 6.7 mi.",6.7326],["Keep right onto I-270-SPUR toward I-495 S/Washington/Northern
+        Virginia. Go for 2.0 mi.",1.953],["Continue on I-495 (Capital Beltway). Go
+        for 3.6 mi.",3.6226],["Continue on I-495 (Capital Beltway). Go for 0.1 mi.",0.1243],["Take
+        exit 43-44 toward Geo Wash Mem Pkwy/Washington onto George Washington Memorial
+        Pkwy. Go for 10.4 mi.",10.4452],["Take ramp toward Memorial Bridge. Go for
+        0.3 mi.",0.315],["Continue on Memorial Ave. Go for 443 ft.",0.0839],["Continue
+        on Memorial Dr. Go for 443 ft.",0.0839],["Take the 1st exit from Memorial
+        Cir roundabout onto Arlington Memorial Bridge. Go for 0.5 mi.",0.517],["Keep
+        left onto Arlington Memorial Bridge. Go for 262 ft.",0.0497],["Continue on
+        Lincoln Memorial Cir NW. Go for 0.1 mi.",0.1417],["Turn slightly left onto
+        Henry Bacon Dr NW. Go for 0.2 mi.",0.1622],["Turn right onto Constitution
+        Ave NW (US-50). Go for 0.3 mi.",0.3349],["Turn left onto 18th St NW. Go for
+        0.2 mi.",0.1541],["Turn right onto D St NW. Go for 0.1 mi.",0.1218],["Turn
+        left onto 17th St NW. Go for 390 ft.",0.0739],["Turn right onto E St NW. Go
         for 440 ft.",0.0833],["Turn left onto W Executive Ave NW. Go for 361 ft.",0.0684],["Turn
         left onto State Pl NW. Go for 413 ft.",0.0783],["Make a U-Turn at New York
         Ave NW onto State Pl NW. Go for 515 ft.",0.0976],["Turn left. Go for 492 ft.",0.0932],["Arrive
-        at your destination.",0]],"total_trip_time":89826,"total_distance":1677.9607,"has_toll_road":true}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:09 GMT
+        at your destination.",0]],"total_trip_time":89891,"total_distance":1681.2086,"has_toll_road":true}}}'
+  recorded_at: Wed, 09 Nov 2022 22:30:36 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/weather?address=200%20E%20Colfax%20Ave,%20Denver,%20CO%2080203
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/weather?address=200%20E%20Colfax%20Ave,%20Denver,%20CO%2080203
     body:
       encoding: US-ASCII
       string: ''
@@ -629,6 +748,12 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:36 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
@@ -636,20 +761,22 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9dd74415-e886-4e9f-9cd8-576bb9b40a82
+      - 0a9775f5-4c93-4b1e-b2b2-e083264488b5
       X-Runtime:
-      - '0.367669'
+      - '0.086216'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":63,"short_forecast":"Sunny","detailed_forecast":"Sunny.
         High near 63, with temperatures falling to around 56 in the afternoon. Southwest
         wind around 17 mph, with gusts as high as 28 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:10 GMT
+  recorded_at: Wed, 09 Nov 2022 22:30:36 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/weather?address=1600%20Pennsylvania%20Avenue%20NW,%20Washington,%20DC%2020500
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/weather?address=1600%20Pennsylvania%20Avenue%20NW,%20Washington,%20DC%2020500
     body:
       encoding: US-ASCII
       string: ''
@@ -665,21 +792,30 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:36 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"08cffe4cbc7796444563f4576a33f399"
+      - W/"69559c91027b766c9460f07d4e78ea10"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 41e531a1-6904-4797-9f7e-58d5d01ab167
+      - e6f4e396-effa-476f-ae6e-9b1ac02f0c08
       X-Runtime:
-      - '0.333835'
+      - '0.063118'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":58,"short_forecast":"Sunny","detailed_forecast":"Sunny,
-        with a high near 58. East wind around 7 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:10 GMT
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":62,"short_forecast":"Sunny","detailed_forecast":"Sunny.
+        High near 62, with temperatures falling to around 55 in the afternoon. East
+        wind around 5 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 22:30:36 GMT
 recorded_with: VCR 6.1.0
