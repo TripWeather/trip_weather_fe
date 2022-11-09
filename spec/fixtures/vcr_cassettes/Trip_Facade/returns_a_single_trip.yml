@@ -21,17 +21,17 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"acbc592eaf127cf93e59aaf7eb12072b"
+      - W/"323af2c76a1f2d911e641e3d0e556c59"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 136a60d1-35d6-43ac-94af-a784a685a312
+      - 649b84ea-0aab-4089-94dd-99891c6b5e8a
       X-Runtime:
-      - '1.000588'
+      - '0.965530'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T04:03:09.373Z","arrival_date":"2022-11-10T04:55:55.373Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
-  recorded_at: Wed, 09 Nov 2022 04:04:09 GMT
+      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T04:39:09.894Z","arrival_date":"2022-11-10T05:30:19.894Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
+  recorded_at: Wed, 09 Nov 2022 04:39:37 GMT
 recorded_with: VCR 6.1.0

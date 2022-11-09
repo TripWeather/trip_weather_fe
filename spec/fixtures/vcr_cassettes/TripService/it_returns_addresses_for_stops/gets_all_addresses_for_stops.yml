@@ -21,18 +21,18 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"7be9603e3837c6a6d69dbac653ed47f8"
+      - W/"2953bbd6672cccd63ac2f8b9c9ec6b43"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 23aca53b-131c-4261-a9c4-b2a1b092a81b
+      - 48da484e-6f66-4024-ade2-6d3b868e22f9
       X-Runtime:
-      - '0.007021'
+      - '0.025070'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"14","type":"address","attributes":{"location":"1530
-        Blake Street Denver, CO 80202"}}}'
-  recorded_at: Wed, 09 Nov 2022 04:04:36 GMT
+        Blake St, Denver, CO 80202"}}}'
+  recorded_at: Wed, 09 Nov 2022 04:40:07 GMT
 recorded_with: VCR 6.1.0

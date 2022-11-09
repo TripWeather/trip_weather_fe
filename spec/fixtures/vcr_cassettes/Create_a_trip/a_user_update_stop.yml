@@ -21,20 +21,20 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"391bc93caf791b366d571fd3b91fc0db"
+      - W/"ab8dc787b52b51bbb55d10022b3e95f8"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 95c068c7-30b1-4ca4-90ab-ec17ff58655c
+      - 10d889ac-ce16-403d-adbd-55cb0f9bc704
       X-Runtime:
-      - '0.029183'
+      - '0.063188'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T04:03:09.431Z","arrival_date":"2022-11-14T04:02:39.431Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T04:03:09.441Z","arrival_date":"2022-11-19T04:02:39.441Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T04:03:09.452Z","arrival_date":"2022-11-19T04:02:39.452Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
-        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2022-11-30T13:52:44.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}]}'
-  recorded_at: Wed, 09 Nov 2022 04:04:31 GMT
+      string: '{"data":[{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T04:39:09.945Z","arrival_date":"2022-11-14T04:38:39.945Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T04:39:09.954Z","arrival_date":"2022-11-19T04:38:39.954Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T04:39:09.964Z","arrival_date":"2022-11-19T04:38:39.964Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
+        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2022-11-30T13:51:04.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}]}'
+  recorded_at: Wed, 09 Nov 2022 04:40:00 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/3
@@ -56,19 +56,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"ff5be575890bffc3b6f0489c81e0d45c"
+      - W/"14463aeb9acf6d828a735466301a3e81"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c1f54965-5f5e-4e15-a6ec-e608f9917876
+      - 9fab7a1d-c1a9-45d1-af9f-034a9a3cfe3a
       X-Runtime:
-      - '0.630056'
+      - '0.518016'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T04:03:09.441Z","arrival_date":"2022-11-10T11:13:10.441Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}}}'
-  recorded_at: Wed, 09 Nov 2022 04:04:31 GMT
+      string: '{"data":{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T04:39:09.954Z","arrival_date":"2022-11-09T12:23:51.954Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}}}'
+  recorded_at: Wed, 09 Nov 2022 04:40:01 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/3/stops
@@ -94,15 +94,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9e9484ef-09e2-4e93-b3d4-388195e6cbff
+      - e1491ffa-f802-463e-9112-604ede2f9ef7
       X-Runtime:
-      - '0.034547'
+      - '0.008850'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":[{"id":"5","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"5","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/5/addresses/5"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3/stops/5"}},{"id":"6","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"6","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/6/addresses/6"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3/stops/6"}}]}'
-  recorded_at: Wed, 09 Nov 2022 04:04:31 GMT
+  recorded_at: Wed, 09 Nov 2022 04:40:01 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/3/stops/5/addresses/5
@@ -124,20 +124,20 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e0fbe8a99ef50ce7853ac4d174cb8832"
+      - W/"75960ff17a1d0ec1584a57b03cba16cb"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - cd7c8e69-9099-464f-95cb-d702e75da330
+      - 7ea64456-825d-41a2-9361-b73f286e802c
       X-Runtime:
-      - '0.014549'
+      - '0.008508'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"5","type":"address","attributes":{"location":"110 W
-        George Street Milford, PA 18337"}}}'
-  recorded_at: Wed, 09 Nov 2022 04:04:31 GMT
+      string: '{"data":{"id":"5","type":"address","attributes":{"location":"3521 E
+        29th Ave, Denver, CO 80205"}}}'
+  recorded_at: Wed, 09 Nov 2022 04:40:01 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/3/stops/6/addresses/6
@@ -163,19 +163,19 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d88c320e-8d2f-42f7-885d-844c3eca7561
+      - cdfedb12-eb51-4d02-9246-2dd815967efd
       X-Runtime:
-      - '0.004655'
+      - '0.004133'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"6","type":"address","attributes":{"location":"350 State
         St, Salt Lake City, UT 84103"}}}'
-  recorded_at: Wed, 09 Nov 2022 04:04:31 GMT
+  recorded_at: Wed, 09 Nov 2022 04:40:01 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/nav?from=110%20W%20George%20Street%20Milford,%20PA%2018337&to=350%20State%20St,%20Salt%20Lake%20City,%20UT%2084103
+    uri: http://localhost:3000/api/v1/nav?from=3521%20E%2029th%20Ave,%20Denver,%20CO%2080205&to=350%20State%20St,%20Salt%20Lake%20City,%20UT%2084103
     body:
       encoding: US-ASCII
       string: ''
@@ -194,42 +194,148 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"7f85b9beb12bbb00427ebac96dd23313"
+      - W/"8b172943d033be704bf367a098f8a471"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 10b9135a-0bba-4152-a421-2def7d5ddac7
+      - 22df75f6-2da1-4fbb-a123-5325354b61a6
       X-Runtime:
-      - '1.277868'
+      - '0.712385'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"nav","attributes":{"turn_by_turn_directions":[["Head
-        toward Gooseberry Aly on W George St. Go for 322 ft.",0.0609],["Turn right
-        onto Broad St (US-6/US-209). Go for 0.3 mi.",0.302],["Turn right onto W Harford
-        St (US-6). Go for 2.3 mi.",2.3134],["Take ramp onto I-84 W. Go for 45.9 mi.",45.9442],["Take
-        the exit toward Wilkes-Barre onto I-81 S. Go for 36.6 mi.",36.5839],["Take
-        exit 151B toward Bloomsburg onto I-80 W. Go for 259 mi.",259.4672],["Continue
-        on I-80. Go for 17.5 mi.",17.4916],["Take the exit onto I-80 W (Ohio Tpke).
-        Go for 219 mi.",219.3894],["Continue on I-80/I-90 (Indiana Toll Rd). Go for
-        136 mi.",135.5962],["Take exit 21 toward IN-51 S onto I-80 W/I-94 W (Borman
-        Expy). Go for 16.1 mi.",16.1432],["Continue on I-80/I-94 (Kingery Expy W).
-        Go for 1.3 mi.",1.3366],["Continue on I-80 (Tri-State Tlwy). Go for 6.2 mi.",6.1833],["Take
-        exit 5 toward Iowa onto I-80 W. Go for 146 mi.",145.5941],["Take the exit
-        toward Davenport onto I-80 W (Chicago-Kansas City Expy). Go for 10.4 mi.",10.4328],["Continue
-        on I-80. Go for 182 mi.",182.483],["Take the exit toward Omaha onto I-80 W.
-        Go for 123 mi.",122.6692],["Continue on I-80. Go for 401 mi.",401.0199],["Keep
-        right onto I-80. Go for 53.9 mi.",53.9189],["Continue on I-80. Go for 402
-        mi.",402.0849],["Continue on I-80. Go for 72.4 mi.",72.3556],["Take exit 125
-        toward UT-71/700 East. Go for 0.4 mi.",0.3511],["Continue on S 700 E (UT-71).
-        Go for 2.8 mi.",2.8285],["Turn left onto E 400 S (UT-186). Go for 0.9 mi.",0.919],["Turn
-        right onto S State St (UT-186). Go for 0.6 mi.",0.5965],["Continue on N State
-        St (UT-186). Go for 0.4 mi.",0.4399],["Arrive at N State St (UT-186).",0]],"total_trip_time":112201,"total_distance":2136.5053,"has_toll_road":true}}}'
-  recorded_at: Wed, 09 Nov 2022 04:04:33 GMT
+        toward N Monroe St on E 29th Ave. Go for 0.3 mi.",0.2691],["Turn left onto
+        Colorado Blvd (CO-2). Go for 2.5 mi.",2.511],["Continue on Vasquez Blvd (US-6/US-85).
+        Go for 0.5 mi.",0.4996],["Take ramp onto I-270 W toward Boulder. Go for 3.4
+        mi.",3.3566],["Take exit 0 toward Fort Collins onto I-25 N. Go for 52.5 mi.",52.4593],["Take
+        exit 269B toward Ft Collins onto CO-14 W (E Mulberry St). Go for 3.5 mi.",3.5002],["Turn
+        right onto Riverside Ave toward CO-287 N/CO-14 W. Go for 0.6 mi.",0.5891],["Continue
+        on Jefferson St toward I-287. Go for 0.4 mi.",0.3579],["Turn right onto N
+        College Ave (US-287). Go for 3.5 mi.",3.466],["Keep right onto La Porte Byp
+        (US-287 N) toward CO-14 W/Laramie. Go for 35.3 mi.",35.2783],["Continue on
+        US Highway 287 (US-287). Go for 24.5 mi.",24.4547],["Take ramp onto I-80 W
+        toward Rawlins. Go for 313 mi.",313.1947],["Continue on I-80. Go for 72.4
+        mi.",72.3556],["Take exit 125 toward UT-71/700 East. Go for 0.4 mi.",0.3511],["Continue
+        on S 700 E (UT-71). Go for 2.8 mi.",2.8285],["Turn left onto E 400 S (UT-186).
+        Go for 0.9 mi.",0.919],["Turn right onto S State St (UT-186). Go for 0.6 mi.",0.5965],["Continue
+        on N State St (UT-186). Go for 0.4 mi.",0.4399],["Arrive at N State St (UT-186).",0]],"total_trip_time":27882,"total_distance":517.427,"has_toll_road":false}}}'
+  recorded_at: Wed, 09 Nov 2022 04:40:02 GMT
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/weather?address=110%20W%20George%20Street%20Milford,%20PA%2018337
+    uri: http://localhost:3000/api/v1/weather?address=3521%20E%2029th%20Ave,%20Denver,%20CO%2080205
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"7f80d774037be60ecb4beae98550c217"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 20e4f464-3431-4013-b349-0237578e099c
+      X-Runtime:
+      - '0.544900'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":41,"short_forecast":"Partly
+        Cloudy","detailed_forecast":"Partly cloudy. Low around 41, with temperatures
+        rising to around 45 overnight. South southeast wind 7 to 12 mph, with gusts
+        as high as 18 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 04:40:02 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/weather?address=350%20State%20St,%20Salt%20Lake%20City,%20UT%2084103
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"d0902ca05bc7efc3245d7319505c357c"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - '09940ef0-12c8-4081-a346-59c4be2d934e'
+      X-Runtime:
+      - '0.632198'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":36,"short_forecast":"Rain","detailed_forecast":"Rain.
+        Cloudy. Low around 36, with temperatures rising to around 40 overnight. South
+        wind 13 to 16 mph. Chance of precipitation is 90%. Little or no snow accumulation
+        expected."}}}'
+  recorded_at: Wed, 09 Nov 2022 04:40:03 GMT
+- request:
+    method: put
+    uri: http://localhost:3000/api/v1/1000/trips/3/stops/5/addresses/5?address%5Blocation%5D=456%20Claus%20Place,%20Birmingham,%20CO%2080012
+    body:
+      encoding: UTF-8
+      string: '{"query":"update_address"}'
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"cb7e53b50caf8bdd336ccf6217cb9b11"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 47d7daca-67b8-400f-af81-0c752d540754
+      X-Runtime:
+      - '0.071909'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"5","type":"address","attributes":{"location":"456 Claus
+        Place, Birmingham, CO 80012"}}}'
+  recorded_at: Wed, 09 Nov 2022 04:40:03 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips/3
     body:
       encoding: US-ASCII
       string: ''
@@ -248,120 +354,128 @@ http_interactions:
       Content-Type:
       - application/json; charset=UTF-8
       X-Request-Id:
-      - c5c1a43c-d41a-450d-abda-8f9d5cc52efe
+      - e49d4a0a-1c62-4ed2-8ff1-891151a437ad
       X-Runtime:
-      - '0.808343'
+      - '0.261605'
       Content-Length:
-      - '10257'
+      - '11010'
     body:
       encoding: UTF-8
       string: '{"status":500,"error":"Internal Server Error","exception":"#\u003cNoMethodError:
-        undefined method `[]'' for nil:NilClass\u003e","traces":{"Application Trace":[{"id":0,"trace":"app/facades/weather_facade.rb:7:in
-        `forecast''"},{"id":1,"trace":"app/controllers/api/v1/weather_controller.rb:11:in
-        `index''"}],"Framework Trace":[{"id":2,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/basic_implicit_render.rb:6:in
-        `send_action''"},{"id":3,"trace":"actionpack (5.2.8.1) lib/abstract_controller/base.rb:194:in
-        `process_action''"},{"id":4,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/rendering.rb:30:in
-        `process_action''"},{"id":5,"trace":"actionpack (5.2.8.1) lib/abstract_controller/callbacks.rb:42:in
-        `block in process_action''"},{"id":6,"trace":"activesupport (5.2.8.1) lib/active_support/callbacks.rb:98:in
-        `run_callbacks''"},{"id":7,"trace":"actionpack (5.2.8.1) lib/abstract_controller/callbacks.rb:41:in
-        `process_action''"},{"id":8,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/rescue.rb:22:in
-        `process_action''"},{"id":9,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/instrumentation.rb:34:in
-        `block in process_action''"},{"id":10,"trace":"activesupport (5.2.8.1) lib/active_support/notifications.rb:168:in
-        `block in instrument''"},{"id":11,"trace":"activesupport (5.2.8.1) lib/active_support/notifications/instrumenter.rb:23:in
-        `instrument''"},{"id":12,"trace":"activesupport (5.2.8.1) lib/active_support/notifications.rb:168:in
-        `instrument''"},{"id":13,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/instrumentation.rb:32:in
-        `process_action''"},{"id":14,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/params_wrapper.rb:256:in
-        `process_action''"},{"id":15,"trace":"activerecord (5.2.8.1) lib/active_record/railties/controller_runtime.rb:24:in
-        `process_action''"},{"id":16,"trace":"actionpack (5.2.8.1) lib/abstract_controller/base.rb:134:in
-        `process''"},{"id":17,"trace":"actionpack (5.2.8.1) lib/action_controller/metal.rb:191:in
-        `dispatch''"},{"id":18,"trace":"actionpack (5.2.8.1) lib/action_controller/metal.rb:252:in
-        `dispatch''"},{"id":19,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:52:in
-        `dispatch''"},{"id":20,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:34:in
-        `serve''"},{"id":21,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:52:in
-        `block in serve''"},{"id":22,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in
-        `each''"},{"id":23,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in
-        `serve''"},{"id":24,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:840:in
-        `call''"},{"id":25,"trace":"rack (2.2.4) lib/rack/etag.rb:27:in `call''"},{"id":26,"trace":"rack
-        (2.2.4) lib/rack/conditional_get.rb:27:in `call''"},{"id":27,"trace":"rack
-        (2.2.4) lib/rack/head.rb:12:in `call''"},{"id":28,"trace":"activerecord (5.2.8.1)
-        lib/active_record/migration.rb:559:in `call''"},{"id":29,"trace":"actionpack
-        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call''"},{"id":30,"trace":"activesupport
-        (5.2.8.1) lib/active_support/callbacks.rb:98:in `run_callbacks''"},{"id":31,"trace":"actionpack
-        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call''"},{"id":32,"trace":"actionpack
-        (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call''"},{"id":33,"trace":"actionpack
-        (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call''"},{"id":34,"trace":"actionpack
-        (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call''"},{"id":35,"trace":"railties
-        (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app''"},{"id":36,"trace":"railties
-        (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call''"},{"id":37,"trace":"activesupport
-        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged''"},{"id":38,"trace":"activesupport
-        (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged''"},{"id":39,"trace":"activesupport
-        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged''"},{"id":40,"trace":"railties
-        (5.2.8.1) lib/rails/rack/logger.rb:26:in `call''"},{"id":41,"trace":"actionpack
-        (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call''"},{"id":42,"trace":"actionpack
-        (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call''"},{"id":43,"trace":"rack
-        (2.2.4) lib/rack/runtime.rb:22:in `call''"},{"id":44,"trace":"activesupport
+        undefined method `seconds'' for nil:NilClass\u003e","traces":{"Application
+        Trace":[{"id":0,"trace":"app/models/trip.rb:25:in `arrival_date_calculation''"},{"id":1,"trace":"app/controllers/api/v1/trips_controller.rb:41:in
+        `update_arrival''"}],"Framework Trace":[{"id":2,"trace":"activesupport (5.2.8.1)
+        lib/active_support/callbacks.rb:426:in `block in make_lambda''"},{"id":3,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:179:in `block (2 levels) in halting_and_conditional''"},{"id":4,"trace":"actionpack
+        (5.2.8.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in
+        \u003cmodule:Callbacks\u003e''"},{"id":5,"trace":"activesupport (5.2.8.1)
+        lib/active_support/callbacks.rb:180:in `block in halting_and_conditional''"},{"id":6,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:513:in `block in invoke_before''"},{"id":7,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:513:in `each''"},{"id":8,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:513:in `invoke_before''"},{"id":9,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:131:in `run_callbacks''"},{"id":10,"trace":"actionpack
+        (5.2.8.1) lib/abstract_controller/callbacks.rb:41:in `process_action''"},{"id":11,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/rescue.rb:22:in `process_action''"},{"id":12,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action''"},{"id":13,"trace":"activesupport
+        (5.2.8.1) lib/active_support/notifications.rb:168:in `block in instrument''"},{"id":14,"trace":"activesupport
+        (5.2.8.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument''"},{"id":15,"trace":"activesupport
+        (5.2.8.1) lib/active_support/notifications.rb:168:in `instrument''"},{"id":16,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action''"},{"id":17,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action''"},{"id":18,"trace":"activerecord
+        (5.2.8.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action''"},{"id":19,"trace":"actionpack
+        (5.2.8.1) lib/abstract_controller/base.rb:134:in `process''"},{"id":20,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal.rb:191:in `dispatch''"},{"id":21,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal.rb:252:in `dispatch''"},{"id":22,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch''"},{"id":23,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/routing/route_set.rb:34:in `serve''"},{"id":24,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/journey/router.rb:52:in `block in serve''"},{"id":25,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in `each''"},{"id":26,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in `serve''"},{"id":27,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/routing/route_set.rb:840:in `call''"},{"id":28,"trace":"rack
+        (2.2.4) lib/rack/etag.rb:27:in `call''"},{"id":29,"trace":"rack (2.2.4) lib/rack/conditional_get.rb:27:in
+        `call''"},{"id":30,"trace":"rack (2.2.4) lib/rack/head.rb:12:in `call''"},{"id":31,"trace":"activerecord
+        (5.2.8.1) lib/active_record/migration.rb:559:in `call''"},{"id":32,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call''"},{"id":33,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:98:in `run_callbacks''"},{"id":34,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call''"},{"id":35,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call''"},{"id":36,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call''"},{"id":37,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call''"},{"id":38,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app''"},{"id":39,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call''"},{"id":40,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged''"},{"id":41,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged''"},{"id":42,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged''"},{"id":43,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `call''"},{"id":44,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call''"},{"id":45,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call''"},{"id":46,"trace":"rack
+        (2.2.4) lib/rack/runtime.rb:22:in `call''"},{"id":47,"trace":"activesupport
         (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in
-        `call''"},{"id":45,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in
-        `call''"},{"id":46,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in
-        `call''"},{"id":47,"trace":"rack (2.2.4) lib/rack/sendfile.rb:110:in `call''"},{"id":48,"trace":"railties
-        (5.2.8.1) lib/rails/engine.rb:524:in `call''"},{"id":49,"trace":"puma (3.12.6)
-        lib/puma/configuration.rb:227:in `call''"},{"id":50,"trace":"puma (3.12.6)
-        lib/puma/server.rb:706:in `handle_request''"},{"id":51,"trace":"puma (3.12.6)
-        lib/puma/server.rb:476:in `process_client''"},{"id":52,"trace":"puma (3.12.6)
-        lib/puma/server.rb:334:in `block in run''"},{"id":53,"trace":"puma (3.12.6)
-        lib/puma/thread_pool.rb:135:in `block in spawn_thread''"}],"Full Trace":[{"id":0,"trace":"app/facades/weather_facade.rb:7:in
-        `forecast''"},{"id":1,"trace":"app/controllers/api/v1/weather_controller.rb:11:in
-        `index''"},{"id":2,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/basic_implicit_render.rb:6:in
-        `send_action''"},{"id":3,"trace":"actionpack (5.2.8.1) lib/abstract_controller/base.rb:194:in
-        `process_action''"},{"id":4,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/rendering.rb:30:in
-        `process_action''"},{"id":5,"trace":"actionpack (5.2.8.1) lib/abstract_controller/callbacks.rb:42:in
-        `block in process_action''"},{"id":6,"trace":"activesupport (5.2.8.1) lib/active_support/callbacks.rb:98:in
-        `run_callbacks''"},{"id":7,"trace":"actionpack (5.2.8.1) lib/abstract_controller/callbacks.rb:41:in
-        `process_action''"},{"id":8,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/rescue.rb:22:in
-        `process_action''"},{"id":9,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/instrumentation.rb:34:in
-        `block in process_action''"},{"id":10,"trace":"activesupport (5.2.8.1) lib/active_support/notifications.rb:168:in
-        `block in instrument''"},{"id":11,"trace":"activesupport (5.2.8.1) lib/active_support/notifications/instrumenter.rb:23:in
-        `instrument''"},{"id":12,"trace":"activesupport (5.2.8.1) lib/active_support/notifications.rb:168:in
-        `instrument''"},{"id":13,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/instrumentation.rb:32:in
-        `process_action''"},{"id":14,"trace":"actionpack (5.2.8.1) lib/action_controller/metal/params_wrapper.rb:256:in
-        `process_action''"},{"id":15,"trace":"activerecord (5.2.8.1) lib/active_record/railties/controller_runtime.rb:24:in
-        `process_action''"},{"id":16,"trace":"actionpack (5.2.8.1) lib/abstract_controller/base.rb:134:in
-        `process''"},{"id":17,"trace":"actionpack (5.2.8.1) lib/action_controller/metal.rb:191:in
-        `dispatch''"},{"id":18,"trace":"actionpack (5.2.8.1) lib/action_controller/metal.rb:252:in
-        `dispatch''"},{"id":19,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:52:in
-        `dispatch''"},{"id":20,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:34:in
-        `serve''"},{"id":21,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:52:in
-        `block in serve''"},{"id":22,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in
-        `each''"},{"id":23,"trace":"actionpack (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in
-        `serve''"},{"id":24,"trace":"actionpack (5.2.8.1) lib/action_dispatch/routing/route_set.rb:840:in
-        `call''"},{"id":25,"trace":"rack (2.2.4) lib/rack/etag.rb:27:in `call''"},{"id":26,"trace":"rack
-        (2.2.4) lib/rack/conditional_get.rb:27:in `call''"},{"id":27,"trace":"rack
-        (2.2.4) lib/rack/head.rb:12:in `call''"},{"id":28,"trace":"activerecord (5.2.8.1)
-        lib/active_record/migration.rb:559:in `call''"},{"id":29,"trace":"actionpack
-        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call''"},{"id":30,"trace":"activesupport
-        (5.2.8.1) lib/active_support/callbacks.rb:98:in `run_callbacks''"},{"id":31,"trace":"actionpack
-        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call''"},{"id":32,"trace":"actionpack
-        (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call''"},{"id":33,"trace":"actionpack
-        (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call''"},{"id":34,"trace":"actionpack
-        (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call''"},{"id":35,"trace":"railties
-        (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app''"},{"id":36,"trace":"railties
-        (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call''"},{"id":37,"trace":"activesupport
-        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged''"},{"id":38,"trace":"activesupport
-        (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged''"},{"id":39,"trace":"activesupport
-        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged''"},{"id":40,"trace":"railties
-        (5.2.8.1) lib/rails/rack/logger.rb:26:in `call''"},{"id":41,"trace":"actionpack
-        (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call''"},{"id":42,"trace":"actionpack
-        (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call''"},{"id":43,"trace":"rack
-        (2.2.4) lib/rack/runtime.rb:22:in `call''"},{"id":44,"trace":"activesupport
+        `call''"},{"id":48,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in
+        `call''"},{"id":49,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in
+        `call''"},{"id":50,"trace":"rack (2.2.4) lib/rack/sendfile.rb:110:in `call''"},{"id":51,"trace":"railties
+        (5.2.8.1) lib/rails/engine.rb:524:in `call''"},{"id":52,"trace":"puma (3.12.6)
+        lib/puma/configuration.rb:227:in `call''"},{"id":53,"trace":"puma (3.12.6)
+        lib/puma/server.rb:706:in `handle_request''"},{"id":54,"trace":"puma (3.12.6)
+        lib/puma/server.rb:476:in `process_client''"},{"id":55,"trace":"puma (3.12.6)
+        lib/puma/server.rb:334:in `block in run''"},{"id":56,"trace":"puma (3.12.6)
+        lib/puma/thread_pool.rb:135:in `block in spawn_thread''"}],"Full Trace":[{"id":0,"trace":"app/models/trip.rb:25:in
+        `arrival_date_calculation''"},{"id":1,"trace":"app/controllers/api/v1/trips_controller.rb:41:in
+        `update_arrival''"},{"id":2,"trace":"activesupport (5.2.8.1) lib/active_support/callbacks.rb:426:in
+        `block in make_lambda''"},{"id":3,"trace":"activesupport (5.2.8.1) lib/active_support/callbacks.rb:179:in
+        `block (2 levels) in halting_and_conditional''"},{"id":4,"trace":"actionpack
+        (5.2.8.1) lib/abstract_controller/callbacks.rb:34:in `block (2 levels) in
+        \u003cmodule:Callbacks\u003e''"},{"id":5,"trace":"activesupport (5.2.8.1)
+        lib/active_support/callbacks.rb:180:in `block in halting_and_conditional''"},{"id":6,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:513:in `block in invoke_before''"},{"id":7,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:513:in `each''"},{"id":8,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:513:in `invoke_before''"},{"id":9,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:131:in `run_callbacks''"},{"id":10,"trace":"actionpack
+        (5.2.8.1) lib/abstract_controller/callbacks.rb:41:in `process_action''"},{"id":11,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/rescue.rb:22:in `process_action''"},{"id":12,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/instrumentation.rb:34:in `block in process_action''"},{"id":13,"trace":"activesupport
+        (5.2.8.1) lib/active_support/notifications.rb:168:in `block in instrument''"},{"id":14,"trace":"activesupport
+        (5.2.8.1) lib/active_support/notifications/instrumenter.rb:23:in `instrument''"},{"id":15,"trace":"activesupport
+        (5.2.8.1) lib/active_support/notifications.rb:168:in `instrument''"},{"id":16,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/instrumentation.rb:32:in `process_action''"},{"id":17,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal/params_wrapper.rb:256:in `process_action''"},{"id":18,"trace":"activerecord
+        (5.2.8.1) lib/active_record/railties/controller_runtime.rb:24:in `process_action''"},{"id":19,"trace":"actionpack
+        (5.2.8.1) lib/abstract_controller/base.rb:134:in `process''"},{"id":20,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal.rb:191:in `dispatch''"},{"id":21,"trace":"actionpack
+        (5.2.8.1) lib/action_controller/metal.rb:252:in `dispatch''"},{"id":22,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/routing/route_set.rb:52:in `dispatch''"},{"id":23,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/routing/route_set.rb:34:in `serve''"},{"id":24,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/journey/router.rb:52:in `block in serve''"},{"id":25,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in `each''"},{"id":26,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/journey/router.rb:35:in `serve''"},{"id":27,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/routing/route_set.rb:840:in `call''"},{"id":28,"trace":"rack
+        (2.2.4) lib/rack/etag.rb:27:in `call''"},{"id":29,"trace":"rack (2.2.4) lib/rack/conditional_get.rb:27:in
+        `call''"},{"id":30,"trace":"rack (2.2.4) lib/rack/head.rb:12:in `call''"},{"id":31,"trace":"activerecord
+        (5.2.8.1) lib/active_record/migration.rb:559:in `call''"},{"id":32,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call''"},{"id":33,"trace":"activesupport
+        (5.2.8.1) lib/active_support/callbacks.rb:98:in `run_callbacks''"},{"id":34,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call''"},{"id":35,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in `call''"},{"id":36,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call''"},{"id":37,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call''"},{"id":38,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:38:in `call_app''"},{"id":39,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `block in call''"},{"id":40,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `block in tagged''"},{"id":41,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:28:in `tagged''"},{"id":42,"trace":"activesupport
+        (5.2.8.1) lib/active_support/tagged_logging.rb:71:in `tagged''"},{"id":43,"trace":"railties
+        (5.2.8.1) lib/rails/rack/logger.rb:26:in `call''"},{"id":44,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call''"},{"id":45,"trace":"actionpack
+        (5.2.8.1) lib/action_dispatch/middleware/request_id.rb:27:in `call''"},{"id":46,"trace":"rack
+        (2.2.4) lib/rack/runtime.rb:22:in `call''"},{"id":47,"trace":"activesupport
         (5.2.8.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in
-        `call''"},{"id":45,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in
-        `call''"},{"id":46,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in
-        `call''"},{"id":47,"trace":"rack (2.2.4) lib/rack/sendfile.rb:110:in `call''"},{"id":48,"trace":"railties
-        (5.2.8.1) lib/rails/engine.rb:524:in `call''"},{"id":49,"trace":"puma (3.12.6)
-        lib/puma/configuration.rb:227:in `call''"},{"id":50,"trace":"puma (3.12.6)
-        lib/puma/server.rb:706:in `handle_request''"},{"id":51,"trace":"puma (3.12.6)
-        lib/puma/server.rb:476:in `process_client''"},{"id":52,"trace":"puma (3.12.6)
-        lib/puma/server.rb:334:in `block in run''"},{"id":53,"trace":"puma (3.12.6)
+        `call''"},{"id":48,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/executor.rb:14:in
+        `call''"},{"id":49,"trace":"actionpack (5.2.8.1) lib/action_dispatch/middleware/static.rb:127:in
+        `call''"},{"id":50,"trace":"rack (2.2.4) lib/rack/sendfile.rb:110:in `call''"},{"id":51,"trace":"railties
+        (5.2.8.1) lib/rails/engine.rb:524:in `call''"},{"id":52,"trace":"puma (3.12.6)
+        lib/puma/configuration.rb:227:in `call''"},{"id":53,"trace":"puma (3.12.6)
+        lib/puma/server.rb:706:in `handle_request''"},{"id":54,"trace":"puma (3.12.6)
+        lib/puma/server.rb:476:in `process_client''"},{"id":55,"trace":"puma (3.12.6)
+        lib/puma/server.rb:334:in `block in run''"},{"id":56,"trace":"puma (3.12.6)
         lib/puma/thread_pool.rb:135:in `block in spawn_thread''"}]}}'
-  recorded_at: Wed, 09 Nov 2022 04:04:34 GMT
+  recorded_at: Wed, 09 Nov 2022 04:40:03 GMT
 recorded_with: VCR 6.1.0

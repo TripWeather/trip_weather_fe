@@ -6,7 +6,6 @@ class Trip
               :trips
 
   def initialize(trip_data)
-
     @id = trip_data[:id]
     @name = trip_data[:attributes][:name]
     @departure_date = trip_data[:attributes][:departure_date]

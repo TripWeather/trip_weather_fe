@@ -21,20 +21,20 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"391bc93caf791b366d571fd3b91fc0db"
+      - W/"ab8dc787b52b51bbb55d10022b3e95f8"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - efc27b06-9d5a-4eb2-a864-ecf93deb4686
+      - 78556f63-50bb-4041-96ed-9784ba132949
       X-Runtime:
-      - '0.037055'
+      - '0.020034'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T04:03:09.431Z","arrival_date":"2022-11-14T04:02:39.431Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T04:03:09.441Z","arrival_date":"2022-11-19T04:02:39.441Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T04:03:09.452Z","arrival_date":"2022-11-19T04:02:39.452Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
-        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2022-11-30T13:52:44.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}]}'
-  recorded_at: Wed, 09 Nov 2022 04:04:27 GMT
+      string: '{"data":[{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T04:39:09.945Z","arrival_date":"2022-11-14T04:38:39.945Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T04:39:09.954Z","arrival_date":"2022-11-19T04:38:39.954Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T04:39:09.964Z","arrival_date":"2022-11-19T04:38:39.964Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
+        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2022-11-30T13:51:04.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}]}'
+  recorded_at: Wed, 09 Nov 2022 04:39:56 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1
@@ -56,20 +56,20 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"558c7c0e576901d58879da287e6c6fc2"
+      - W/"00ce2748261f30c6ac79ad2f6aec59e4"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 3f72248c-7b49-4313-b963-c41f66db091c
+      - 4f97001e-df78-47ac-aba3-1af7f77c4810
       X-Runtime:
-      - '0.702412'
+      - '0.738725'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
-        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2022-11-30T13:52:44.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
-  recorded_at: Wed, 09 Nov 2022 04:04:28 GMT
+        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2022-11-30T13:51:04.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
+  recorded_at: Wed, 09 Nov 2022 04:39:57 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1/stops
@@ -95,15 +95,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - a647d4cc-c6df-45fd-a1f8-0ccb957bdf1d
+      - c265cd7f-14dc-4ff8-86a1-7baf8bdfd9ef
       X-Runtime:
-      - '0.022637'
+      - '0.006242'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":[{"id":"1","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"1","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/1/addresses/1"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/1"}},{"id":"2","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"2","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/2/addresses/2"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/2"}}]}'
-  recorded_at: Wed, 09 Nov 2022 04:04:28 GMT
+  recorded_at: Wed, 09 Nov 2022 04:39:57 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1/stops/1/addresses/1
@@ -129,16 +129,16 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 03cdd6a5-d38e-458a-8db9-0012f9e217ac
+      - ae2fe28b-4fb4-4b90-9011-49f708303a75
       X-Runtime:
-      - '0.035425'
+      - '0.003396'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"address","attributes":{"location":"200 E
         Colfax Ave, Denver, CO 80203"}}}'
-  recorded_at: Wed, 09 Nov 2022 04:04:28 GMT
+  recorded_at: Wed, 09 Nov 2022 04:39:57 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1/stops/2/addresses/2
@@ -164,16 +164,16 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 81b5fc8b-73c1-4e5d-b5df-e1451cb7ea51
+      - 5db9fc28-4439-441b-9e16-125b7d8f3b48
       X-Runtime:
-      - '0.014479'
+      - '0.010563'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"2","type":"address","attributes":{"location":"1600 Pennsylvania
         Avenue NW, Washington, DC 20500"}}}'
-  recorded_at: Wed, 09 Nov 2022 04:04:28 GMT
+  recorded_at: Wed, 09 Nov 2022 04:39:57 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/nav?from=200%20E%20Colfax%20Ave,%20Denver,%20CO%2080203&to=1600%20Pennsylvania%20Avenue%20NW,%20Washington,%20DC%2020500
@@ -195,13 +195,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"eff2a9182cd36f947f1635b2bda3870a"
+      - W/"7bcd9b2059df384d6469b949ea82f8a3"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - bac11a1f-d571-4d42-8e93-5235bf68b09c
+      - 60da29af-0bfb-4ede-85a3-dfaf94ece6da
       X-Runtime:
-      - '1.394017'
+      - '1.419813'
       Transfer-Encoding:
       - chunked
     body:
@@ -248,8 +248,8 @@ http_interactions:
         right onto E St NW. Go for 440 ft.",0.0833],["Turn left onto W Executive Ave
         NW. Go for 361 ft.",0.0684],["Turn left onto State Pl NW. Go for 413 ft.",0.0783],["Make
         a U-Turn at New York Ave NW onto State Pl NW. Go for 515 ft.",0.0976],["Turn
-        left. Go for 492 ft.",0.0932],["Arrive at your destination.",0]],"total_trip_time":89564,"total_distance":1675.9077,"has_toll_road":true}}}'
-  recorded_at: Wed, 09 Nov 2022 04:04:30 GMT
+        left. Go for 492 ft.",0.0932],["Arrive at your destination.",0]],"total_trip_time":89464,"total_distance":1675.9077,"has_toll_road":true}}}'
+  recorded_at: Wed, 09 Nov 2022 04:39:59 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/weather?address=200%20E%20Colfax%20Ave,%20Denver,%20CO%2080203
@@ -275,9 +275,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5162882d-4eba-4d50-9ec3-12ee6f55ba83
+      - 9f793532-e0e3-4b3b-8755-1d77afe02d5b
       X-Runtime:
-      - '0.467014'
+      - '0.511485'
       Transfer-Encoding:
       - chunked
     body:
@@ -286,7 +286,7 @@ http_interactions:
         Cloudy","detailed_forecast":"Partly cloudy. Low around 39, with temperatures
         rising to around 43 overnight. South southeast wind 5 to 10 mph, with gusts
         as high as 16 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 04:04:30 GMT
+  recorded_at: Wed, 09 Nov 2022 04:39:59 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/weather?address=1600%20Pennsylvania%20Avenue%20NW,%20Washington,%20DC%2020500
@@ -312,14 +312,14 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 37d5d025-363d-456e-829a-2272fb6e164e
+      - ae6edb19-025b-4fe7-954e-210db8107b28
       X-Runtime:
-      - '0.371303'
+      - '0.534584'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":39,"short_forecast":"Clear","detailed_forecast":"Clear,
         with a low around 39. Northeast wind around 8 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 04:04:30 GMT
+  recorded_at: Wed, 09 Nov 2022 04:40:00 GMT
 recorded_with: VCR 6.1.0

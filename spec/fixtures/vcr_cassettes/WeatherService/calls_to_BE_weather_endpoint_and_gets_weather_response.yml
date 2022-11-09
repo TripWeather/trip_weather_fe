@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 573e0bde-cb67-4870-a9c8-cfdb8d1b01c2
+      - 20a611a2-b1cc-429f-b627-5b4fcbb66ad7
       X-Runtime:
-      - '0.390362'
+      - '0.848215'
       Transfer-Encoding:
       - chunked
     body:
@@ -35,5 +35,5 @@ http_interactions:
       string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":40,"short_forecast":"Mostly
         Clear","detailed_forecast":"Mostly clear, with a low around 40. East wind
         around 7 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 04:04:36 GMT
+  recorded_at: Wed, 09 Nov 2022 04:40:08 GMT
 recorded_with: VCR 6.1.0
