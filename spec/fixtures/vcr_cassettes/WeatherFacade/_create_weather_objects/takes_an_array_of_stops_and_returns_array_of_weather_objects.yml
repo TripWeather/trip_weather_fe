@@ -21,21 +21,21 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"5b5f7b63e62d0b41adba7b873448a89d"
+      - W/"ba685ecd9225e8663f03c48d4b3be477"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - cf5e168e-b72c-43d6-a7ba-afa6fd82302e
+      - d822cc29-0f01-4aaa-bebd-8cacb9a8f4ad
       X-Runtime:
-      - '1.728904'
+      - '0.413503'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":40,"short_forecast":"Mostly
-        Clear","detailed_forecast":"Mostly clear, with a low around 40. East wind
-        around 7 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 04:39:38 GMT
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":64,"short_forecast":"Sunny","detailed_forecast":"Sunny.
+        High near 64, with temperatures falling to around 60 in the afternoon. South
+        wind around 8 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 21:24:54 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/weather?address=2303%20Braun%20Ct,%20Golden%20CO%2080401
@@ -57,19 +57,21 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"ba42f71ea66a929b9252027560ac4a9b"
+      - W/"95fc63b37c4c1e0adbe9e00a6c684e9f"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 98142ad3-147d-4b34-ad74-fdda801bfd2a
+      - 508b0dae-36ee-44be-9636-5753cfee3c50
       X-Runtime:
-      - '1.179655'
+      - '0.346049'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":40,"short_forecast":"Partly
-        Cloudy","detailed_forecast":"Partly cloudy. Low around 40, with temperatures
-        rising to around 42 overnight. Southwest wind 5 to 8 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 04:39:40 GMT
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":65,"short_forecast":"Slight
+        Chance Light Rain","detailed_forecast":"A slight chance of rain after 5pm.
+        Sunny. High near 65, with temperatures falling to around 57 in the afternoon.
+        South southwest wind 10 to 16 mph, with gusts as high as 25 mph. Chance of
+        precipitation is 20%."}}}'
+  recorded_at: Wed, 09 Nov 2022 21:24:54 GMT
 recorded_with: VCR 6.1.0

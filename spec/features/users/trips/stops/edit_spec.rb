@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'Create a trip' do
-  xit 'a user update stop', :vcr do
+  it 'a user update stop', :vcr do
     stub_omniauth
 
     user = create(:omniauth_mock_user)
@@ -20,19 +20,16 @@ RSpec.describe 'Create a trip' do
 
     expect(current_path).to eq "/trips/3/stops/5/addresses/5/edit"
 
-    fill_in :address, with: "456 Claus Place"
-    fill_in :city, with: "Birmingham"
+    fill_in :address, with: "200 E Colfax Ave"
+    fill_in :city, with: "Denver"
     select "CO", from: :state
-    fill_in :zipcode, with: "80012"
+    fill_in :zipcode, with: "80203"
 
     click_button "Update Address"
-    save_and_open_page
     expect(current_path).to eq "/trips/3"
 
-    expect(page).to_not have_content("123 N Santa Wy")
-    expect(page).to have_content("456 Claus Place")
-    expect(page).to have_content("Birmingham")
-    expect(page).to have_content("CO")
+    expect(page).to_not have_content("456 Claus Place, Birmingham, CO 80012")
+    expect(page).to have_content("200 E Colfax Ave, Denver, CO 80203")
   end
 
 end

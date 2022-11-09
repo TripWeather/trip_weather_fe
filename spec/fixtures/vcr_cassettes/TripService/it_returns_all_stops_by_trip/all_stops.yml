@@ -25,13 +25,13 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b7666f62-4171-4528-b47f-5fc8fce4dfe6
+      - 49776756-3c2b-47e2-b520-9330fed5b95e
       X-Runtime:
-      - '0.019742'
+      - '0.005658'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":[{"id":"11","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"11","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/11/addresses/11"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/11"}},{"id":"12","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"12","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/12/addresses/12"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/6/stops/12"}}]}'
-  recorded_at: Wed, 09 Nov 2022 04:40:07 GMT
+  recorded_at: Wed, 09 Nov 2022 21:25:20 GMT
 recorded_with: VCR 6.1.0
