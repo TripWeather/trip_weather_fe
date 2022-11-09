@@ -21,13 +21,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"e8b80aa1ec53c58bdbe6af5214f9b75a"
+      - W/"039a5e88115a1c7f769492392c926a6b"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f2aac3bf-c045-445f-9669-adaf88ea7645
+      - 55fb1a63-434b-4fc1-a47e-2b21ff8b53a1
       X-Runtime:
-      - '1.197096'
+      - '1.137559'
       Transfer-Encoding:
       - chunked
     body:
@@ -36,30 +36,28 @@ http_interactions:
         toward W 25th Ave on Braun Ct. Go for 0.2 mi.",0.1678],["Turn right onto W
         26th Ave. Go for 0.1 mi.",0.1044],["Turn left onto N Alkire St. Go for 0.5
         mi.",0.5021],["Turn right onto W 32nd Ave (CR-181). Go for 0.3 mi.",0.2523],["Turn
-        left onto Youngfield St (CR-173). Go for 0.3 mi.",0.348],["Turn right onto
-        W 38th Ave (CR-180). Go for 1.8 mi.",1.7697],["Continue on W 38th Ave. Go
-        for 1.5 mi.",1.5056],["Turn left onto Wadsworth Blvd (CO-121). Go for 1.0
-        mi.",0.9693],["Take ramp onto I-76 E toward Fort Morgan. Go for 185 mi.",184.5261],["Continue
-        on I-76. Go for 2.9 mi.",2.8763],["Continue on I-80. Go for 352 mi.",352.0465],["Continue
-        on I-80. Go for 3.4 mi.",3.4163],["Continue on I-80 E (I-80 Express Lane)
-        toward Des Moines. Go for 119 mi.",118.575],["Take the exit onto I-35 N/I-80
-        E. Go for 15.0 mi.",15.021],["Continue on I-80 E toward Davenport. Go for
-        151 mi.",151.4636],["Take exit 290 toward US-6 E/US-61 S/Rock Island/Moline
-        onto I-280 E. Go for 9.8 mi.",9.7574],["Continue on I-280. Go for 17.7 mi.",17.7321],["Continue
-        on I-80 E toward Chicago. Go for 151 mi.",150.5607],["Continue on I-80 (Tri-State
-        Tlwy). Go for 2.9 mi.",2.8751],["Continue on I-80/I-94 (Borman Expy). Go for
-        15.3 mi.",15.2596],["Continue on I-94 E (Borman Expy) toward Detroit. Go for
-        30.3 mi.",30.3068],["Continue on I-94. Go for 171 mi.",170.549],["Take left
-        exit 171 toward Plymouth/Hosptial onto M-14. Go for 3.5 mi.",3.4865],["Continue
-        on US-23-BR. Go for 1.1 mi.",1.1309],["Take the exit toward M-14 E/Plymouth
-        onto US-23 S. Go for 2.4 mi.",2.3625],["Continue on M-14 toward Plymouth/Livonia.
-        Go for 15.0 mi.",15.0279],["Take the exit toward I-96 onto I-275 N. Go for
-        6.0 mi.",5.9745],["Take exit 165 toward Port Huron onto I-696 (Walter P Reuther
-        Fwy). Go for 12.1 mi.",12.0621],["Take exit 12 toward Southfield Rd/11 Mile
-        Rd onto W 11 Mile Rd. Go for 0.6 mi.",0.6046],["Keep right onto W 11 Mile
-        Rd. Go for 0.8 mi.",0.8022],["Turn left onto Greenfield Rd. Go for 1.0 mi.",1.0035],["Turn
-        right onto W 12 Mile Rd. Go for 1.9 mi.",1.9424],["Turn right onto Fairlawn
-        Rd. Go for 308 ft.",0.0584],["Turn right onto Cedar Hill Dr. Go for 259 ft.",0.0491],["Arrive
-        at Cedar Hill Dr.",0]],"total_trip_time":66747,"total_distance":1275.0891,"has_toll_road":true}}}'
-  recorded_at: Wed, 09 Nov 2022 01:47:38 GMT
+        left onto Youngfield St (CR-173). Go for 0.2 mi.",0.187],["Turn left and take
+        ramp onto I-70 E. Go for 4.4 mi.",4.3763],["Keep left onto I-76 E toward Fort
+        Morgan. Go for 184 mi.",184.331],["Continue on I-76. Go for 2.9 mi.",2.8763],["Continue
+        on I-80. Go for 352 mi.",352.0465],["Continue on I-80. Go for 3.4 mi.",3.4163],["Continue
+        on I-80 E (I-80 Express Lane) toward Des Moines. Go for 119 mi.",118.575],["Take
+        the exit onto I-35 N/I-80 E. Go for 15.0 mi.",15.021],["Continue on I-80 E
+        toward Davenport. Go for 151 mi.",151.4636],["Take exit 290 toward US-6 E/US-61
+        S/Rock Island/Moline onto I-280 E. Go for 9.8 mi.",9.7574],["Continue on I-280.
+        Go for 17.7 mi.",17.7321],["Continue on I-80 E toward Chicago. Go for 151
+        mi.",150.5607],["Continue on I-80 (Tri-State Tlwy). Go for 2.9 mi.",2.8751],["Continue
+        on I-80/I-94 (Borman Expy). Go for 15.3 mi.",15.2596],["Continue on I-94 E
+        (Borman Expy) toward Detroit. Go for 30.3 mi.",30.3068],["Continue on I-94.
+        Go for 171 mi.",170.549],["Take left exit 171 toward Plymouth/Hosptial onto
+        M-14. Go for 3.5 mi.",3.4865],["Continue on US-23-BR. Go for 1.1 mi.",1.1309],["Take
+        the exit toward M-14 E/Plymouth onto US-23 S. Go for 2.4 mi.",2.3625],["Continue
+        on M-14 toward Plymouth/Livonia. Go for 15.0 mi.",15.0279],["Take the exit
+        toward I-96 onto I-275 N. Go for 6.0 mi.",5.9745],["Take exit 165 toward Port
+        Huron onto I-696 (Walter P Reuther Fwy). Go for 12.1 mi.",12.0621],["Take
+        exit 12 toward Southfield Rd/11 Mile Rd onto W 11 Mile Rd. Go for 0.6 mi.",0.6046],["Keep
+        right onto W 11 Mile Rd. Go for 0.8 mi.",0.8022],["Turn left onto Greenfield
+        Rd. Go for 1.0 mi.",1.0035],["Turn right onto W 12 Mile Rd. Go for 1.9 mi.",1.9424],["Turn
+        right onto Fairlawn Rd. Go for 308 ft.",0.0584],["Turn right onto Cedar Hill
+        Dr. Go for 259 ft.",0.0491],["Arrive at Cedar Hill Dr.",0]],"total_trip_time":66202,"total_distance":1274.8648,"has_toll_road":true}}}'
+  recorded_at: Wed, 09 Nov 2022 04:40:06 GMT
 recorded_with: VCR 6.1.0

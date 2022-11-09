@@ -15,8 +15,8 @@ describe 'TripsController' do
 
       expect(page).to have_content("The Great Trip")
       expect(page).to have_content("Departure: Tuesday, 29 Nov 2022 1:00 PM")
-      expect(page).to have_content("1600 Pennsylvania Ave NW, Washington DC")
-      expect(page).to have_content("350 State St, Salt Lake City, UT 84103")
+      expect(page).to have_content("1600 Pennsylvania Avenue NW, Washington, DC 20500")
+      expect(page).to have_content("Start 200 E Colfax Ave, Denver, CO 80203")
     end
   end
 end
