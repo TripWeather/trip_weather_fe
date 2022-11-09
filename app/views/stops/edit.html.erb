@@ -1,0 +1,17 @@
+  <%= form_with url: "/trips/#{@trip_id}/stops/#{@stop_id}/addresses/#{@address_id}", method: :put, local: true do |form| %>
+
+  <p> <%= form.label :address, "Street Address" %>
+  <%= form.text_field :address, required: true %> </p>
+
+  <p> <%= form.label :city, "City" %>
+  <%= form.text_field :city, required: true %> </p>
+
+  <p> <%= form.label :state, "State" %>
+  <%= form.select :state, options_for_select(us_states, "CO"), required: true %> </p>
+
+  <p> <%= form.label :zipcode, "Zip Code" %>
+  <%= form.number_field :zipcode, min: 0, max: 99999, required: true  %> </p>
+
+  <p> <%= form.submit "Update Address" %> </p>
+
+  <% end %>

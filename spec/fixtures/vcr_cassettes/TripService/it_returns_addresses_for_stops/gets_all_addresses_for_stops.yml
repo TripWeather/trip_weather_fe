@@ -25,14 +25,14 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 22f9525c-c828-4882-9899-f0ff410de98f
+      - 046674f9-bdcb-4d30-b595-9e347fb97b6f
       X-Runtime:
-      - '0.005051'
+      - '0.002223'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"14","type":"address","attributes":{"location":"418 Bogan
         Roads, South Renea, NJ 89316-9333"}}}'
-  recorded_at: Tue, 08 Nov 2022 22:10:03 GMT
+  recorded_at: Wed, 09 Nov 2022 01:47:39 GMT
 recorded_with: VCR 6.1.0

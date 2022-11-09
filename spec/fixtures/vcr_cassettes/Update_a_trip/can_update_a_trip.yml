@@ -21,22 +21,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"2eb694e6cd22aad5da39c9cfdc59ab8f"
+      - W/"a96b9a0789b6e10820fdbc72a00d746d"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ff744d40-045b-4f0e-af24-a40a0a3dda5b
+      - ffcf3c20-3609-4254-9dfb-3a498e3a4671
       X-Runtime:
-      - '0.012358'
+      - '0.005207'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-08T21:43:21.413Z","arrival_date":"2022-11-10T21:42:51.413Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}},{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-08T21:43:21.473Z","arrival_date":"2022-11-13T21:42:51.473Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-08T21:43:21.478Z","arrival_date":"2022-11-18T21:42:51.478Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-08T21:43:21.483Z","arrival_date":"2022-11-18T21:42:51.483Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"9","type":"trip","attributes":{"uid":"1000","name":"Grand
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"17","type":"stop"},{"id":"18","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}},{"id":"10","type":"trip","attributes":{"uid":"1000","name":"Grand
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"19","type":"stop"},{"id":"20","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/10/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/10"}},{"id":"11","type":"trip","attributes":{"uid":"1000","name":"Super
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"21","type":"stop"},{"id":"22","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/11/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/11"}}]}'
-  recorded_at: Tue, 08 Nov 2022 22:25:01 GMT
+      string: '{"data":[{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T01:47:21.732Z","arrival_date":"2022-11-11T01:46:51.732Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}},{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T01:47:21.757Z","arrival_date":"2022-11-14T01:46:51.757Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T01:47:21.763Z","arrival_date":"2022-11-19T01:46:51.763Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T01:47:21.767Z","arrival_date":"2022-11-19T01:46:51.767Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}}]}'
+  recorded_at: Wed, 09 Nov 2022 01:47:36 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1
@@ -58,19 +55,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"ac2f5e66d97c03dedda004b372405f7c"
+      - W/"260dfc60302be9a3c084f4f236551297"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 64762e6c-d7ba-47ad-b471-33781579fac0
+      - 0a1a2ace-d77b-40f4-8401-fa9eb9d144dc
       X-Runtime:
-      - '0.002974'
+      - '0.003453'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-08T21:43:21.413Z","arrival_date":"2022-11-10T21:42:51.413Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
-  recorded_at: Tue, 08 Nov 2022 22:25:01 GMT
+      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T01:47:21.732Z","arrival_date":"2022-11-11T01:46:51.732Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
+  recorded_at: Wed, 09 Nov 2022 01:47:36 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1/stops
@@ -96,15 +93,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5bd4a29b-d2cf-43b2-a90a-7c51f56b9c89
+      - 5dff525a-b8b9-478f-b9ec-5b4895c9fc23
       X-Runtime:
-      - '0.004228'
+      - '0.003752'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":[{"id":"1","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"1","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/1/addresses/1"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/1"}},{"id":"2","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"2","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/2/addresses/2"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/2"}}]}'
-  recorded_at: Tue, 08 Nov 2022 22:25:01 GMT
+  recorded_at: Wed, 09 Nov 2022 01:47:36 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1/stops/1/addresses/1
@@ -130,16 +127,16 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0735a693-7274-4fa2-91a9-8d3aa8905113
+      - 787787be-d64c-4b82-9733-398bd1333b26
       X-Runtime:
-      - '0.001901'
+      - '0.001996'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"address","attributes":{"location":"1600 Pennsylvania
         Ave NW, Washington DC"}}}'
-  recorded_at: Tue, 08 Nov 2022 22:25:01 GMT
+  recorded_at: Wed, 09 Nov 2022 01:47:36 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1/stops/2/addresses/2
@@ -165,16 +162,16 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 56e804f6-cad5-4f9e-93a5-2084f71a4a82
+      - 5f9dc17d-5b97-4ea7-a62a-f4f497b70bca
       X-Runtime:
-      - '0.001838'
+      - '0.003305'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"2","type":"address","attributes":{"location":"350 State
         St, Salt Lake City, UT 84103"}}}'
-  recorded_at: Tue, 08 Nov 2022 22:25:01 GMT
+  recorded_at: Wed, 09 Nov 2022 01:47:36 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1
@@ -196,19 +193,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"ac2f5e66d97c03dedda004b372405f7c"
+      - W/"260dfc60302be9a3c084f4f236551297"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 55ee1ad6-77d0-4481-9b64-dc72b2f00492
+      - 6e4c4c4c-c7b9-482e-a903-8d4144b1e3b0
       X-Runtime:
-      - '0.003384'
+      - '0.002655'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-08T21:43:21.413Z","arrival_date":"2022-11-10T21:42:51.413Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
-  recorded_at: Tue, 08 Nov 2022 22:25:01 GMT
+      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T01:47:21.732Z","arrival_date":"2022-11-11T01:46:51.732Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
+  recorded_at: Wed, 09 Nov 2022 01:47:36 GMT
 - request:
     method: put
     uri: http://localhost:3000/api/v1/1000/trips/1?trip%5Barrival_date%5D=2024-11-10T13:37:38.000Z&trip%5Bdeparture_date%5D=2022-11-29%2013:00&trip%5Bname%5D=The%20Great%20Trip&trip%5Buid%5D=1000
@@ -236,16 +233,16 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 8f0a7f42-53b8-477e-98e6-ef3dd4f9abcb
+      - c77b7ebf-bc85-470e-8739-a9c048fbdb56
       X-Runtime:
-      - '0.017461'
+      - '0.006165'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
         Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
-  recorded_at: Tue, 08 Nov 2022 22:25:01 GMT
+  recorded_at: Wed, 09 Nov 2022 01:47:36 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1
@@ -271,16 +268,16 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 2dcadc92-3d72-496e-8b75-10ad3a602f94
+      - c9aaec6a-ba1c-4df1-86fd-b77899c02469
       X-Runtime:
-      - '0.002528'
+      - '0.003855'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
         Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2024-11-10T13:37:38.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
-  recorded_at: Tue, 08 Nov 2022 22:25:01 GMT
+  recorded_at: Wed, 09 Nov 2022 01:47:36 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1/stops
@@ -306,15 +303,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - d8cfabae-132b-40c9-bcd2-d151546ecb7e
+      - '0386270d-9bd9-43e4-ad3e-0b30fda6bbf1'
       X-Runtime:
-      - '0.004210'
+      - '0.032417'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":[{"id":"1","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"1","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/1/addresses/1"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/1"}},{"id":"2","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"2","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/2/addresses/2"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/2"}}]}'
-  recorded_at: Tue, 08 Nov 2022 22:25:01 GMT
+  recorded_at: Wed, 09 Nov 2022 01:47:36 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1/stops/1/addresses/1
@@ -340,16 +337,16 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - '0091425e-0a20-4f22-96f0-d668cafdf39b'
+      - a18f06cb-46a6-4296-8292-bcf36311a5c3
       X-Runtime:
-      - '0.004449'
+      - '0.044840'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"address","attributes":{"location":"1600 Pennsylvania
         Ave NW, Washington DC"}}}'
-  recorded_at: Tue, 08 Nov 2022 22:25:01 GMT
+  recorded_at: Wed, 09 Nov 2022 01:47:36 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1/stops/2/addresses/2
@@ -375,14 +372,14 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - dfca1899-6998-422b-8011-92afa53d451f
+      - 3fc652f4-1ca5-4cae-83ee-2582d136b8de
       X-Runtime:
-      - '0.002770'
+      - '0.007962'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"2","type":"address","attributes":{"location":"350 State
         St, Salt Lake City, UT 84103"}}}'
-  recorded_at: Tue, 08 Nov 2022 22:25:01 GMT
+  recorded_at: Wed, 09 Nov 2022 01:47:36 GMT
 recorded_with: VCR 6.1.0

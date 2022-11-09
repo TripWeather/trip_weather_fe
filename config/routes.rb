@@ -16,4 +16,6 @@ Rails.application.routes.draw do
   delete '/trips/:id', to: 'trips#destroy'
   get '/trips/:id/edit', to: 'trips#edit'
   put '/trips/:id', to: 'trips#update'
+  get '/trips/:trip_id/stops/:stop_id/addresses/:address_id/edit', to: 'stops#edit'
+  put '/trips/:trip_id/stops/:stop_id/addresses/:address_id', to: 'stops#update'
 end

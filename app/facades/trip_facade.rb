@@ -28,4 +28,8 @@ class TripFacade
     TripService.create_stops(trip_id, uid, address, type)
   end
 
+  def self.update_address(uid, trip_id, address_id, address, stop_id)
+    TripService.update_address(uid, trip_id, address_id, address, stop_id)
+  end
+
 end
