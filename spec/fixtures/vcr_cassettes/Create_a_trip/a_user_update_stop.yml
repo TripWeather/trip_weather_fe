@@ -1,0 +1,350 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"1cf077209c5e4ad4592777f02c503f62"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 68c24339-3011-49ea-a2a6-c347c4609f7d
+      X-Runtime:
+      - '0.259181'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-08T23:22:52.629Z","arrival_date":"2022-11-10T23:22:22.629Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}},{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-08T23:22:52.658Z","arrival_date":"2022-11-13T23:22:22.658Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-08T23:22:52.664Z","arrival_date":"2022-11-18T23:22:22.664Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-08T23:22:52.669Z","arrival_date":"2022-11-18T23:22:22.669Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}}]}'
+  recorded_at: Wed, 09 Nov 2022 00:24:34 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips/3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"778fca9923a9894b1870cf6ecff28cf7"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ac0b1c64-8ecf-46a4-9a04-d3b336c1c6c8
+      X-Runtime:
+      - '0.003619'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-08T23:22:52.664Z","arrival_date":"2022-11-18T23:22:22.664Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}}}'
+  recorded_at: Wed, 09 Nov 2022 00:24:34 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips/3/stops
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"c5d26b94ca8adcd256aa912b2ac8feac"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 117dcf5b-8a1d-4ab4-a614-ffa1864478b9
+      X-Runtime:
+      - '0.017671'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"5","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"5","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/5/addresses/5"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3/stops/5"}},{"id":"6","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"6","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/6/addresses/6"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3/stops/6"}}]}'
+  recorded_at: Wed, 09 Nov 2022 00:24:34 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips/3/stops/5/addresses/5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"cb7e53b50caf8bdd336ccf6217cb9b11"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 645efad4-cfd9-4d0c-b444-4881e02a64ac
+      X-Runtime:
+      - '0.003432'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"5","type":"address","attributes":{"location":"456 Claus
+        Place, Birmingham, CO 80012"}}}'
+  recorded_at: Wed, 09 Nov 2022 00:24:34 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips/3/stops/6/addresses/6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"3003362c7d8f904c0fed2c7d43c95ecb"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - ef96f854-39b8-447f-870b-7e02bb252562
+      X-Runtime:
+      - '0.001954'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"6","type":"address","attributes":{"location":"418 Bogan
+        Roads, South Renea, NJ 89316-9333"}}}'
+  recorded_at: Wed, 09 Nov 2022 00:24:34 GMT
+- request:
+    method: put
+    uri: http://localhost:3000/api/v1/1000/trips/3/stops/5/addresses/5?address%5Blocation%5D=456%20Claus%20Place,%20Birmingham,%20CO%2080012
+    body:
+      encoding: UTF-8
+      string: '{"query":"update_address"}'
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Content-Type:
+      - application/json
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"cb7e53b50caf8bdd336ccf6217cb9b11"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 2f9ed16e-5765-4165-aaa7-423ffc29602b
+      X-Runtime:
+      - '0.003926'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"5","type":"address","attributes":{"location":"456 Claus
+        Place, Birmingham, CO 80012"}}}'
+  recorded_at: Wed, 09 Nov 2022 00:24:34 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips/3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"778fca9923a9894b1870cf6ecff28cf7"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - fb251fae-1dff-4304-af99-0dcbda2d0ea6
+      X-Runtime:
+      - '0.002583'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-08T23:22:52.664Z","arrival_date":"2022-11-18T23:22:22.664Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}}}'
+  recorded_at: Wed, 09 Nov 2022 00:24:34 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips/3/stops
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"c5d26b94ca8adcd256aa912b2ac8feac"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - d35896d3-750f-4fcc-a3ed-25253133fa48
+      X-Runtime:
+      - '0.003391'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"5","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"5","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/5/addresses/5"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3/stops/5"}},{"id":"6","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"6","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/6/addresses/6"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3/stops/6"}}]}'
+  recorded_at: Wed, 09 Nov 2022 00:24:34 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips/3/stops/5/addresses/5
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"cb7e53b50caf8bdd336ccf6217cb9b11"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 39979e64-8030-4251-9c74-3a66e2064179
+      X-Runtime:
+      - '0.002087'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"5","type":"address","attributes":{"location":"456 Claus
+        Place, Birmingham, CO 80012"}}}'
+  recorded_at: Wed, 09 Nov 2022 00:24:34 GMT
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/1000/trips/3/stops/6/addresses/6
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"3003362c7d8f904c0fed2c7d43c95ecb"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - b74fcacc-1e3d-404b-a5b4-1f5b075a71e1
+      X-Runtime:
+      - '0.002061'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"6","type":"address","attributes":{"location":"418 Bogan
+        Roads, South Renea, NJ 89316-9333"}}}'
+  recorded_at: Wed, 09 Nov 2022 00:24:34 GMT
+recorded_with: VCR 6.1.0

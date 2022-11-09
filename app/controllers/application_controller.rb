@@ -14,5 +14,9 @@ class ApplicationController < ActionController::Base
       @user = current_user
     end
   end
+
+  def address_format(params)
+    "#{params[:address]}, #{params[:city]}, #{params[:state]} #{params[:zipcode]}"
+  end
   
 end
