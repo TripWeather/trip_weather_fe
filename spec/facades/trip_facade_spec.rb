@@ -14,3 +14,4 @@ describe 'Trip Facade', :vcr do
     expect(trip).to be_a(Trip)
   end
 end
+

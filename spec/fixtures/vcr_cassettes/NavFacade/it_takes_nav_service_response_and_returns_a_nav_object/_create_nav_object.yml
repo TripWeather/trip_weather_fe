@@ -21,13 +21,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"cca7f1fa9368b2f04aceaff742f3716d"
+      - W/"e8b80aa1ec53c58bdbe6af5214f9b75a"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 84624103-85c5-4242-b9f1-18f28abf593e
+      - d894aa1f-aabf-4647-99f3-9a38f9569757
       X-Runtime:
-      - '1.204999'
+      - '1.250328'
       Transfer-Encoding:
       - chunked
     body:
@@ -60,6 +60,6 @@ http_interactions:
         Rd. Go for 0.8 mi.",0.8022],["Turn left onto Greenfield Rd. Go for 1.0 mi.",1.0035],["Turn
         right onto W 12 Mile Rd. Go for 1.9 mi.",1.9424],["Turn right onto Fairlawn
         Rd. Go for 308 ft.",0.0584],["Turn right onto Cedar Hill Dr. Go for 259 ft.",0.0491],["Arrive
-        at Cedar Hill Dr.",0]],"total_trip_time":66743,"total_distance":1275.0891,"has_toll_road":true}}}'
-  recorded_at: Tue, 08 Nov 2022 22:41:16 GMT
+        at Cedar Hill Dr.",0]],"total_trip_time":66747,"total_distance":1275.0891,"has_toll_road":true}}}'
+  recorded_at: Wed, 09 Nov 2022 01:47:35 GMT
 recorded_with: VCR 6.1.0

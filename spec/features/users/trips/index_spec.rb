@@ -14,7 +14,7 @@ describe 'Users trips', :vcr do
     expect(page).to have_content("Test_Trip")
     expect(page).to have_content("Test_Trip_2")
     expect(page).to have_content("Test_Trip_3")
-    expect(page).to_not have_content("Test_Trip_4")
+    expect(page).to_not have_content("The Great Trip")
 
   end
 end
