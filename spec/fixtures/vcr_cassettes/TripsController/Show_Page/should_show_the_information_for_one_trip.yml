@@ -21,20 +21,20 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"ab8dc787b52b51bbb55d10022b3e95f8"
+      - W/"ef1c609508a1a1158be40172c2faa282"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 78556f63-50bb-4041-96ed-9784ba132949
+      - 2ffa1222-04a3-41d7-ab1a-c3eed70507a1
       X-Runtime:
-      - '0.020034'
+      - '0.003831'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T04:39:09.945Z","arrival_date":"2022-11-14T04:38:39.945Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T04:39:09.954Z","arrival_date":"2022-11-19T04:38:39.954Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T04:39:09.964Z","arrival_date":"2022-11-19T04:38:39.964Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
-        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2022-11-30T13:51:04.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}]}'
-  recorded_at: Wed, 09 Nov 2022 04:39:56 GMT
+      string: '{"data":[{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T21:25:11.039Z","arrival_date":"2022-11-14T21:24:41.039Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T21:25:11.044Z","arrival_date":"2022-11-19T21:24:41.044Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T21:25:11.048Z","arrival_date":"2022-11-19T21:24:41.048Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
+        Great Trip","departure_date":"2022-11-09T21:25:11.000Z","arrival_date":"2022-11-10T22:22:17.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}]}'
+  recorded_at: Wed, 09 Nov 2022 21:25:10 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1
@@ -56,20 +56,20 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"00ce2748261f30c6ac79ad2f6aec59e4"
+      - W/"97fb220810abbcd1e7cc1184b4dbe1a4"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4f97001e-df78-47ac-aba3-1af7f77c4810
+      - c7291b73-7077-4e7d-9424-acefbebd189c
       X-Runtime:
-      - '0.738725'
+      - '1.099677'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
-        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2022-11-30T13:51:04.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
-  recorded_at: Wed, 09 Nov 2022 04:39:57 GMT
+        Great Trip","departure_date":"2022-11-09T21:25:11.000Z","arrival_date":"2022-11-10T22:22:17.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
+  recorded_at: Wed, 09 Nov 2022 21:25:11 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1/stops
@@ -95,15 +95,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c265cd7f-14dc-4ff8-86a1-7baf8bdfd9ef
+      - 5f9520a8-e811-4ff8-b309-ee991e299aa4
       X-Runtime:
-      - '0.006242'
+      - '0.007214'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":[{"id":"1","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"1","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/1/addresses/1"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/1"}},{"id":"2","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"2","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/2/addresses/2"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1/stops/2"}}]}'
-  recorded_at: Wed, 09 Nov 2022 04:39:57 GMT
+  recorded_at: Wed, 09 Nov 2022 21:25:11 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1/stops/1/addresses/1
@@ -129,16 +129,16 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ae2fe28b-4fb4-4b90-9011-49f708303a75
+      - da81d1cd-adff-4410-9c81-eee8b455d93f
       X-Runtime:
-      - '0.003396'
+      - '0.002354'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"address","attributes":{"location":"200 E
         Colfax Ave, Denver, CO 80203"}}}'
-  recorded_at: Wed, 09 Nov 2022 04:39:57 GMT
+  recorded_at: Wed, 09 Nov 2022 21:25:11 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/1000/trips/1/stops/2/addresses/2
@@ -164,16 +164,16 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5db9fc28-4439-441b-9e16-125b7d8f3b48
+      - f195a5ab-de9b-457f-a655-1ac0f0c3d5bc
       X-Runtime:
-      - '0.010563'
+      - '0.001800'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"2","type":"address","attributes":{"location":"1600 Pennsylvania
         Avenue NW, Washington, DC 20500"}}}'
-  recorded_at: Wed, 09 Nov 2022 04:39:57 GMT
+  recorded_at: Wed, 09 Nov 2022 21:25:11 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/nav?from=200%20E%20Colfax%20Ave,%20Denver,%20CO%2080203&to=1600%20Pennsylvania%20Avenue%20NW,%20Washington,%20DC%2020500
@@ -195,13 +195,13 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"7bcd9b2059df384d6469b949ea82f8a3"
+      - W/"23714d95ef85890ec1b9b5ad2049d1c9"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 60da29af-0bfb-4ede-85a3-dfaf94ece6da
+      - 0a3a4e9f-91a6-4019-a344-744bfa4bb8ab
       X-Runtime:
-      - '1.419813'
+      - '2.175520'
       Transfer-Encoding:
       - chunked
     body:
@@ -218,38 +218,41 @@ http_interactions:
         Hwy). Go for 229 mi.",228.9647],["Take exit 232 toward Chicago onto I-270
         N. Go for 15.7 mi.",15.7101],["Continue on I-270. Go for 15.1 mi.",15.118],["Continue
         on I-70. Go for 82.6 mi.",82.5672],["Keep right onto I-70 E toward Indianapolis.
-        Go for 57.8 mi.",57.818],["Continue on I-70 (W National Rd). Go for 69.0 mi.",69.0138],["Take
-        exit 69 onto I-74 E/I-465 S. Go for 16.9 mi.",16.8889],["Continue on I-465.
-        Go for 4.9 mi.",4.9045],["Take exit 44B toward Dayton onto I-70 E. Go for
-        67.2 mi.",67.1783],["Continue on I-70. Go for 101 mi.",100.7348],["Continue
-        on I-70 E toward Wheeling. Go for 119 mi.",119.3232],["Take exit 219 toward
-        Bellaire/Washington Pa onto I-470 E. Go for 6.8 mi.",6.822],["Continue on
-        I-470. Go for 3.8 mi.",3.7761],["Take the exit toward Washington Pa onto I-70
-        E. Go for 9.5 mi.",9.4772],["Continue on I-70. Go for 20.9 mi.",20.8967],["Take
-        exit 21 toward Waynesburg/Morgantown onto I-79 S (Raymond P Shafer Hwy). Go
-        for 33.9 mi.",33.8908],["Continue on I-79. Go for 11.3 mi.",11.304],["Take
-        exit 148 toward Cumberland onto I-68 E. Go for 32.2 mi.",32.1777],["Continue
-        on I-68 (National Fwy). Go for 80.2 mi.",80.1687],["Take exit 82AB toward
-        US-40 E/Hagerstown onto I-70 E (Dwight D Eisenhower Hwy). Go for 52.0 mi.",52.0479],["Take
-        exit 53 toward Washington onto I-270 S (Dwight D Eisenhower Hwy). Go for 23.3
-        mi.",23.3281],["Keep left onto I-270 S (I-270 Express Lanes) toward Washington.
-        Go for 6.7 mi.",6.7326],["Keep right onto I-270-SPUR toward I-495 S/Washington/Northern
-        Virginia. Go for 2.0 mi.",1.953],["Continue on I-495 (Capital Beltway). Go
-        for 1.4 mi.",1.3807],["Take exit 40 toward Cabin John Pkwy/Glen Echo onto
-        Cabin John Pkwy S. Go for 1.7 mi.",1.7417],["Continue on Clara Barton Pkwy.
-        Go for 2.8 mi.",2.7906],["Continue on Clara Barton Pkwy. Go for 0.5 mi.",0.5244],["Continue
-        on Canal Rd NW. Go for 1.0 mi.",0.9936],["Keep right onto Canal Rd NW. Go
-        for 2.1 mi.",2.0971],["Turn right onto Whitehurst Fwy (US-29) toward K Street.
-        Go for 0.7 mi.",0.686],["Keep left onto Whitehurst Fwy (US-29) toward K.Street.
-        Go for 0.1 mi.",0.1392],["Turn right onto 27th St NW. Go for 0.1 mi.",0.1386],["Turn
-        left onto Virginia Ave NW. Go for 0.8 mi.",0.8289],["Turn right onto 19th
-        St NW. Go for 525 ft.",0.0994],["Turn left onto Constitution Ave NW (US-50).
-        Go for 0.2 mi.",0.2156],["Turn left onto 17th St NW. Go for 0.2 mi.",0.2305],["Turn
-        right onto E St NW. Go for 440 ft.",0.0833],["Turn left onto W Executive Ave
-        NW. Go for 361 ft.",0.0684],["Turn left onto State Pl NW. Go for 413 ft.",0.0783],["Make
-        a U-Turn at New York Ave NW onto State Pl NW. Go for 515 ft.",0.0976],["Turn
-        left. Go for 492 ft.",0.0932],["Arrive at your destination.",0]],"total_trip_time":89464,"total_distance":1675.9077,"has_toll_road":true}}}'
-  recorded_at: Wed, 09 Nov 2022 04:39:59 GMT
+        Go for 57.8 mi.",57.818],["Continue on I-70 (W National Rd). Go for 79.2 mi.",79.2379],["Take
+        exit 79A toward West St/Hospital. Go for 0.3 mi.",0.3206],["Turn left onto
+        S Missouri St toward Hospital. Go for 1.0 mi.",1.0079],["Continue on N West
+        St. Go for 0.6 mi.",0.5673],["Continue on N Dr Martin Luther King Jr St toward
+        Dr Ml King Street/I-65 N. Go for 0.5 mi.",0.4666],["Take ramp onto I-65 S.
+        Go for 1.1 mi.",1.1253],["Take exit 112A onto I-70 E. Go for 73.7 mi.",73.6542],["Continue
+        on I-70. Go for 101 mi.",100.7348],["Continue on I-70 E toward Wheeling. Go
+        for 119 mi.",119.3232],["Take exit 219 toward Bellaire/Washington Pa onto
+        I-470 E. Go for 6.8 mi.",6.822],["Continue on I-470. Go for 3.8 mi.",3.7761],["Take
+        the exit toward Washington Pa onto I-70 E. Go for 9.5 mi.",9.4772],["Continue
+        on I-70. Go for 20.9 mi.",20.8967],["Take exit 21 toward Waynesburg/Morgantown
+        onto I-79 S (Raymond P Shafer Hwy). Go for 33.9 mi.",33.8908],["Continue on
+        I-79. Go for 11.3 mi.",11.304],["Take exit 148 toward Cumberland onto I-68
+        E. Go for 32.2 mi.",32.1777],["Continue on I-68 (National Fwy). Go for 80.2
+        mi.",80.1687],["Take exit 82AB toward US-40 E/Hagerstown onto I-70 E (Dwight
+        D Eisenhower Hwy). Go for 52.0 mi.",52.0479],["Take exit 53 toward Washington
+        onto I-270 S (Dwight D Eisenhower Hwy). Go for 23.3 mi.",23.3281],["Keep left
+        onto I-270 S (I-270 Express Lanes) toward Washington. Go for 6.7 mi.",6.7326],["Keep
+        right onto I-270-SPUR toward I-495 S/Washington/Northern Virginia. Go for
+        2.0 mi.",1.953],["Continue on I-495 (Capital Beltway). Go for 3.6 mi.",3.6226],["Continue
+        on I-495 (Capital Beltway). Go for 0.1 mi.",0.1243],["Take exit 43-44 toward
+        Geo Wash Mem Pkwy/Washington onto George Washington Memorial Pkwy. Go for
+        9.6 mi.",9.6238],["Take the exit toward US-50 E/Roosevelt Bridge/Washington
+        DC/Rosslyn onto I-66 E (Custis Memorial Pkwy). Go for 0.4 mi.",0.3548],["Continue
+        on I-66 (Theodore Roosevelt Memorial Brg). Go for 0.5 mi.",0.548],["Take left
+        ramp onto E St Expy toward E Street. Go for 0.6 mi.",0.5928],["Take ramp.
+        Go for 509 ft.",0.0963],["Continue on E St NW. Go for 0.2 mi.",0.1715],["Turn
+        left onto 18th St NW. Go for 220 ft.",0.0416],["Continue on 18th St NW. Go
+        for 499 ft.",0.0944],["Turn right onto F St NW. Go for 0.1 mi.",0.1199],["Turn
+        right onto 17th St NW. Go for 0.1 mi.",0.1348],["Turn left onto E St NW. Go
+        for 440 ft.",0.0833],["Turn left onto W Executive Ave NW. Go for 361 ft.",0.0684],["Turn
+        left onto State Pl NW. Go for 413 ft.",0.0783],["Make a U-Turn at New York
+        Ave NW onto State Pl NW. Go for 515 ft.",0.0976],["Turn left. Go for 492 ft.",0.0932],["Arrive
+        at your destination.",0]],"total_trip_time":89826,"total_distance":1677.9607,"has_toll_road":true}}}'
+  recorded_at: Wed, 09 Nov 2022 21:25:13 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/weather?address=200%20E%20Colfax%20Ave,%20Denver,%20CO%2080203
@@ -271,22 +274,21 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"fbb536d4e4f2305d8c08dd95a652382d"
+      - W/"8b15c1f914e8ce4d5e4f4c5ef5709576"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9f793532-e0e3-4b3b-8755-1d77afe02d5b
+      - 249eab23-a067-4be6-b2fc-c392e54b85fb
       X-Runtime:
-      - '0.511485'
+      - '0.350163'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":39,"short_forecast":"Partly
-        Cloudy","detailed_forecast":"Partly cloudy. Low around 39, with temperatures
-        rising to around 43 overnight. South southeast wind 5 to 10 mph, with gusts
-        as high as 16 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 04:39:59 GMT
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":63,"short_forecast":"Sunny","detailed_forecast":"Sunny.
+        High near 63, with temperatures falling to around 56 in the afternoon. Southwest
+        wind around 17 mph, with gusts as high as 28 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 21:25:14 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/weather?address=1600%20Pennsylvania%20Avenue%20NW,%20Washington,%20DC%2020500
@@ -308,18 +310,18 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"1787b9f6e327faf46c49fb00dbf9e5b9"
+      - W/"08cffe4cbc7796444563f4576a33f399"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - ae6edb19-025b-4fe7-954e-210db8107b28
+      - 455ee031-1b87-408f-be6f-5372b398164b
       X-Runtime:
-      - '0.534584'
+      - '0.343600'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":39,"short_forecast":"Clear","detailed_forecast":"Clear,
-        with a low around 39. Northeast wind around 8 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 04:40:00 GMT
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":58,"short_forecast":"Sunny","detailed_forecast":"Sunny,
+        with a high near 58. East wind around 7 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 21:25:14 GMT
 recorded_with: VCR 6.1.0

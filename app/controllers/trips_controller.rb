@@ -60,7 +60,7 @@ class TripsController < ApplicationController
   end
 
   def create_address(address_params)
-   "#{address_params[0]}, #{address_params[1]}, #{address_params[2]} #{address_params[3]}"
+   "#{address_params[0]} #{address_params[1]} #{address_params[2]} #{address_params[3]}"
   end
 
   def start_params(params)

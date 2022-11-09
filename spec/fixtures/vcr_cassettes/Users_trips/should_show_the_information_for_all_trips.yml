@@ -21,18 +21,18 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"ab8dc787b52b51bbb55d10022b3e95f8"
+      - W/"ef1c609508a1a1158be40172c2faa282"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - '089a02cb-6f14-45ae-b6f2-0fe7e1d5bebc'
+      - 0172be96-0c95-4b18-87dd-0c23afb9addd
       X-Runtime:
-      - '0.049745'
+      - '0.010125'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T04:39:09.945Z","arrival_date":"2022-11-14T04:38:39.945Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T04:39:09.954Z","arrival_date":"2022-11-19T04:38:39.954Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T04:39:09.964Z","arrival_date":"2022-11-19T04:38:39.964Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
-        Great Trip","departure_date":"2022-11-29T13:00:00.000Z","arrival_date":"2022-11-30T13:51:04.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}]}'
-  recorded_at: Wed, 09 Nov 2022 04:39:56 GMT
+      string: '{"data":[{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T21:25:11.039Z","arrival_date":"2022-11-14T21:24:41.039Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T21:25:11.044Z","arrival_date":"2022-11-19T21:24:41.044Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T21:25:11.048Z","arrival_date":"2022-11-19T21:24:41.048Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"1","type":"trip","attributes":{"uid":"1000","name":"The
+        Great Trip","departure_date":"2022-11-09T21:25:11.000Z","arrival_date":"2022-11-10T22:22:17.000Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}]}'
+  recorded_at: Wed, 09 Nov 2022 21:25:10 GMT
 recorded_with: VCR 6.1.0

@@ -21,19 +21,19 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"5b5f7b63e62d0b41adba7b873448a89d"
+      - W/"ba685ecd9225e8663f03c48d4b3be477"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 20a611a2-b1cc-429f-b627-5b4fcbb66ad7
+      - af689d59-d939-42ed-99cf-0ebf504b7a19
       X-Runtime:
-      - '0.848215'
+      - '1.409249'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":40,"short_forecast":"Mostly
-        Clear","detailed_forecast":"Mostly clear, with a low around 40. East wind
-        around 7 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 04:40:08 GMT
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":64,"short_forecast":"Sunny","detailed_forecast":"Sunny.
+        High near 64, with temperatures falling to around 60 in the afternoon. South
+        wind around 8 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 21:25:22 GMT
 recorded_with: VCR 6.1.0
