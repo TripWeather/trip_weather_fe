@@ -3,7 +3,14 @@
 <%= button_to 'Update Trip', "/trips/#{@trip.id}/edit", method: :get %><br>
 <p>Departure: <%= @trip.standard_time(@trip.departure_date)%></p>
 <p>Arrival: <%= @trip.standard_time(@trip.arrival_date)%></p>
+
 <h3> Stops: </h3>
+
+<div class="stops">
+    <% stop_id = 0 %>
 <p><% @stops.each do |stop| %></p>
-  <%= stop.type_of_stop.titleize%> <%=stop.address%><br>
+    <div id="stop-<%=stop_id += 1%>">
+      <%= stop.type_of_stop.titleize%> <%=stop.address%> <%= link_to "Edit Address", "/trips/#{stop.trip_id}/stops/#{stop.stop_id}/addresses/#{stop.address_id}/edit" %> <br>
+    </div>
   <% end %>
+</div>

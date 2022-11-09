@@ -47,13 +47,19 @@ class TripService
   def self.all_stops(uid, trip_id)
     response = conn.get("#{uid}/trips/#{trip_id}/stops")
     parse(response)
-
   end
 
   def self.address(uid, trip_id, address_id, stop_id)
     response = conn.get("#{uid}/trips/#{trip_id}/stops/#{stop_id}/addresses/#{address_id}")
     parse(response)
-  
+  end
+
+  def self.update_address(uid, trip_id, address_id, address, stop_id)
+    response = conn.put("#{uid}/trips/#{trip_id}/stops/#{stop_id}/addresses/#{address_id}") do |req|
+      req.params[:address] = {location: address}
+      req.headers['Content-Type'] = 'application/json'
+      req.body = {query: 'update_address'}.to_json
+    end
   end
 
 private

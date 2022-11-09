@@ -3,17 +3,11 @@ class TripsController < ApplicationController
 
   def show
     @trip = TripFacade.trip_by_id(@user.google_id, params[:id])
-
     @stops = StopsFacade.all_stops(@user.google_id, params[:id])
-    
   end
 
   def index
-
     @trips = TripFacade.all_trips(@user.google_id)
-      # @trips.map do |trip|
-      # @stops = StopsFacade.all_stops(@user.google_id, trip.id)
-    # end
   end
 
   def new
