@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/weather?address=1823%20Cedar%20Hill%20Dr,%20Royal%20Oak%20MI%2048067
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/weather?address=1823%20Cedar%20Hill%20Dr,%20Royal%20Oak%20MI%2048067
     body:
       encoding: US-ASCII
       string: ''
@@ -18,6 +18,12 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:45 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
@@ -25,15 +31,17 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - af689d59-d939-42ed-99cf-0ebf504b7a19
+      - fc513415-4892-44ed-91a3-a0cddb5b7c29
       X-Runtime:
-      - '1.409249'
+      - '0.079266'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":64,"short_forecast":"Sunny","detailed_forecast":"Sunny.
         High near 64, with temperatures falling to around 60 in the afternoon. South
         wind around 8 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:22 GMT
+  recorded_at: Wed, 09 Nov 2022 22:30:46 GMT
 recorded_with: VCR 6.1.0

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/6/stops/15/addresses/14
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/6/stops/15/addresses/14
     body:
       encoding: US-ASCII
       string: ''
@@ -18,6 +18,12 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:45 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
@@ -25,14 +31,16 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - a7075b7b-7fca-4c31-99d7-a013768fd7ed
+      - ce763ac6-8e5a-4b06-a1cf-404de272e644
       X-Runtime:
-      - '0.002202'
+      - '0.003347'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
       string: '{"data":{"id":"14","type":"address","attributes":{"location":"1530
         Blake St, Denver, CO 80202"}}}'
-  recorded_at: Wed, 09 Nov 2022 21:25:20 GMT
+  recorded_at: Wed, 09 Nov 2022 22:30:46 GMT
 recorded_with: VCR 6.1.0

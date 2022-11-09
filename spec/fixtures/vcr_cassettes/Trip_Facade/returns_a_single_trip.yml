@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/1000/trips/1
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1
     body:
       encoding: US-ASCII
       string: ''
@@ -18,20 +18,28 @@ http_interactions:
       code: 200
       message: OK
     headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 22:30:25 GMT
+      Connection:
+      - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"4f79e9142ac4e0bcf99e507cfc3c5caa"
+      - W/"04909a48a2da37ef05fbd02de48a5a75"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 7cde0258-8b00-4702-bcfe-d06591fbde9a
+      - 95cb551a-b3e9-4322-87a3-ab079b5ccac0
       X-Runtime:
-      - '1.174524'
+      - '0.574525'
       Transfer-Encoding:
       - chunked
+      Via:
+      - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T21:25:11.016Z","arrival_date":"2022-11-10T22:22:11.016Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
-  recorded_at: Wed, 09 Nov 2022 21:24:54 GMT
+      string: '{"data":{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T20:54:56.065Z","arrival_date":"2022-11-11T20:54:26.065Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}}'
+  recorded_at: Wed, 09 Nov 2022 22:30:25 GMT
 recorded_with: VCR 6.1.0
