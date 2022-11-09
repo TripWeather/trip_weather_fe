@@ -11,11 +11,11 @@ RSpec.describe Nav do
                 :has_toll_road=>true
               }
     nav_object = Nav.new(nav_hash)
-
     expect(nav_object).to be_a(Nav)
     expect(nav_object.turn_by_turn_directions).to eq(nav_hash[:turn_by_turn_directions])
-    expect(nav_object.total_trip_time).to eq(nav_hash[:total_trip_time])
+    expect(nav_object.total_trip_time).to eq("18 hours 16 minutes 43 seconds")
     expect(nav_object.total_distance).to eq(nav_hash[:total_distance])
     expect(nav_object.has_toll_road).to eq(nav_hash[:has_toll_road])
+    
   end
 end

@@ -9,7 +9,7 @@ class Nav
     @has_toll_road = nav_hash[:has_toll_road]
   end
 
-  def convert_to_h_m_s(seconds:)
+  def convert_to_h_m_s(seconds)
     seconds = seconds.to_i
     _hours = seconds / 3600
     seconds = seconds % 3600
