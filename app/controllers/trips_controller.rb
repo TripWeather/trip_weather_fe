@@ -4,9 +4,9 @@ class TripsController < ApplicationController
   def show
     @trip = TripFacade.trip_by_id(@user.google_id, params[:id])
     @stops = StopsFacade.all_stops(@user.google_id, params[:id])
-    start_address = @stops.first.address
-    end_address = @stops.last.address
-    @nav = NavFacade.create_nav_object(start_address, end_address)
+    @start_address = @stops.first.address
+    @end_address = @stops.last.address
+    @nav = NavFacade.create_nav_object(@start_address, @end_address)
     @weather = WeatherFacade.create_weather_objects(@stops)
   end
 
@@ -47,7 +47,6 @@ class TripsController < ApplicationController
 
   def update
     # @trip = TripFacade.trip_by_id(@user.google_id, params[:id])
-
     TripFacade.update_trip(params[:id], params[:name], @user.google_id,
     params[:departure_date], params[:arrival_date])
     flash[:success] = "You've Updated Your Adventure"
