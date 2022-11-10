@@ -21,7 +21,7 @@
 This is the front end repo of Trip Weather that houses the front end of the application. Visiting the deployed Heroku Site will allow you to access the application without needing to clone down the repos.
 
 ## Google Oauth 
-This application utilizes Googles Oauth for logging in, google email required for account creation.
+This application utilizes Googles OAuth for logging in, google email required for account creation. We chose Google OAuth because we believed initially we were going to use some of the google APIs and hoped the majority of our userbase would already have a gmail to link.
 
 ## Views
 
@@ -113,12 +113,16 @@ This application utilizes Googles Oauth for logging in, google email required fo
 </p>
 
 ## Issues
+### Map not always loading
 Occasionally the map doesn't generate or it does but the route line doesn't link the stops - sometimes refreshing fixes the issue.
 
 <p align="center">
-	<img src="https://github.com/TripWeather/.github/blob/main/profile/assets/_show_trip_2.png?raw=true" />
 	<img src="https://github.com/TripWeather/.github/blob/main/profile/assets/6_show_trip_2.png?raw=true" />
+	<img src="https://github.com/TripWeather/.github/blob/main/profile/assets/_show_trip_2.png?raw=true" />
 </p>
+
+### Trip not recognizing addresses
+We've learned a lot of the pros and cons of using free APIs, one downside is that it isn't the most reliable data to call for. If you make a trip and get a 'no method for nil object' error, please wait a few moments and try again. Also please verify that you are in fact using an actual real addresses!
 
 ## Local Setup
 
