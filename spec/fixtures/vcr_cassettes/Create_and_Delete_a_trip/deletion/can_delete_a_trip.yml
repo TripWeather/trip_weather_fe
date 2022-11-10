@@ -21,30 +21,28 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Nov 2022 22:30:29 GMT
+      - Wed, 09 Nov 2022 23:46:28 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"03844f7958720110680ed1299acb5b9b"
+      - W/"4fd2b8cc746c643026d047bb3962b670"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 6310d93c-d8ba-4198-9c1c-5c878ce54bcc
+      - 4f4d6927-a168-4a35-a4fd-96c3bc6a9b12
       X-Runtime:
-      - '0.010647'
+      - '0.008563'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":[{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T20:54:56.065Z","arrival_date":"2022-11-11T20:54:26.065Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}},{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T20:54:56.184Z","arrival_date":"2022-11-14T20:54:26.185Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T20:54:56.226Z","arrival_date":"2022-11-19T20:54:26.226Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T20:54:56.298Z","arrival_date":"2022-11-19T20:54:26.298Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"9","type":"trip","attributes":{"uid":"1000","name":"Mega
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2022-12-01T09:24:32.000Z"},"relationships":{"stops":{"data":[{"id":"17","type":"stop"},{"id":"18","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/9/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/9"}},{"id":"10","type":"trip","attributes":{"uid":"1000","name":"Mega
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2022-12-01T09:26:22.000Z"},"relationships":{"stops":{"data":[{"id":"19","type":"stop"},{"id":"20","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/10/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/10"}},{"id":"11","type":"trip","attributes":{"uid":"1000","name":"Mega
-        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2022-12-01T09:28:10.000Z"},"relationships":{"stops":{"data":[{"id":"21","type":"stop"},{"id":"22","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/11/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/11"}}]}'
-  recorded_at: Wed, 09 Nov 2022 22:30:29 GMT
+      string: '{"data":[{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T23:46:27.026Z","arrival_date":"2022-11-14T23:45:57.026Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T23:46:27.044Z","arrival_date":"2022-11-19T23:45:57.044Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T23:46:27.062Z","arrival_date":"2022-11-19T23:45:57.062Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T23:46:26.953Z","arrival_date":"2022-11-11T00:58:17.953Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}},{"id":"8","type":"trip","attributes":{"uid":"1000","name":"Mega
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2022-12-01T09:35:26.000Z"},"relationships":{"stops":{"data":[{"id":"15","type":"stop"},{"id":"16","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8"}}]}'
+  recorded_at: Wed, 09 Nov 2022 23:46:29 GMT
 - request:
     method: get
     uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8
@@ -60,30 +58,398 @@ http_interactions:
       - "*/*"
   response:
     status:
-      code: 404
-      message: Not Found
+      code: 200
+      message: OK
     headers:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Nov 2022 22:30:29 GMT
+      - Wed, 09 Nov 2022 23:46:29 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
+      Etag:
+      - W/"b1283942ce02d95b89420fe28ee22806"
       Cache-Control:
-      - no-cache
+      - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5aa0b505-c98e-4360-9200-2b1bdfa837f8
+      - 5d8dc5db-67f6-4f88-9c54-e082d31223e9
       X-Runtime:
-      - '0.002677'
+      - '0.426000'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"message":"your query could not be completed","errors":[{"status":"404","title":"Not
-        Found","detail":"Couldn''t find Trip with ''id''=8"}]}'
-  recorded_at: Wed, 09 Nov 2022 22:30:29 GMT
+      string: '{"data":{"id":"8","type":"trip","attributes":{"uid":"1000","name":"Mega
+        Adventure","departure_date":"2022-11-30T15:00:00.000Z","arrival_date":"2022-12-01T09:35:26.000Z"},"relationships":{"stops":{"data":[{"id":"15","type":"stop"},{"id":"16","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8"}}}'
+  recorded_at: Wed, 09 Nov 2022 23:46:29 GMT
+- request:
+    method: get
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8/stops
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 23:46:29 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"5245e15819b61a2048033a1324cf9d05"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 3f0e0eb9-5d3d-42e0-891f-19d19610ba04
+      X-Runtime:
+      - '0.007569'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"15","type":"stop","attributes":{"type_of_stop":"start"},"relationships":{"address":{"data":{"id":"15","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/15/addresses/15"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8/stops/15"}},{"id":"16","type":"stop","attributes":{"type_of_stop":"end"},"relationships":{"address":{"data":{"id":"16","type":"address"},"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/8/stops/16/addresses/16"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8/stops/16"}}]}'
+  recorded_at: Wed, 09 Nov 2022 23:46:29 GMT
+- request:
+    method: get
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8/stops/15/addresses/15
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 23:46:29 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"9d40230b4cbce8eae87baba6afd393f5"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - aa60be1c-0169-432b-ac38-9103c14af495
+      X-Runtime:
+      - '0.004269'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"15","type":"address","attributes":{"location":"2303
+        Braun Ct Golden CO 80401"}}}'
+  recorded_at: Wed, 09 Nov 2022 23:46:30 GMT
+- request:
+    method: get
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8/stops/16/addresses/16
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 23:46:30 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"c08c24598347b680776a7d8c94ca91ad"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - c9359eec-6dbc-4a36-bbc3-111ee2774276
+      X-Runtime:
+      - '0.005161'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"16","type":"address","attributes":{"location":"1823
+        Cedar Hill Royal Oak MI 48067"}}}'
+  recorded_at: Wed, 09 Nov 2022 23:46:30 GMT
+- request:
+    method: get
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/nav?from=2303%20Braun%20Ct%20Golden%20CO%2080401&to=1823%20Cedar%20Hill%20Royal%20Oak%20MI%2048067
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 23:46:31 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"e70dbaffbd76298cb6d91dd385112a8e"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5f8b5566-7c6e-4295-932b-0803e82cb3cb
+      X-Runtime:
+      - '0.762491'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"1","type":"nav","attributes":{"turn_by_turn_directions":[["Head
+        toward W 25th Ave on Braun Ct. Go for 0.2 mi.",0.1678],["Turn right onto W
+        26th Ave. Go for 0.1 mi.",0.1044],["Turn left onto N Alkire St. Go for 0.5
+        mi.",0.5021],["Turn right onto W 32nd Ave (CR-181). Go for 0.3 mi.",0.2523],["Turn
+        left onto Youngfield St (CR-173). Go for 0.2 mi.",0.187],["Turn left and take
+        ramp onto I-70 E. Go for 4.4 mi.",4.3763],["Keep left onto I-76 E toward Fort
+        Morgan. Go for 184 mi.",184.331],["Continue on I-76. Go for 2.9 mi.",2.8763],["Continue
+        on I-80. Go for 352 mi.",352.0465],["Continue on I-80. Go for 3.4 mi.",3.4163],["Continue
+        on I-80 E (I-80 Express Lane) toward Des Moines. Go for 119 mi.",118.575],["Take
+        the exit onto I-35 N/I-80 E. Go for 15.0 mi.",15.021],["Continue on I-80 E
+        toward Davenport. Go for 151 mi.",151.4636],["Take exit 290 toward US-6 E/US-61
+        S/Rock Island/Moline onto I-280 E. Go for 9.8 mi.",9.7574],["Continue on I-280.
+        Go for 17.7 mi.",17.7321],["Continue on I-80 E toward Chicago. Go for 151
+        mi.",150.5607],["Continue on I-80 (Tri-State Tlwy). Go for 2.9 mi.",2.8751],["Continue
+        on I-80/I-94 (Borman Expy). Go for 15.3 mi.",15.2596],["Continue on I-94 E
+        (Borman Expy) toward Detroit. Go for 30.3 mi.",30.3068],["Continue on I-94.
+        Go for 171 mi.",170.549],["Take left exit 171 toward Plymouth/Hosptial onto
+        M-14. Go for 3.5 mi.",3.4865],["Continue on US-23-BR. Go for 1.1 mi.",1.1309],["Take
+        the exit toward M-14 E/Plymouth onto US-23 S. Go for 2.4 mi.",2.3625],["Continue
+        on M-14 toward Plymouth/Livonia. Go for 15.0 mi.",15.0279],["Take the exit
+        toward I-96 onto I-275 N. Go for 6.0 mi.",5.9745],["Take exit 165 toward Port
+        Huron onto I-696 (Walter P Reuther Fwy). Go for 12.1 mi.",12.0621],["Take
+        exit 12 toward Southfield Rd/11 Mile Rd onto W 11 Mile Rd. Go for 0.6 mi.",0.6046],["Keep
+        right onto W 11 Mile Rd. Go for 0.8 mi.",0.8022],["Turn left onto Greenfield
+        Rd. Go for 1.0 mi.",1.0035],["Turn right onto W 12 Mile Rd. Go for 1.9 mi.",1.9424],["Turn
+        right onto Fairlawn Rd. Go for 308 ft.",0.0584],["Turn right onto Cedar Hill
+        Dr. Go for 259 ft.",0.0491],["Arrive at Cedar Hill Dr.",0]],"total_trip_time":66926,"total_distance":1274.8648,"has_toll_road":true}}}'
+  recorded_at: Wed, 09 Nov 2022 23:46:31 GMT
+- request:
+    method: get
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/weather?address=2303%20Braun%20Ct%20Golden%20CO%2080401
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 23:46:31 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"40a7310de8dee268c8daf37134c25b57"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 5b71afe9-49d8-4eb4-96a0-722fd59e153e
+      X-Runtime:
+      - '0.069977'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":65,"short_forecast":"Slight
+        Chance Light Rain","detailed_forecast":"A slight chance of rain after 5pm.
+        Mostly sunny. High near 65, with temperatures falling to around 57 in the
+        afternoon. Southwest wind around 16 mph, with gusts as high as 25 mph. Chance
+        of precipitation is 20%."}}}'
+  recorded_at: Wed, 09 Nov 2022 23:46:31 GMT
+- request:
+    method: get
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/weather?address=1823%20Cedar%20Hill%20Royal%20Oak%20MI%2048067
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 23:46:31 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"4fc1ef18e320375e570486fda8ba4038"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 1aafaa34-642d-4602-af05-a7c7452a6f9c
+      X-Runtime:
+      - '0.068088'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":46,"short_forecast":"Mostly
+        Clear","detailed_forecast":"Mostly clear. Low around 46, with temperatures
+        rising to around 48 overnight. South wind around 7 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 23:46:31 GMT
+- request:
+    method: delete
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips/8
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 204
+      message: No Content
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 23:46:31 GMT
+      Content-Length:
+      - '0'
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache
+      X-Request-Id:
+      - 2172d5dd-8f7b-431f-aec8-4889a0d59110
+      X-Runtime:
+      - '0.012457'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: ''
+  recorded_at: Wed, 09 Nov 2022 23:46:32 GMT
+- request:
+    method: get
+    uri: http://trip-weather-2022.herokuapp.com/api/v1/1000/trips
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.6.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Wed, 09 Nov 2022 23:46:31 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"3bcd76e64ebe744a3c361e03e72ccb27"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - 0f9a1586-f5a6-43c2-ac28-19659c8b2515
+      X-Runtime:
+      - '0.009561'
+      Transfer-Encoding:
+      - chunked
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"2","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_2","departure_date":"2022-11-09T23:46:27.026Z","arrival_date":"2022-11-14T23:45:57.026Z"},"relationships":{"stops":{"data":[{"id":"3","type":"stop"},{"id":"4","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/2/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/2"}},{"id":"3","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_3","departure_date":"2022-11-09T23:46:27.044Z","arrival_date":"2022-11-19T23:45:57.044Z"},"relationships":{"stops":{"data":[{"id":"5","type":"stop"},{"id":"6","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/3/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/3"}},{"id":"4","type":"trip","attributes":{"uid":"1000","name":"Test_Trip_4","departure_date":"2022-11-09T23:46:27.062Z","arrival_date":"2022-11-19T23:45:57.062Z"},"relationships":{"stops":{"data":[{"id":"7","type":"stop"},{"id":"8","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/4/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/4"}},{"id":"1","type":"trip","attributes":{"uid":"1000","name":"Test_Trip","departure_date":"2022-11-09T23:46:26.953Z","arrival_date":"2022-11-11T00:58:17.953Z"},"relationships":{"stops":{"data":[{"id":"1","type":"stop"},{"id":"2","type":"stop"}],"links":{"related":"https://trip-weather-2022.herokuapp.com/api/v1/106758666395730546327/trips/1/stops/"}}},"links":{"self":"https://trip-weather-2022.herokuapp.com/api/v1/1000/trips/1"}}]}'
+  recorded_at: Wed, 09 Nov 2022 23:46:32 GMT
 recorded_with: VCR 6.1.0

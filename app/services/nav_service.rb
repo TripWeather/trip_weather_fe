@@ -6,9 +6,6 @@ class NavService
   end
 
   private
-  # def self.conn
-  #   Faraday.new('http://localhost:3000/api/v1/')
-  # end
 
   def self.conn
     Faraday.new("http://trip-weather-2022.herokuapp.com")

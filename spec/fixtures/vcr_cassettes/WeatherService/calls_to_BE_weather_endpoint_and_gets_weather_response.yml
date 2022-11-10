@@ -21,27 +21,27 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Nov 2022 22:30:45 GMT
+      - Wed, 09 Nov 2022 23:46:48 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"ba685ecd9225e8663f03c48d4b3be477"
+      - W/"4fc1ef18e320375e570486fda8ba4038"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - fc513415-4892-44ed-91a3-a0cddb5b7c29
+      - 6e64a820-5699-45d4-a477-d28ed0f58b48
       X-Runtime:
-      - '0.079266'
+      - '0.063807'
       Transfer-Encoding:
       - chunked
       Via:
       - 1.1 vegur
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":64,"short_forecast":"Sunny","detailed_forecast":"Sunny.
-        High near 64, with temperatures falling to around 60 in the afternoon. South
-        wind around 8 mph."}}}'
-  recorded_at: Wed, 09 Nov 2022 22:30:46 GMT
+      string: '{"data":{"id":"1","type":"weather","attributes":{"name":"Tonight","temperature":46,"short_forecast":"Mostly
+        Clear","detailed_forecast":"Mostly clear. Low around 46, with temperatures
+        rising to around 48 overnight. South wind around 7 mph."}}}'
+  recorded_at: Wed, 09 Nov 2022 23:46:49 GMT
 recorded_with: VCR 6.1.0

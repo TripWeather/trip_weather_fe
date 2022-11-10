@@ -1,7 +1,4 @@
 class WeatherService
-  # def self.connection
-  #   Faraday.new('http://localhost:3000/api/v1/')
-  # end
 
   def self.connection
     Faraday.new("http://trip-weather-2022.herokuapp.com")
@@ -12,6 +9,7 @@ class WeatherService
   end
 
   def self.weather(address)
+
     response = connection.get("/api/v1/weather", {address: address})
     parse(response)
   end
