@@ -11,11 +11,7 @@ class TripsController < ApplicationController
   end
 
   def index
-
     @trips = TripFacade.all_trips(@user.google_id)
-      # @trips.map do |trip|
-      # @stops = StopsFacade.all_stops(@user.google_id, trip.id)
-    # end
   end
 
   def new
@@ -46,7 +42,6 @@ class TripsController < ApplicationController
   end
 
   def update
-    # @trip = TripFacade.trip_by_id(@user.google_id, params[:id])
     TripFacade.update_trip(params[:id], params[:name], @user.google_id,
     params[:departure_date], params[:arrival_date])
     flash[:success] = "You've Updated Your Adventure"

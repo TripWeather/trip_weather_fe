@@ -6,12 +6,6 @@ RSpec.describe "Dashboard page", :vcr do
     it 'I see my username and my image' do
       stub_omniauth
 
-      # road_trips = File.read('spec/fixtures/trips.json')
-      # stub_request(:get, "http://localhost:3000/api/v1/1000/trips")
-      #  .to_return(status: 200, body: road_trips, headers: {})
-
-      # trips = TripFacade.all_trips("1000")
-
       @user = create(:omniauth_mock_user)
       
       visit '/'
@@ -25,12 +19,6 @@ RSpec.describe "Dashboard page", :vcr do
 
     it 'should show next 3 trips' do
       stub_omniauth
-
-      # road_trips = File.read('spec/fixtures/trips.json')
-      # stub_request(:get, "http://localhost:3000/api/v1/1000/trips")
-      #  .to_return(status: 200, body: road_trips, headers: {})
-
-      # trips = TripFacade.all_trips("1000")
 
       @user = create(:omniauth_mock_user)
       
