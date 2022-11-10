@@ -121,8 +121,15 @@ Occasionally the map doesn't generate or it does but the route line doesn't link
 	<img src="https://github.com/TripWeather/.github/blob/main/profile/assets/_show_trip_2.png?raw=true" />
 </p>
 
-### Trip not recognizing addresses
-We've learned a lot of the pros and cons of using free APIs, one downside is that it isn't the most reliable data to call for. If you make a trip and get a 'no method for nil object' error, please wait a few moments and try again. Also please verify that you are in fact using an actual real addresses!
+
+### Trip creation errors
+
+<p align="center">
+	<img src="https://github.com/TripWeather/.github/blob/main/profile/assets/FE_creation_error.png?raw=true" />
+</p>
+
+We've learned a lot of the pros and cons of using free APIs, one downside is that it isn't the most reliable data to call for. If you make a trip and get a 'no method for nil object' or "We're sorry, but something went wrong." please wait a few moments and refresh the page. Also please verify that you are in fact using an actual real addresses!
+
 
 ## Local Setup
 
