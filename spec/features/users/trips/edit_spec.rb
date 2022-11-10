@@ -9,7 +9,7 @@ RSpec.describe 'Update a trip', :vcr do
     visit '/'
     click_on "Log In"
     expect(current_path).to eq(dashboard_path)
-
+    require 'pry'; binding.pry
     visit "/trips/1"
     click_button "Update Trip"
 

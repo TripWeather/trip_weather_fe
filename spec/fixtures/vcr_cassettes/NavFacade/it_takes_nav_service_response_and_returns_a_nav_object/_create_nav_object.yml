@@ -21,19 +21,19 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Nov 2022 22:30:24 GMT
+      - Wed, 09 Nov 2022 23:46:21 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"649b0077c7eb6efb8c8322060441e782"
+      - W/"e70dbaffbd76298cb6d91dd385112a8e"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 4467f212-79fc-414d-903a-2f103da9f6c6
+      - d420c5d8-cef7-425f-b590-6894d527159c
       X-Runtime:
-      - '0.847363'
+      - '0.777149'
       Transfer-Encoding:
       - chunked
       Via:
@@ -66,6 +66,6 @@ http_interactions:
         right onto W 11 Mile Rd. Go for 0.8 mi.",0.8022],["Turn left onto Greenfield
         Rd. Go for 1.0 mi.",1.0035],["Turn right onto W 12 Mile Rd. Go for 1.9 mi.",1.9424],["Turn
         right onto Fairlawn Rd. Go for 308 ft.",0.0584],["Turn right onto Cedar Hill
-        Dr. Go for 259 ft.",0.0491],["Arrive at Cedar Hill Dr.",0]],"total_trip_time":66490,"total_distance":1274.8648,"has_toll_road":true}}}'
-  recorded_at: Wed, 09 Nov 2022 22:30:24 GMT
+        Dr. Go for 259 ft.",0.0491],["Arrive at Cedar Hill Dr.",0]],"total_trip_time":66926,"total_distance":1274.8648,"has_toll_road":true}}}'
+  recorded_at: Wed, 09 Nov 2022 23:46:21 GMT
 recorded_with: VCR 6.1.0

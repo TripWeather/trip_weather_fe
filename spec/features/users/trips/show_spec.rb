@@ -13,7 +13,7 @@ describe 'TripsController' do
 
       visit "/trips/1"
 
-      expect(page).to have_content("The Great Trip")
+      expect(page).to have_content("Test_Trip")
       expect(page).to have_content("Departure")
       expect(page).to have_content("Arrival")
       expect(page).to have_content("Start 200 E Colfax Ave, Denver, CO 80203")

@@ -12,6 +12,7 @@ class WeatherService
   end
 
   def self.weather(address)
+
     response = connection.get("/api/v1/weather", {address: address})
     parse(response)
   end

@@ -21,19 +21,19 @@ http_interactions:
       Server:
       - Cowboy
       Date:
-      - Wed, 09 Nov 2022 22:30:45 GMT
+      - Wed, 09 Nov 2022 23:46:49 GMT
       Connection:
       - keep-alive
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"2a5897debbad021de636dd5d8dbb974c"
+      - W/"40a7310de8dee268c8daf37134c25b57"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 19d3a509-5621-4929-9241-3f5b2c72304d
+      - e8df3312-2bd6-47f1-bf58-d69e32095449
       X-Runtime:
-      - '0.059312'
+      - '0.064017'
       Transfer-Encoding:
       - chunked
       Via:
@@ -42,8 +42,8 @@ http_interactions:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"weather","attributes":{"name":"This Afternoon","temperature":65,"short_forecast":"Slight
         Chance Light Rain","detailed_forecast":"A slight chance of rain after 5pm.
-        Sunny. High near 65, with temperatures falling to around 57 in the afternoon.
-        Southwest wind around 16 mph, with gusts as high as 25 mph. Chance of precipitation
-        is 20%."}}}'
-  recorded_at: Wed, 09 Nov 2022 22:30:46 GMT
+        Mostly sunny. High near 65, with temperatures falling to around 57 in the
+        afternoon. Southwest wind around 16 mph, with gusts as high as 25 mph. Chance
+        of precipitation is 20%."}}}'
+  recorded_at: Wed, 09 Nov 2022 23:46:50 GMT
 recorded_with: VCR 6.1.0
